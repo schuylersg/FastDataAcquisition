@@ -361,7 +361,7 @@ UsedLibrary="D:/System Folders/GitHub/SparkFun-Eagle-Libraries/SparkFun-Sensors.
 
 [Win_1]
 Type="Board Editor"
-Loc="652 321 1251 720"
+Loc="1074 185 1673 584"
 State=0
 Number=1
 File="FastDataAcqSch.brd"
@@ -412,6 +412,6 @@ State=2
 Number=0
 
 [Desktop]
-Screen="1366 768"
+Screen="3286 1080"
 Window="Win_1"
 Window="Win_2"
