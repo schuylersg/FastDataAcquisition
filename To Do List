@@ -1,6 +1,10 @@
 ToDo:
 
-1. Pick FPGA oscillator
-2. Finalize trigger circuit
-3. Add temperature IC
-4. Power system...
+1. Add test points
+2. Add status LEDs
+3. Breakout Exces fpga lines
+4. Add test points
+5. Finalize trigger circuit (possibly done...)
+XXXXXXXXXXXXXXX31. Pick FPGA oscillator
+XXXXXXXXXXXXXXX3. Add temperature IC
+XXXXXXXXXXXXXXX4. Power system...
