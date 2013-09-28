@@ -6,26 +6,26 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,16 +43,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -4778,8 +4778,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="0.762" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -6280,8 +6280,8 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
 <smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1" roundness="12"/>
 <smd name="2" x="0.25" y="0" dx="0.25" dy="0.35" layer="1" roundness="12"/>
-<text x="0" y="0.635" size="0.2032" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.2032" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="0.635" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
 <rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
 <rectangle x1="-0.15" y1="0.1" x2="0.15" y2="0.15" layer="51"/>
@@ -7607,8 +7607,8 @@ type 0309, grid 2.5 mm</description>
 Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <smd name="1" x="-0.255" y="0" dx="0.28" dy="0.43" layer="1"/>
 <smd name="2" x="0.255" y="0" dx="0.28" dy="0.43" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="0.635" size="0.3048" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
 <rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
 <rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="0.15" layer="21"/>
@@ -13387,10 +13387,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <attribute name="PARTNUMBER" value="1276-1779-1-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
-<part name="C30" library="Schuyler" deviceset="CAPACITOR" device="0204_REVERSE" value="0.47uF">
-<attribute name="PARTNUMBER" value="1276-1779-1-ND"/>
-<attribute name="SUPPLIER" value="DIGIKEY"/>
-</part>
 <part name="C60" library="Schuyler" deviceset="CAPACITOR" device="0204_REVERSE" value="0.47uF">
 <attribute name="PARTNUMBER" value="1276-1779-1-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
@@ -15067,14 +15063,14 @@ all FPGA pins are tri-stated.</text>
 <instance part="U$4" gate="G$8" x="50.8" y="58.42"/>
 <instance part="U$4" gate="G$9" x="68.58" y="205.74"/>
 <instance part="SUPPLY50" gate="G$1" x="50.8" y="195.58"/>
-<instance part="C4" gate="G$1" x="124.46" y="215.9" smashed="yes">
-<attribute name="PARTNUMBER" x="124.46" y="215.9" size="1.778" layer="96" display="off"/>
-<attribute name="SUPPLIER" x="124.46" y="215.9" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="118.364" y="216.281" size="1.778" layer="95"/>
-<attribute name="VALUE" x="118.364" y="211.201" size="1.778" layer="96"/>
+<instance part="C4" gate="G$1" x="124.46" y="213.36" smashed="yes">
+<attribute name="PARTNUMBER" x="124.46" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="124.46" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="118.364" y="213.741" size="1.778" layer="95"/>
+<attribute name="VALUE" x="118.364" y="208.661" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY51" gate="1" x="124.46" y="220.98"/>
-<instance part="SUPPLY52" gate="G$1" x="124.46" y="205.74"/>
+<instance part="SUPPLY52" gate="G$1" x="124.46" y="203.2"/>
 <instance part="C21" gate="G$1" x="129.54" y="195.58" smashed="yes">
 <attribute name="PARTNUMBER" x="129.54" y="195.58" size="1.778" layer="96" display="off"/>
 <attribute name="SUPPLIER" x="129.54" y="195.58" size="1.778" layer="96" display="off"/>
@@ -15360,7 +15356,6 @@ all FPGA pins are tri-stated.</text>
 <instance part="C48" gate="G$1" x="287.02" y="119.38"/>
 <instance part="C52" gate="G$1" x="337.82" y="119.38"/>
 <instance part="C51" gate="G$1" x="350.52" y="119.38"/>
-<instance part="C30" gate="G$1" x="386.08" y="190.5"/>
 <instance part="C60" gate="G$1" x="284.48" y="88.9"/>
 <instance part="C61" gate="G$1" x="297.18" y="88.9"/>
 <instance part="C63" gate="G$1" x="340.36" y="88.9"/>
@@ -15456,8 +15451,7 @@ all FPGA pins are tri-stated.</text>
 <pinref part="SUPPLY3" gate="1" pin="VCC"/>
 <wire x1="393.7" y1="195.58" x2="393.7" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="C31" gate="G$1" pin="1"/>
-<wire x1="393.7" y1="193.04" x2="386.08" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="193.04" x2="373.38" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="193.04" x2="373.38" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="193.04" x2="363.22" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="193.04" x2="353.06" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="193.04" x2="342.9" y2="193.04" width="0.1524" layer="91"/>
@@ -15486,8 +15480,6 @@ all FPGA pins are tri-stated.</text>
 <pinref part="C29" gate="G$1" pin="1"/>
 <junction x="373.38" y="193.04"/>
 <pinref part="L6" gate="G$1" pin="P$2"/>
-<pinref part="C30" gate="G$1" pin="1"/>
-<junction x="386.08" y="193.04"/>
 </segment>
 </net>
 <net name="1V9" class="0">
@@ -15668,7 +15660,7 @@ all FPGA pins are tri-stated.</text>
 <segment>
 <pinref part="SUPPLY52" gate="G$1" pin="DGND"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="208.28" x2="124.46" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="205.74" x2="124.46" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY54" gate="G$1" pin="DGND"/>
@@ -15958,33 +15950,11 @@ all FPGA pins are tri-stated.</text>
 <segment>
 <pinref part="SUPPLY81" gate="1" pin="VCC"/>
 <wire x1="99.06" y1="241.3" x2="99.06" y2="238.76" width="0.1524" layer="91"/>
-<label x="99.06" y="238.76" size="1.778" layer="95"/>
+<label x="101.6" y="241.3" size="1.778" layer="95"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VIN" class="0">
-<segment>
-<pinref part="SUPPLY51" gate="1" pin="VCC"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="220.98" x2="124.46" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="VIN"/>
-<wire x1="149.86" y1="218.44" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
-<junction x="124.46" y="218.44"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="218.44" x2="124.46" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="198.12" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$2" pin="FB"/>
-<wire x1="149.86" y1="198.12" x2="129.54" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="193.04" x2="182.88" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="193.04" x2="182.88" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="185.42" x2="149.86" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="185.42" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
-<junction x="149.86" y="198.12"/>
-<pinref part="U$4" gate="G$2" pin="VIN"/>
-<wire x1="129.54" y1="198.12" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
-<junction x="129.54" y="198.12"/>
-<junction x="129.54" y="218.44"/>
-<label x="124.46" y="218.44" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="SUPPLY55" gate="1" pin="VCC"/>
 <pinref part="C70" gate="G$1" pin="1"/>
@@ -16063,6 +16033,36 @@ all FPGA pins are tri-stated.</text>
 <pinref part="SUPPLY53" gate="1" pin="VCC"/>
 <pinref part="U$4" gate="G$9" pin="RT"/>
 <wire x1="83.82" y1="198.12" x2="88.9" y2="198.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="SUPPLY51" gate="1" pin="VCC"/>
+<wire x1="124.46" y1="220.98" x2="124.46" y2="218.44" width="0.1524" layer="91"/>
+<label x="124.46" y="218.44" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="VIN"/>
+<wire x1="124.46" y1="218.44" x2="124.46" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="218.44" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="198.12" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$2" pin="FB"/>
+<wire x1="149.86" y1="198.12" x2="129.54" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="193.04" x2="182.88" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="193.04" x2="182.88" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="185.42" x2="149.86" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="185.42" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
+<junction x="149.86" y="198.12"/>
+<pinref part="U$4" gate="G$2" pin="VIN"/>
+<wire x1="129.54" y1="198.12" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
+<junction x="129.54" y="198.12"/>
+<wire x1="129.54" y1="218.44" x2="124.46" y2="218.44" width="0.1524" layer="91"/>
+<junction x="129.54" y="218.44"/>
+<junction x="124.46" y="218.44"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="2"/>
+<pinref part="SUPPLY74" gate="1" pin="VCC"/>
+<wire x1="99.06" y1="203.2" x2="104.14" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="203.2" x2="104.14" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S8SW" class="0">
@@ -16363,14 +16363,6 @@ all FPGA pins are tri-stated.</text>
 <wire x1="96.52" y1="203.2" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
 <junction x="96.52" y="203.2"/>
 <pinref part="R18" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="2"/>
-<pinref part="SUPPLY74" gate="1" pin="VCC"/>
-<wire x1="99.06" y1="203.2" x2="104.14" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="203.2" x2="104.14" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S_TEMP" class="0">
@@ -17171,6 +17163,7 @@ cycle.</text>
 <pinref part="SUPPLY25" gate="1" pin="VCC"/>
 <wire x1="317.5" y1="226.06" x2="317.5" y2="223.52" width="0.1524" layer="91"/>
 <label x="317.5" y="223.52" size="1.778" layer="95"/>
+<pinref part="R37" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY29" gate="1" pin="VCC"/>
@@ -17610,6 +17603,7 @@ cycle.</text>
 <pinref part="TP12" gate="G$1" pin="TP"/>
 <wire x1="325.12" y1="213.36" x2="325.12" y2="210.82" width="0.1524" layer="91"/>
 <junction x="325.12" y="210.82"/>
+<pinref part="R37" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PROM_TDO" class="0">
