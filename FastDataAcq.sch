@@ -6,26 +6,26 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,16 +43,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="14" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="14" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -1187,6 +1187,35 @@ Distance</text>
 <text x="0" y="0.508" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
 <text x="0" y="-0.508" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
+<package name="AYZ0102AGRLC">
+<description>Layout for Slider Switch by C&amp;K AYZ0102AGRLC.</description>
+<smd name="P$1" x="-2.4892" y="2.6162" dx="0.9906" dy="1.1938" layer="1"/>
+<smd name="P$2" x="0" y="2.6162" dx="0.9906" dy="1.1938" layer="1"/>
+<smd name="P$3" x="2.4892" y="2.6162" dx="0.9906" dy="1.1938" layer="1"/>
+<hole x="-1.4986" y="0" drill="0.8636"/>
+<hole x="1.4986" y="0" drill="0.8636"/>
+<wire x1="-3.6068" y1="1.4986" x2="-3.6068" y2="-1.4986" width="0.127" layer="51"/>
+<wire x1="-3.6068" y1="-1.4986" x2="-1.4986" y2="-1.4986" width="0.127" layer="51"/>
+<wire x1="-1.4986" y1="-1.4986" x2="0" y2="-1.4986" width="0.127" layer="51"/>
+<wire x1="0" y1="-1.4986" x2="3.6068" y2="-1.4986" width="0.127" layer="51"/>
+<wire x1="3.6068" y1="-1.4986" x2="3.6068" y2="1.4986" width="0.127" layer="51"/>
+<wire x1="3.6068" y1="1.4986" x2="-3.6068" y2="1.4986" width="0.127" layer="51"/>
+<rectangle x1="-0.254" y1="1.4986" x2="0.254" y2="2.794" layer="51"/>
+<rectangle x1="-2.7432" y1="1.4986" x2="-2.2352" y2="2.794" layer="51"/>
+<rectangle x1="2.2352" y1="1.4986" x2="2.7432" y2="2.794" layer="51"/>
+<wire x1="-1.4986" y1="-1.4986" x2="-1.4986" y2="-2.4892" width="0.127" layer="51"/>
+<wire x1="-1.4986" y1="-2.4892" x2="0" y2="-2.4892" width="0.127" layer="51"/>
+<wire x1="0" y1="-2.4892" x2="0" y2="-1.4986" width="0.127" layer="51"/>
+<wire x1="-3.6068" y1="1.4986" x2="-3.6068" y2="-1.4986" width="0.127" layer="21"/>
+<wire x1="-3.6068" y1="-1.4986" x2="-1.4986" y2="-1.4986" width="0.127" layer="21"/>
+<wire x1="-1.4986" y1="-1.4986" x2="0" y2="-1.4986" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.4986" x2="3.6068" y2="-1.4986" width="0.127" layer="21"/>
+<wire x1="3.6068" y1="-1.4986" x2="3.6068" y2="1.4986" width="0.127" layer="21"/>
+<wire x1="3.6068" y1="1.4986" x2="-3.6068" y2="1.4986" width="0.127" layer="21"/>
+<wire x1="-1.4986" y1="-1.4986" x2="-1.4986" y2="-2.4892" width="0.127" layer="21"/>
+<wire x1="-1.4986" y1="-2.4892" x2="0" y2="-2.4892" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.4892" x2="0" y2="-1.4986" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ADC08D500">
@@ -1812,10 +1841,10 @@ http://datasheets.maximintegrated.com/en/ds/DS1088-DS1088L.pdf</description>
 </symbol>
 <symbol name="CM_CHOKE">
 <description>Common mode choke.</description>
-<pin name="P$1" x="-10.16" y="2.54" visible="off" length="middle"/>
-<pin name="P$2" x="-10.16" y="-2.54" visible="off" length="middle"/>
-<pin name="P$3" x="10.16" y="-2.54" visible="off" length="middle" rot="R180"/>
-<pin name="P$4" x="10.16" y="2.54" visible="off" length="middle" rot="R180"/>
+<pin name="P$1" x="-7.62" y="2.54" visible="off" length="short"/>
+<pin name="P$2" x="-7.62" y="-2.54" visible="off" length="short"/>
+<pin name="P$3" x="7.62" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="P$4" x="7.62" y="2.54" visible="off" length="short" rot="R180"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="1.27" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="-3.81" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94" curve="-180"/>
@@ -1836,8 +1865,8 @@ http://datasheets.maximintegrated.com/en/ds/DS1088-DS1088L.pdf</description>
 <text x="0" y="-5.08" size="1.778" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="2-PIN_CONNECTOR">
-<pin name="P$1" x="10.16" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="P$2" x="10.16" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="P$1" x="7.62" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="P$2" x="7.62" y="2.54" visible="pin" length="short" rot="R180"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -2848,6 +2877,21 @@ http://datasheets.maximintegrated.com/en/ds/DS1088-DS1088L.pdf</description>
 <attribute name="MANPARTNUMBER" value="1101M2S3AQE2"/>
 <attribute name="MANUFACTURER" value="C&amp;K Components"/>
 <attribute name="PARTNUMBER" value="CKN5006-ND"/>
+<attribute name="SUPPLIER" value="DIGIKEY"/>
+</technology>
+</technologies>
+</device>
+<device name="_AYZ0102AGRLC" package="AYZ0102AGRLC">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANPARTNUMBER" value="AYZ0102AGRLC"/>
+<attribute name="MANUFACTURER" value="C&amp;K Components"/>
+<attribute name="PARTNUMBER" value="401-2012-1-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </technology>
 </technologies>
@@ -13276,7 +13320,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <attribute name="PARTNUMBER" value="587-2152-1-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
-<part name="U$3" library="Schuyler" deviceset="SLIDER_SPDT" device="_1101M2S3AQE2"/>
 <part name="L2" library="Schuyler" deviceset="CHOKE_CM_" device="ACM7060-301"/>
 <part name="J1" library="Schuyler" deviceset="MICRO-FIT_3.0_2POS_" device="RA_SMD"/>
 <part name="L5" library="Schuyler" deviceset="FERRITE_BEADS_" device="BLM18SG260" value="26"/>
@@ -13319,7 +13362,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
-<part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-2" device="PTH"/>
 <part name="D1" library="Schuyler" deviceset="LED_" device="0603_RED"/>
 <part name="R14" library="rcl" deviceset="R-US_" device="R0201" value="1k">
 <attribute name="PARTNUMBER" value="1276-3797-1-ND"/>
@@ -13485,6 +13527,8 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <part name="U$88" library="Schuyler" deviceset="SUP_GND" device=""/>
 <part name="U$89" library="Schuyler" deviceset="SUP_GND" device=""/>
 <part name="U$30" library="Schuyler" deviceset="SUP_1V8" device=""/>
+<part name="S1" library="Schuyler" deviceset="SLIDER_SPDT" device="_AYZ0102AGRLC"/>
+<part name="SUPPLY1" library="Schuyler" deviceset="SUP_VIN" device="" value="Vin"/>
 </parts>
 <sheets>
 <sheet>
@@ -15078,21 +15122,21 @@ isolate each supply from each other.</text>
 <text x="324.58" y="126.52" size="2.54" layer="97" font="vector">Vcc1 bypassing</text>
 <text x="271.24" y="96.04" size="2.54" layer="97" font="vector">Vcc2 bypassing</text>
 <text x="324.58" y="96.04" size="2.54" layer="97" font="vector">Vcc3 bypassing</text>
-<text x="12.7" y="180.34" size="1.778" layer="97">Note: Ven is 420mV. Resistor
+<text x="137.16" y="139.7" size="1.778" layer="97">Note: Ven is 420mV. Resistor
 divider should account for 
 transient droop of at least 100mV.</text>
 <text x="10.16" y="266.7" size="3.81" layer="97" font="vector">Power Regulation</text>
-<text x="114.3" y="266.7" size="3.81" layer="97" font="vector">FPGA &amp; Digital Power</text>
+<text x="137.16" y="266.7" size="3.81" layer="97" font="vector">FPGA &amp; Digital Power</text>
 <text x="15.24" y="127" size="3.81" layer="97" font="vector">ADC and Analog Power</text>
-<wire x1="5.08" y1="137.16" x2="109.22" y2="137.16" width="0.3048" layer="94"/>
-<wire x1="109.22" y1="137.16" x2="264.16" y2="137.16" width="0.3048" layer="94"/>
+<wire x1="5.08" y1="137.16" x2="132.08" y2="137.16" width="0.3048" layer="94"/>
+<wire x1="132.08" y1="137.16" x2="264.16" y2="137.16" width="0.3048" layer="94"/>
 <wire x1="264.16" y1="137.16" x2="264.16" y2="274.32" width="0.3048" layer="94"/>
 <wire x1="264.16" y1="137.16" x2="264.16" y2="0" width="0.3048" layer="94"/>
 <text x="203.2" y="38.1" size="1.778" layer="97">Note: LDOs require
 &gt;10mOhms ESR
 for stability and
 ringing damping.</text>
-<text x="12.7" y="139.7" size="1.778" layer="97">Power Sequencing: 
+<text x="7.62" y="139.7" size="1.778" layer="97">Power Sequencing: 
 1) 1V2 and 1V8 supply are always enabled.
 2) 3V3 enable once 1V2 is ready
 3) ADC 1V9 enabled from FPGA
@@ -15102,8 +15146,8 @@ ringing damping.</text>
 damps overshoot on
 power up. Recommended
 in ADC datasheet.</text>
-<wire x1="109.22" y1="137.16" x2="109.22" y2="276.86" width="0.3048" layer="94"/>
-<text x="208.28" y="152.4" size="1.778" layer="97">Note: 1V8 must be enabled
+<wire x1="132.08" y1="137.16" x2="132.08" y2="276.86" width="0.3048" layer="94"/>
+<text x="210.82" y="139.7" size="1.778" layer="97">Note: 1V8 must be enabled
 before FPGA starts config process
 so that HSWAPEN is high and
 all FPGA pins are tri-stated.</text>
@@ -15127,27 +15171,27 @@ all FPGA pins are tri-stated.</text>
 <instance part="C50" gate="G$1" x="327.66" y="119.38"/>
 <instance part="C59" gate="G$1" x="274.32" y="88.9"/>
 <instance part="C62" gate="G$1" x="327.66" y="88.9"/>
-<instance part="U$4" gate="G$1" x="162.56" y="215.9"/>
-<instance part="U$4" gate="G$2" x="167.64" y="195.58"/>
+<instance part="U$4" gate="G$1" x="185.42" y="215.9"/>
+<instance part="U$4" gate="G$2" x="190.5" y="195.58"/>
 <instance part="U$4" gate="G$3" x="50.8" y="22.86"/>
-<instance part="U$4" gate="G$4" x="142.24" y="167.64"/>
+<instance part="U$4" gate="G$4" x="165.1" y="167.64"/>
 <instance part="U$4" gate="G$5" x="63.5" y="111.76"/>
 <instance part="U$4" gate="G$6" x="68.58" y="88.9"/>
-<instance part="U$4" gate="G$7" x="162.56" y="248.92"/>
+<instance part="U$4" gate="G$7" x="185.42" y="248.92"/>
 <instance part="U$4" gate="G$8" x="50.8" y="58.42"/>
-<instance part="U$4" gate="G$9" x="68.58" y="205.74"/>
-<instance part="C4" gate="G$1" x="124.46" y="213.36" smashed="yes">
-<attribute name="PARTNUMBER" x="124.46" y="213.36" size="1.778" layer="96" display="off"/>
-<attribute name="SUPPLIER" x="124.46" y="213.36" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="118.364" y="213.741" size="1.778" layer="95"/>
-<attribute name="VALUE" x="118.364" y="208.661" size="1.778" layer="96"/>
+<instance part="U$4" gate="G$9" x="88.9" y="228.6"/>
+<instance part="C4" gate="G$1" x="147.32" y="213.36" smashed="yes">
+<attribute name="PARTNUMBER" x="147.32" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="147.32" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="141.224" y="213.741" size="1.778" layer="95"/>
+<attribute name="VALUE" x="141.224" y="208.661" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY51" gate="G$1" x="124.46" y="220.98"/>
-<instance part="C21" gate="G$1" x="129.54" y="195.58" smashed="yes">
-<attribute name="PARTNUMBER" x="129.54" y="195.58" size="1.778" layer="96" display="off"/>
-<attribute name="SUPPLIER" x="129.54" y="195.58" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="123.444" y="195.961" size="1.778" layer="95"/>
-<attribute name="VALUE" x="123.444" y="190.881" size="1.778" layer="96"/>
+<instance part="SUPPLY51" gate="G$1" x="147.32" y="220.98"/>
+<instance part="C21" gate="G$1" x="152.4" y="195.58" smashed="yes">
+<attribute name="PARTNUMBER" x="152.4" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="152.4" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="146.304" y="195.961" size="1.778" layer="95"/>
+<attribute name="VALUE" x="146.304" y="190.881" size="1.778" layer="96"/>
 </instance>
 <instance part="C70" gate="G$1" x="17.78" y="22.86" smashed="yes">
 <attribute name="PARTNUMBER" x="17.78" y="22.86" size="1.778" layer="96" display="off"/>
@@ -15156,13 +15200,13 @@ all FPGA pins are tri-stated.</text>
 <attribute name="VALUE" x="11.684" y="18.161" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY55" gate="G$1" x="17.78" y="27.94"/>
-<instance part="C32" gate="G$1" x="119.38" y="167.64" smashed="yes">
-<attribute name="PARTNUMBER" x="119.38" y="167.64" size="1.778" layer="96" display="off"/>
-<attribute name="SUPPLIER" x="119.38" y="167.64" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="113.284" y="168.021" size="1.778" layer="95"/>
-<attribute name="VALUE" x="113.284" y="162.941" size="1.778" layer="96"/>
+<instance part="C32" gate="G$1" x="142.24" y="167.64" smashed="yes">
+<attribute name="PARTNUMBER" x="142.24" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="142.24" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="136.144" y="168.021" size="1.778" layer="95"/>
+<attribute name="VALUE" x="136.144" y="162.941" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY57" gate="G$1" x="119.38" y="172.72"/>
+<instance part="SUPPLY57" gate="G$1" x="142.24" y="172.72"/>
 <instance part="C53" gate="G$1" x="15.24" y="111.76" smashed="yes">
 <attribute name="PARTNUMBER" x="15.24" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="SUPPLIER" x="15.24" y="111.76" size="1.778" layer="96" display="off"/>
@@ -15176,13 +15220,13 @@ all FPGA pins are tri-stated.</text>
 <attribute name="NAME" x="16.764" y="89.281" size="1.778" layer="95"/>
 <attribute name="VALUE" x="16.764" y="84.201" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="134.62" y="248.92" smashed="yes">
-<attribute name="PARTNUMBER" x="134.62" y="248.92" size="1.778" layer="96" display="off"/>
-<attribute name="SUPPLIER" x="134.62" y="248.92" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="128.524" y="249.301" size="1.778" layer="95"/>
-<attribute name="VALUE" x="128.524" y="244.221" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="157.48" y="248.92" smashed="yes">
+<attribute name="PARTNUMBER" x="157.48" y="248.92" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="157.48" y="248.92" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="151.384" y="249.301" size="1.778" layer="95"/>
+<attribute name="VALUE" x="151.384" y="244.221" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY63" gate="G$1" x="134.62" y="254"/>
+<instance part="SUPPLY63" gate="G$1" x="157.48" y="254"/>
 <instance part="C65" gate="G$1" x="22.86" y="58.42" smashed="yes">
 <attribute name="PARTNUMBER" x="22.86" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="SUPPLIER" x="22.86" y="58.42" size="1.778" layer="96" display="off"/>
@@ -15190,26 +15234,26 @@ all FPGA pins are tri-stated.</text>
 <attribute name="VALUE" x="16.764" y="53.721" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY65" gate="G$1" x="22.86" y="63.5"/>
-<instance part="C18" gate="G$1" x="45.72" y="208.28" smashed="yes">
-<attribute name="PARTNUMBER" x="45.72" y="208.28" size="1.778" layer="96" display="off"/>
-<attribute name="SUPPLIER" x="45.72" y="208.28" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="42.164" y="208.661" size="1.778" layer="95"/>
-<attribute name="VALUE" x="39.624" y="203.581" size="1.778" layer="96"/>
+<instance part="C18" gate="G$1" x="66.04" y="231.14" smashed="yes">
+<attribute name="PARTNUMBER" x="66.04" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="66.04" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="62.484" y="231.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="59.944" y="226.441" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY67" gate="G$1" x="45.72" y="213.36"/>
+<instance part="SUPPLY67" gate="G$1" x="66.04" y="236.22"/>
 <instance part="L10" gate="G$1" x="73.66" y="25.4"/>
-<instance part="L7" gate="G$1" x="165.1" y="170.18"/>
-<instance part="L1" gate="G$1" x="185.42" y="251.46"/>
+<instance part="L7" gate="G$1" x="187.96" y="170.18"/>
+<instance part="L1" gate="G$1" x="208.28" y="251.46"/>
 <instance part="L9" gate="G$1" x="73.66" y="60.96"/>
 <instance part="L8" gate="G$1" x="91.44" y="114.3"/>
-<instance part="L3" gate="G$1" x="190.5" y="218.44"/>
-<instance part="R15" gate="G$1" x="200.66" y="213.36" rot="R90">
-<attribute name="PARTNUMBER" x="200.66" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SUPPLIER" x="200.66" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="L3" gate="G$1" x="213.36" y="218.44"/>
+<instance part="R15" gate="G$1" x="223.52" y="213.36" rot="R90">
+<attribute name="PARTNUMBER" x="223.52" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SUPPLIER" x="223.52" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R17" gate="G$1" x="208.28" y="203.2" rot="R180">
-<attribute name="PARTNUMBER" x="208.28" y="203.2" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SUPPLIER" x="208.28" y="203.2" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="R17" gate="G$1" x="231.14" y="203.2" rot="R180">
+<attribute name="PARTNUMBER" x="231.14" y="203.2" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SUPPLIER" x="231.14" y="203.2" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R31" gate="G$1" x="83.82" y="20.32" rot="R90">
 <attribute name="PARTNUMBER" x="83.82" y="20.32" size="1.778" layer="96" rot="R90" display="off"/>
@@ -15219,13 +15263,13 @@ all FPGA pins are tri-stated.</text>
 <attribute name="PARTNUMBER" x="91.44" y="10.16" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SUPPLIER" x="91.44" y="10.16" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R19" gate="G$1" x="175.26" y="165.1" rot="R90">
-<attribute name="PARTNUMBER" x="175.26" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SUPPLIER" x="175.26" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R19" gate="G$1" x="198.12" y="165.1" rot="R90">
+<attribute name="PARTNUMBER" x="198.12" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SUPPLIER" x="198.12" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R20" gate="G$1" x="182.88" y="154.94" rot="R180">
-<attribute name="PARTNUMBER" x="182.88" y="154.94" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SUPPLIER" x="182.88" y="154.94" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="R20" gate="G$1" x="205.74" y="154.94" rot="R180">
+<attribute name="PARTNUMBER" x="205.74" y="154.94" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SUPPLIER" x="205.74" y="154.94" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="101.6" y="109.22" rot="R90">
 <attribute name="PARTNUMBER" x="101.6" y="109.22" size="1.778" layer="96" rot="R90" display="off"/>
@@ -15235,13 +15279,13 @@ all FPGA pins are tri-stated.</text>
 <attribute name="PARTNUMBER" x="109.22" y="99.06" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SUPPLIER" x="109.22" y="99.06" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R10" gate="G$1" x="195.58" y="246.38" rot="R90">
-<attribute name="PARTNUMBER" x="195.58" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SUPPLIER" x="195.58" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R10" gate="G$1" x="218.44" y="246.38" rot="R90">
+<attribute name="PARTNUMBER" x="218.44" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SUPPLIER" x="218.44" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R11" gate="G$1" x="205.74" y="238.76" rot="R180">
-<attribute name="PARTNUMBER" x="205.74" y="238.76" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SUPPLIER" x="205.74" y="238.76" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="R11" gate="G$1" x="228.6" y="238.76" rot="R180">
+<attribute name="PARTNUMBER" x="228.6" y="238.76" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SUPPLIER" x="228.6" y="238.76" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R27" gate="G$1" x="83.82" y="55.88" rot="R90">
 <attribute name="PARTNUMBER" x="83.82" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
@@ -15252,26 +15296,26 @@ all FPGA pins are tri-stated.</text>
 <attribute name="SUPPLIER" x="91.44" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C67" gate="G$1" x="101.6" y="55.88"/>
-<instance part="C3" gate="G$1" x="213.36" y="246.38"/>
+<instance part="C3" gate="G$1" x="236.22" y="246.38"/>
 <instance part="C55" gate="G$1" x="119.38" y="109.22"/>
-<instance part="C34" gate="G$1" x="193.04" y="165.1"/>
+<instance part="C34" gate="G$1" x="215.9" y="165.1"/>
 <instance part="C74" gate="G$1" x="101.6" y="20.32"/>
-<instance part="C6" gate="G$1" x="218.44" y="213.36"/>
-<instance part="C5" gate="G$1" x="208.28" y="215.9"/>
+<instance part="C6" gate="G$1" x="241.3" y="213.36"/>
+<instance part="C5" gate="G$1" x="231.14" y="215.9"/>
 <instance part="C71" gate="G$1" x="91.44" y="22.86"/>
-<instance part="C33" gate="G$1" x="182.88" y="167.64"/>
+<instance part="C33" gate="G$1" x="205.74" y="167.64"/>
 <instance part="C54" gate="G$1" x="109.22" y="111.76"/>
-<instance part="C2" gate="G$1" x="203.2" y="248.92"/>
+<instance part="C2" gate="G$1" x="226.06" y="248.92"/>
 <instance part="C66" gate="G$1" x="91.44" y="58.42"/>
 <instance part="TP8" gate="G$1" x="111.76" y="66.04"/>
-<instance part="TP1" gate="G$1" x="223.52" y="256.54"/>
+<instance part="TP1" gate="G$1" x="246.38" y="256.54"/>
 <instance part="TP6" gate="G$1" x="119.38" y="119.38"/>
-<instance part="TP5" gate="G$1" x="203.2" y="175.26"/>
+<instance part="TP5" gate="G$1" x="226.06" y="175.26"/>
 <instance part="TP11" gate="G$1" x="111.76" y="30.48"/>
-<instance part="TP3" gate="G$1" x="228.6" y="223.52"/>
-<instance part="SUPPLY53" gate="G$1" x="88.9" y="198.12"/>
-<instance part="JP2" gate="A" x="96.52" y="205.74"/>
-<instance part="SUPPLY74" gate="G$1" x="104.14" y="205.74"/>
+<instance part="TP3" gate="G$1" x="251.46" y="223.52"/>
+<instance part="SUPPLY53" gate="G$1" x="109.22" y="220.98"/>
+<instance part="JP2" gate="A" x="116.84" y="228.6"/>
+<instance part="SUPPLY74" gate="G$1" x="124.46" y="228.6"/>
 <instance part="IC1" gate="A" x="165.1" y="106.68">
 <attribute name="MANPARTNUMBER" x="165.1" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="165.1" y="106.68" size="1.778" layer="96" display="off"/>
@@ -15319,17 +15363,17 @@ all FPGA pins are tri-stated.</text>
 <attribute name="PARTNUMBER" x="139.7" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="SUPPLIER" x="139.7" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R18" gate="G$1" x="96.52" y="195.58" rot="R90">
-<attribute name="PARTNUMBER" x="96.52" y="195.58" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SUPPLIER" x="96.52" y="195.58" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R18" gate="G$1" x="116.84" y="218.44" rot="R90">
+<attribute name="PARTNUMBER" x="116.84" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SUPPLIER" x="116.84" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R13" gate="G$1" x="144.78" y="226.06" rot="R270">
-<attribute name="PARTNUMBER" x="144.78" y="226.06" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="SUPPLIER" x="144.78" y="226.06" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="R13" gate="G$1" x="167.64" y="226.06" rot="R270">
+<attribute name="PARTNUMBER" x="167.64" y="226.06" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SUPPLIER" x="167.64" y="226.06" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="R16" gate="G$1" x="144.78" y="208.28" rot="R90">
-<attribute name="PARTNUMBER" x="144.78" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SUPPLIER" x="144.78" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R16" gate="G$1" x="167.64" y="208.28" rot="R90">
+<attribute name="PARTNUMBER" x="167.64" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SUPPLIER" x="167.64" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R32" gate="G$1" x="33.02" y="15.24" rot="R270">
 <attribute name="PARTNUMBER" x="33.02" y="15.24" size="1.778" layer="96" rot="R270" display="off"/>
@@ -15355,9 +15399,9 @@ all FPGA pins are tri-stated.</text>
 <attribute name="PARTNUMBER" x="43.18" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SUPPLIER" x="43.18" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C7" gate="G$1" x="134.62" y="210.82">
-<attribute name="PARTNUMBER" x="134.62" y="210.82" size="1.778" layer="96" display="off"/>
-<attribute name="SUPPLIER" x="134.62" y="210.82" size="1.778" layer="96" display="off"/>
+<instance part="C7" gate="G$1" x="157.48" y="210.82">
+<attribute name="PARTNUMBER" x="157.48" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="157.48" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R25" gate="G$1" x="198.12" y="99.06" rot="R90">
 <attribute name="MANPARTNUMBER" x="198.12" y="99.06" size="1.778" layer="96" rot="R90" display="off"/>
@@ -15383,26 +15427,24 @@ all FPGA pins are tri-stated.</text>
 <instance part="C27" gate="G$1" x="353.06" y="190.5"/>
 <instance part="C28" gate="G$1" x="363.22" y="190.5"/>
 <instance part="C29" gate="G$1" x="373.38" y="190.5"/>
-<instance part="U$3" gate="G$1" x="68.58" y="254"/>
-<instance part="L2" gate="G$1" x="43.18" y="243.84"/>
-<instance part="J1" gate="G$1" x="20.32" y="243.84"/>
-<instance part="L5" gate="G$1" x="35.56" y="210.82"/>
-<instance part="C20" gate="G$1" x="22.86" y="205.74"/>
+<instance part="L2" gate="G$1" x="33.02" y="228.6"/>
+<instance part="J1" gate="G$1" x="15.24" y="228.6"/>
+<instance part="L5" gate="G$1" x="55.88" y="233.68"/>
+<instance part="C20" gate="G$1" x="45.72" y="228.6"/>
 <instance part="L4" gate="G$1" x="281.94" y="213.36"/>
 <instance part="L6" gate="G$1" x="281.94" y="193.04"/>
-<instance part="TP4" gate="G$1" x="104.14" y="218.44"/>
-<instance part="R12" gate="G$1" x="99.06" y="233.68" rot="R90">
-<attribute name="MANPARTNUMBER" x="99.06" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="99.06" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PARTNUMBER" x="99.06" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SUPPLIER" x="99.06" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP4" gate="G$1" x="124.46" y="241.3"/>
+<instance part="R12" gate="G$1" x="119.38" y="256.54" rot="R90">
+<attribute name="MANPARTNUMBER" x="119.38" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="119.38" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNUMBER" x="119.38" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SUPPLIER" x="119.38" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP2" gate="G$1" x="104.14" y="228.6"/>
-<instance part="JP1" gate="A" x="66.04" y="238.76" rot="R180"/>
-<instance part="D1" gate="G$1" x="15.24" y="205.74"/>
-<instance part="R14" gate="G$1" x="15.24" y="218.44" rot="R90">
-<attribute name="PARTNUMBER" x="15.24" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SUPPLIER" x="15.24" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP2" gate="G$1" x="124.46" y="251.46"/>
+<instance part="D1" gate="G$1" x="66.04" y="187.96"/>
+<instance part="R14" gate="G$1" x="58.42" y="193.04" rot="R180">
+<attribute name="PARTNUMBER" x="58.42" y="193.04" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SUPPLIER" x="58.42" y="193.04" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C46" gate="G$1" x="401.32" y="147.32"/>
 <instance part="C49" gate="G$1" x="297.18" y="119.38"/>
@@ -15422,16 +15464,16 @@ all FPGA pins are tri-stated.</text>
 <instance part="U$36" gate="G$1" x="320.04" y="152.4"/>
 <instance part="U$37" gate="G$1" x="307.34" y="93.98"/>
 <instance part="U$38" gate="G$1" x="411.48" y="152.4"/>
-<instance part="U$41" gate="G$1" x="50.8" y="198.12"/>
-<instance part="U$42" gate="G$1" x="96.52" y="187.96"/>
-<instance part="U$43" gate="G$1" x="55.88" y="238.76"/>
-<instance part="U$44" gate="G$1" x="134.62" y="241.3"/>
-<instance part="U$45" gate="G$1" x="213.36" y="238.76"/>
-<instance part="U$46" gate="G$1" x="124.46" y="205.74"/>
-<instance part="U$47" gate="G$1" x="129.54" y="187.96"/>
-<instance part="U$48" gate="G$1" x="218.44" y="203.2"/>
-<instance part="U$49" gate="G$1" x="119.38" y="160.02"/>
-<instance part="U$50" gate="G$1" x="193.04" y="154.94"/>
+<instance part="U$41" gate="G$1" x="71.12" y="220.98"/>
+<instance part="U$42" gate="G$1" x="116.84" y="210.82"/>
+<instance part="U$43" gate="G$1" x="43.18" y="180.34"/>
+<instance part="U$44" gate="G$1" x="157.48" y="241.3"/>
+<instance part="U$45" gate="G$1" x="236.22" y="238.76"/>
+<instance part="U$46" gate="G$1" x="147.32" y="205.74"/>
+<instance part="U$47" gate="G$1" x="152.4" y="187.96"/>
+<instance part="U$48" gate="G$1" x="241.3" y="203.2"/>
+<instance part="U$49" gate="G$1" x="142.24" y="160.02"/>
+<instance part="U$50" gate="G$1" x="215.9" y="154.94"/>
 <instance part="U$51" gate="G$1" x="345.44" y="203.2"/>
 <instance part="U$52" gate="G$1" x="342.9" y="182.88"/>
 <instance part="U$53" gate="G$1" x="292.1" y="139.7"/>
@@ -15450,7 +15492,9 @@ all FPGA pins are tri-stated.</text>
 <instance part="U$66" gate="G$1" x="17.78" y="7.62"/>
 <instance part="U$67" gate="G$1" x="101.6" y="10.16"/>
 <instance part="U$68" gate="G$1" x="149.86" y="12.7"/>
-<instance part="U$30" gate="G$1" x="99.06" y="241.3"/>
+<instance part="U$30" gate="G$1" x="119.38" y="264.16"/>
+<instance part="S1" gate="G$1" x="25.4" y="193.04" rot="R90"/>
+<instance part="SUPPLY1" gate="G$1" x="43.18" y="203.2"/>
 </instances>
 <busses>
 </busses>
@@ -15583,22 +15627,22 @@ all FPGA pins are tri-stated.</text>
 <segment>
 <pinref part="L1" gate="G$1" pin="P$2"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="251.46" x2="195.58" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="251.46" x2="218.44" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="251.46" x2="203.2" y2="251.46" width="0.1524" layer="91"/>
-<junction x="195.58" y="251.46"/>
+<wire x1="218.44" y1="251.46" x2="226.06" y2="251.46" width="0.1524" layer="91"/>
+<junction x="218.44" y="251.46"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="251.46" x2="213.36" y2="251.46" width="0.1524" layer="91"/>
-<junction x="203.2" y="251.46"/>
+<wire x1="226.06" y1="251.46" x2="236.22" y2="251.46" width="0.1524" layer="91"/>
+<junction x="226.06" y="251.46"/>
 <pinref part="TP1" gate="G$1" pin="TP"/>
-<wire x1="213.36" y1="251.46" x2="223.52" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="251.46" x2="223.52" y2="254" width="0.1524" layer="91"/>
-<junction x="213.36" y="251.46"/>
-<label x="233.68" y="251.46" size="1.778" layer="95"/>
-<wire x1="144.78" y1="231.14" x2="223.52" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="231.14" x2="223.52" y2="251.46" width="0.1524" layer="91"/>
-<junction x="223.52" y="251.46"/>
-<wire x1="223.52" y1="251.46" x2="238.76" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="251.46" x2="246.38" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="251.46" x2="246.38" y2="254" width="0.1524" layer="91"/>
+<junction x="236.22" y="251.46"/>
+<label x="248.92" y="251.46" size="1.778" layer="95"/>
+<wire x1="167.64" y1="231.14" x2="246.38" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="231.14" x2="246.38" y2="251.46" width="0.1524" layer="91"/>
+<junction x="246.38" y="251.46"/>
+<wire x1="246.38" y1="251.46" x2="254" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -15647,20 +15691,20 @@ all FPGA pins are tri-stated.</text>
 <segment>
 <pinref part="L3" gate="G$1" pin="P$2"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="218.44" x2="200.66" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="218.44" x2="223.52" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="218.44" x2="208.28" y2="218.44" width="0.1524" layer="91"/>
-<junction x="200.66" y="218.44"/>
+<wire x1="223.52" y1="218.44" x2="231.14" y2="218.44" width="0.1524" layer="91"/>
+<junction x="223.52" y="218.44"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="218.44" x2="218.44" y2="218.44" width="0.1524" layer="91"/>
-<junction x="208.28" y="218.44"/>
+<wire x1="231.14" y1="218.44" x2="241.3" y2="218.44" width="0.1524" layer="91"/>
+<junction x="231.14" y="218.44"/>
 <pinref part="TP3" gate="G$1" pin="TP"/>
-<wire x1="218.44" y1="218.44" x2="228.6" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="218.44" x2="228.6" y2="220.98" width="0.1524" layer="91"/>
-<junction x="218.44" y="218.44"/>
-<label x="238.76" y="218.44" size="1.778" layer="95"/>
-<junction x="228.6" y="218.44"/>
-<wire x1="228.6" y1="218.44" x2="243.84" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="218.44" x2="251.46" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="218.44" x2="251.46" y2="220.98" width="0.1524" layer="91"/>
+<junction x="241.3" y="218.44"/>
+<label x="251.46" y="218.44" size="1.778" layer="95"/>
+<junction x="251.46" y="218.44"/>
+<wire x1="251.46" y1="218.44" x2="256.54" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -15675,15 +15719,15 @@ all FPGA pins are tri-stated.</text>
 <segment>
 <pinref part="SUPPLY57" gate="G$1" pin="VIN"/>
 <pinref part="C32" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="172.72" x2="119.38" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="170.18" x2="124.46" y2="170.18" width="0.1524" layer="91"/>
-<junction x="119.38" y="170.18"/>
+<wire x1="142.24" y1="172.72" x2="142.24" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="170.18" x2="147.32" y2="170.18" width="0.1524" layer="91"/>
+<junction x="142.24" y="170.18"/>
 <pinref part="U$4" gate="G$4" pin="VIN"/>
 <pinref part="U$4" gate="G$4" pin="EN"/>
-<wire x1="124.46" y1="170.18" x2="119.38" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="165.1" x2="124.46" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="165.1" x2="124.46" y2="170.18" width="0.1524" layer="91"/>
-<junction x="124.46" y="170.18"/>
+<wire x1="147.32" y1="170.18" x2="142.24" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="165.1" x2="147.32" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="165.1" x2="147.32" y2="170.18" width="0.1524" layer="91"/>
+<junction x="147.32" y="170.18"/>
 </segment>
 <segment>
 <pinref part="SUPPLY59" gate="G$1" pin="VIN"/>
@@ -15710,15 +15754,15 @@ all FPGA pins are tri-stated.</text>
 <segment>
 <pinref part="SUPPLY63" gate="G$1" pin="VIN"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="254" x2="134.62" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="251.46" x2="139.7" y2="251.46" width="0.1524" layer="91"/>
-<junction x="134.62" y="251.46"/>
+<wire x1="157.48" y1="254" x2="157.48" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="251.46" x2="162.56" y2="251.46" width="0.1524" layer="91"/>
+<junction x="157.48" y="251.46"/>
 <pinref part="U$4" gate="G$7" pin="VIN"/>
 <pinref part="U$4" gate="G$7" pin="EN"/>
-<wire x1="139.7" y1="251.46" x2="134.62" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="246.38" x2="139.7" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="246.38" x2="139.7" y2="251.46" width="0.1524" layer="91"/>
-<junction x="139.7" y="251.46"/>
+<wire x1="162.56" y1="251.46" x2="157.48" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="246.38" x2="162.56" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="246.38" x2="162.56" y2="251.46" width="0.1524" layer="91"/>
+<junction x="162.56" y="251.46"/>
 </segment>
 <segment>
 <pinref part="SUPPLY65" gate="G$1" pin="VIN"/>
@@ -15731,47 +15775,53 @@ all FPGA pins are tri-stated.</text>
 <segment>
 <pinref part="SUPPLY67" gate="G$1" pin="VIN"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="213.36" x2="45.72" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="210.82" x2="45.72" y2="210.82" width="0.1524" layer="91"/>
-<junction x="45.72" y="210.82"/>
-<wire x1="43.18" y1="210.82" x2="45.72" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="236.22" x2="66.04" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="233.68" x2="66.04" y2="233.68" width="0.1524" layer="91"/>
+<junction x="66.04" y="233.68"/>
+<wire x1="63.5" y1="233.68" x2="66.04" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$9" pin="VCC"/>
 <pinref part="L5" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY53" gate="G$1" pin="VIN"/>
 <pinref part="U$4" gate="G$9" pin="RT"/>
-<wire x1="83.82" y1="198.12" x2="88.9" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="220.98" x2="109.22" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="SUPPLY51" gate="G$1" pin="VIN"/>
-<wire x1="124.46" y1="220.98" x2="124.46" y2="218.44" width="0.1524" layer="91"/>
-<label x="124.46" y="218.44" size="1.778" layer="95"/>
+<wire x1="147.32" y1="220.98" x2="147.32" y2="218.44" width="0.1524" layer="91"/>
+<label x="147.32" y="218.44" size="1.778" layer="95"/>
 <pinref part="U$4" gate="G$1" pin="VIN"/>
-<wire x1="124.46" y1="218.44" x2="124.46" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="218.44" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="218.44" x2="147.32" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="218.44" x2="152.4" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="198.12" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="198.12" x2="172.72" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$2" pin="FB"/>
-<wire x1="149.86" y1="198.12" x2="129.54" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="193.04" x2="182.88" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="193.04" x2="182.88" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="185.42" x2="149.86" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="185.42" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
-<junction x="149.86" y="198.12"/>
+<wire x1="172.72" y1="198.12" x2="152.4" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="193.04" x2="205.74" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="193.04" x2="205.74" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="185.42" x2="172.72" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="185.42" x2="172.72" y2="198.12" width="0.1524" layer="91"/>
+<junction x="172.72" y="198.12"/>
 <pinref part="U$4" gate="G$2" pin="VIN"/>
-<wire x1="129.54" y1="198.12" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
-<junction x="129.54" y="198.12"/>
-<wire x1="129.54" y1="218.44" x2="124.46" y2="218.44" width="0.1524" layer="91"/>
-<junction x="129.54" y="218.44"/>
-<junction x="124.46" y="218.44"/>
+<wire x1="152.4" y1="198.12" x2="152.4" y2="218.44" width="0.1524" layer="91"/>
+<junction x="152.4" y="198.12"/>
+<wire x1="152.4" y1="218.44" x2="147.32" y2="218.44" width="0.1524" layer="91"/>
+<junction x="152.4" y="218.44"/>
+<junction x="147.32" y="218.44"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="2"/>
 <pinref part="SUPPLY74" gate="G$1" pin="VIN"/>
-<wire x1="99.06" y1="203.2" x2="104.14" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="203.2" x2="104.14" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="226.06" x2="124.46" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="226.06" x2="124.46" y2="228.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="P$3"/>
+<pinref part="SUPPLY1" gate="G$1" pin="VIN"/>
+<wire x1="33.02" y1="198.12" x2="43.18" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="198.12" x2="43.18" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S8SW" class="0">
@@ -15829,16 +15879,16 @@ all FPGA pins are tri-stated.</text>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="208.28" x2="200.66" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="203.2" x2="203.2" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="208.28" x2="223.52" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="203.2" x2="226.06" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="208.28" x2="208.28" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="208.28" x2="208.28" y2="210.82" width="0.1524" layer="91"/>
-<junction x="200.66" y="208.28"/>
-<wire x1="200.66" y1="208.28" x2="177.8" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="208.28" x2="177.8" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="208.28" x2="231.14" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="208.28" x2="231.14" y2="210.82" width="0.1524" layer="91"/>
+<junction x="223.52" y="208.28"/>
+<wire x1="223.52" y1="208.28" x2="200.66" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="208.28" x2="200.66" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="FB"/>
-<wire x1="177.8" y1="213.36" x2="175.26" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="213.36" x2="198.12" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V6_PRE3V3" class="0">
@@ -15895,20 +15945,20 @@ all FPGA pins are tri-stated.</text>
 <segment>
 <pinref part="L7" gate="G$1" pin="P$2"/>
 <pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="170.18" x2="175.26" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="170.18" x2="198.12" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="C33" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="170.18" x2="182.88" y2="170.18" width="0.1524" layer="91"/>
-<junction x="175.26" y="170.18"/>
+<wire x1="198.12" y1="170.18" x2="205.74" y2="170.18" width="0.1524" layer="91"/>
+<junction x="198.12" y="170.18"/>
 <pinref part="C34" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="170.18" x2="193.04" y2="170.18" width="0.1524" layer="91"/>
-<junction x="182.88" y="170.18"/>
+<wire x1="205.74" y1="170.18" x2="215.9" y2="170.18" width="0.1524" layer="91"/>
+<junction x="205.74" y="170.18"/>
 <pinref part="TP5" gate="G$1" pin="TP"/>
-<wire x1="193.04" y1="170.18" x2="203.2" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="170.18" x2="203.2" y2="172.72" width="0.1524" layer="91"/>
-<junction x="193.04" y="170.18"/>
-<label x="213.36" y="170.18" size="1.778" layer="95"/>
-<wire x1="203.2" y1="170.18" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
-<junction x="203.2" y="170.18"/>
+<wire x1="215.9" y1="170.18" x2="226.06" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="170.18" x2="226.06" y2="172.72" width="0.1524" layer="91"/>
+<junction x="215.9" y="170.18"/>
+<label x="236.22" y="170.18" size="1.778" layer="95"/>
+<wire x1="226.06" y1="170.18" x2="241.3" y2="170.18" width="0.1524" layer="91"/>
+<junction x="226.06" y="170.18"/>
 </segment>
 <segment>
 <wire x1="307.34" y1="124.46" x2="307.34" y2="121.92" width="0.1524" layer="91"/>
@@ -15950,8 +16000,8 @@ all FPGA pins are tri-stated.</text>
 <pinref part="U$35" gate="G$1" pin="1V8"/>
 </segment>
 <segment>
-<wire x1="99.06" y1="241.3" x2="99.06" y2="238.76" width="0.1524" layer="91"/>
-<label x="101.6" y="241.3" size="1.778" layer="95"/>
+<wire x1="119.38" y1="264.16" x2="119.38" y2="261.62" width="0.1524" layer="91"/>
+<label x="121.92" y="264.16" size="1.778" layer="95"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="U$30" gate="G$1" pin="1V8"/>
 </segment>
@@ -15960,16 +16010,16 @@ all FPGA pins are tri-stated.</text>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="154.94" x2="175.26" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="154.94" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="160.02" x2="157.48" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="160.02" x2="157.48" y2="165.1" width="0.1524" layer="91"/>
-<junction x="175.26" y="160.02"/>
+<wire x1="200.66" y1="154.94" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="154.94" x2="198.12" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="160.02" x2="180.34" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="160.02" x2="180.34" y2="165.1" width="0.1524" layer="91"/>
+<junction x="198.12" y="160.02"/>
 <pinref part="U$4" gate="G$4" pin="FB"/>
-<wire x1="157.48" y1="165.1" x2="154.94" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="165.1" x2="177.8" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="C33" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="160.02" x2="182.88" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="160.02" x2="182.88" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="160.02" x2="205.74" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="160.02" x2="205.74" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S5SW" class="0">
@@ -16033,30 +16083,30 @@ all FPGA pins are tri-stated.</text>
 <segment>
 <pinref part="L1" gate="G$1" pin="P$1"/>
 <pinref part="U$4" gate="G$7" pin="SW"/>
-<wire x1="177.8" y1="251.46" x2="175.26" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="251.46" x2="198.12" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S7FB" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="238.76" x2="195.58" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="238.76" x2="195.58" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="238.76" x2="218.44" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="238.76" x2="218.44" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="241.3" x2="203.2" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="241.3" x2="203.2" y2="243.84" width="0.1524" layer="91"/>
-<junction x="195.58" y="241.3"/>
-<wire x1="195.58" y1="241.3" x2="177.8" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="241.3" x2="177.8" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="241.3" x2="226.06" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="241.3" x2="226.06" y2="243.84" width="0.1524" layer="91"/>
+<junction x="218.44" y="241.3"/>
+<wire x1="218.44" y1="241.3" x2="200.66" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="241.3" x2="200.66" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$7" pin="FB"/>
-<wire x1="177.8" y1="246.38" x2="175.26" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="246.38" x2="198.12" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S4SW" class="0">
 <segment>
 <pinref part="L7" gate="G$1" pin="P$1"/>
 <pinref part="U$4" gate="G$4" pin="SW"/>
-<wire x1="157.48" y1="170.18" x2="154.94" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="170.18" x2="177.8" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S1SW" class="0">
@@ -16064,44 +16114,44 @@ all FPGA pins are tri-stated.</text>
 <pinref part="L3" gate="G$1" pin="P$1"/>
 <pinref part="U$4" gate="G$1" pin="SW"/>
 <pinref part="U$4" gate="G$2" pin="SW"/>
-<wire x1="182.88" y1="218.44" x2="175.26" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="198.12" x2="182.88" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="198.12" x2="182.88" y2="218.44" width="0.1524" layer="91"/>
-<junction x="182.88" y="218.44"/>
+<wire x1="205.74" y1="218.44" x2="198.12" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="198.12" x2="205.74" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="198.12" x2="205.74" y2="218.44" width="0.1524" layer="91"/>
+<junction x="205.74" y="218.44"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U$4" gate="G$9" pin="MODE"/>
 <pinref part="JP2" gate="A" pin="1"/>
-<wire x1="83.82" y1="203.2" x2="96.52" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="203.2" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
-<junction x="96.52" y="203.2"/>
+<wire x1="104.14" y1="226.06" x2="116.84" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="226.06" x2="116.84" y2="223.52" width="0.1524" layer="91"/>
+<junction x="116.84" y="226.06"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="S_TEMP" class="0">
 <segment>
 <pinref part="U$4" gate="G$9" pin="TEMP"/>
-<wire x1="83.82" y1="208.28" x2="91.44" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="208.28" x2="91.44" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="215.9" x2="104.14" y2="215.9" width="0.1524" layer="91"/>
-<label x="91.44" y="215.9" size="1.778" layer="95"/>
+<wire x1="104.14" y1="231.14" x2="111.76" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="231.14" x2="111.76" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="238.76" x2="124.46" y2="238.76" width="0.1524" layer="91"/>
+<label x="111.76" y="238.76" size="1.778" layer="95"/>
 <pinref part="TP4" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="PGOOD" class="0">
 <segment>
 <pinref part="U$4" gate="G$9" pin="PGOOD_ALL"/>
-<wire x1="83.82" y1="213.36" x2="88.9" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="213.36" x2="88.9" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="226.06" x2="99.06" y2="226.06" width="0.1524" layer="91"/>
-<label x="88.9" y="226.06" size="1.778" layer="95"/>
+<wire x1="104.14" y1="236.22" x2="109.22" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="236.22" x2="109.22" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="248.92" x2="119.38" y2="248.92" width="0.1524" layer="91"/>
+<label x="109.22" y="248.92" size="1.778" layer="95"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="226.06" x2="99.06" y2="228.6" width="0.1524" layer="91"/>
-<junction x="99.06" y="226.06"/>
+<wire x1="119.38" y1="248.92" x2="119.38" y2="251.46" width="0.1524" layer="91"/>
+<junction x="119.38" y="248.92"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
-<wire x1="104.14" y1="226.06" x2="99.06" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="248.92" x2="119.38" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_PWR_EN" class="0">
@@ -16117,14 +16167,14 @@ all FPGA pins are tri-stated.</text>
 </net>
 <net name="N$12" class="0">
 <segment>
-<wire x1="144.78" y1="213.36" x2="144.78" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="213.36" x2="167.64" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="EN"/>
-<wire x1="144.78" y1="213.36" x2="149.86" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="213.36" x2="172.72" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<junction x="144.78" y="213.36"/>
+<junction x="167.64" y="213.36"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="213.36" x2="144.78" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="213.36" x2="167.64" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ANALOG_PWR_EN" class="0">
@@ -16192,148 +16242,110 @@ all FPGA pins are tri-stated.</text>
 <pinref part="R26" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="L2" gate="G$1" pin="P$4"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
-<wire x1="53.34" y1="246.38" x2="60.96" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="246.38" x2="63.5" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="246.38" x2="60.96" y2="241.3" width="0.1524" layer="91"/>
-<junction x="60.96" y="246.38"/>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="60.96" y1="241.3" x2="63.5" y2="241.3" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="POWER_IN-" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="P$1"/>
 <pinref part="L2" gate="G$1" pin="P$2"/>
-<wire x1="30.48" y1="241.3" x2="33.02" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="226.06" x2="25.4" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POWER_IN+" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="P$2"/>
 <pinref part="L2" gate="G$1" pin="P$1"/>
-<wire x1="30.48" y1="246.38" x2="33.02" y2="246.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="L5" gate="G$1" pin="P$1"/>
-<pinref part="C20" gate="G$1" pin="POS"/>
-<wire x1="27.94" y1="210.82" x2="22.86" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
-<wire x1="68.58" y1="246.38" x2="68.58" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="241.3" x2="68.58" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="228.6" x2="22.86" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="228.6" x2="22.86" y2="210.82" width="0.1524" layer="91"/>
-<junction x="22.86" y="210.82"/>
-<pinref part="JP1" gate="A" pin="1"/>
-<wire x1="66.04" y1="241.3" x2="68.58" y2="241.3" width="0.1524" layer="91"/>
-<junction x="68.58" y="241.3"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="223.52" x2="15.24" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="228.6" x2="22.86" y2="228.6" width="0.1524" layer="91"/>
-<junction x="22.86" y="228.6"/>
+<wire x1="22.86" y1="231.14" x2="25.4" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="ANODE"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="210.82" x2="15.24" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="193.04" x2="63.5" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="U$4" gate="G$9" pin="SYNC"/>
-<wire x1="53.34" y1="200.66" x2="50.8" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="200.66" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="223.52" x2="71.12" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="223.52" x2="71.12" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$9" pin="GND"/>
-<wire x1="53.34" y1="205.74" x2="50.8" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="205.74" x2="50.8" y2="200.66" width="0.1524" layer="91"/>
-<junction x="50.8" y="200.66"/>
+<wire x1="73.66" y1="228.6" x2="71.12" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="228.6" x2="71.12" y2="223.52" width="0.1524" layer="91"/>
+<junction x="71.12" y="223.52"/>
 <pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="203.2" x2="45.72" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="200.66" x2="50.8" y2="200.66" width="0.1524" layer="91"/>
-<junction x="45.72" y="200.66"/>
+<wire x1="66.04" y1="226.06" x2="66.04" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="223.52" x2="71.12" y2="223.52" width="0.1524" layer="91"/>
+<junction x="66.04" y="223.52"/>
 <pinref part="C20" gate="G$1" pin="NEG"/>
-<wire x1="45.72" y1="200.66" x2="22.86" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="200.66" x2="22.86" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="CATHODE"/>
-<wire x1="22.86" y1="200.66" x2="15.24" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="200.66" x2="15.24" y2="203.2" width="0.1524" layer="91"/>
-<junction x="22.86" y="200.66"/>
+<wire x1="66.04" y1="223.52" x2="45.72" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="223.52" x2="45.72" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="U$41" gate="G$1" pin="GND"/>
+<pinref part="L2" gate="G$1" pin="P$3"/>
+<wire x1="40.64" y1="226.06" x2="40.64" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="223.52" x2="45.72" y2="223.52" width="0.1524" layer="91"/>
+<junction x="45.72" y="223.52"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="190.5" x2="96.52" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="213.36" x2="116.84" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="U$42" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="L2" gate="G$1" pin="P$3"/>
-<wire x1="53.34" y1="241.3" x2="55.88" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="241.3" x2="55.88" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="U$43" gate="G$1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="241.3" x2="134.62" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="241.3" x2="157.48" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="U$44" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="238.76" x2="213.36" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="238.76" x2="236.22" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="238.76" x2="213.36" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="238.76" x2="236.22" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="U$45" gate="G$1" pin="GND"/>
-<junction x="213.36" y="238.76"/>
+<junction x="236.22" y="238.76"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="205.74" x2="124.46" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="205.74" x2="147.32" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="U$46" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="187.96" x2="129.54" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="190.5" x2="134.62" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="190.5" x2="144.78" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="190.5" x2="152.4" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="190.5" x2="152.4" y2="193.04" width="0.1524" layer="91"/>
-<junction x="129.54" y="190.5"/>
+<wire x1="152.4" y1="187.96" x2="152.4" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="190.5" x2="157.48" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="190.5" x2="167.64" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="190.5" x2="175.26" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="190.5" x2="175.26" y2="193.04" width="0.1524" layer="91"/>
+<junction x="152.4" y="190.5"/>
 <pinref part="U$4" gate="G$2" pin="EN"/>
-<wire x1="152.4" y1="193.04" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="203.2" x2="144.78" y2="190.5" width="0.1524" layer="91"/>
-<junction x="144.78" y="190.5"/>
+<wire x1="175.26" y1="193.04" x2="177.8" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="203.2" x2="167.64" y2="190.5" width="0.1524" layer="91"/>
+<junction x="167.64" y="190.5"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="205.74" x2="134.62" y2="190.5" width="0.1524" layer="91"/>
-<junction x="134.62" y="190.5"/>
+<wire x1="157.48" y1="205.74" x2="157.48" y2="190.5" width="0.1524" layer="91"/>
+<junction x="157.48" y="190.5"/>
 <pinref part="U$47" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="203.2" x2="218.44" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="203.2" x2="241.3" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="203.2" x2="218.44" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="203.2" x2="241.3" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="U$48" gate="G$1" pin="GND"/>
-<junction x="218.44" y="203.2"/>
+<junction x="241.3" y="203.2"/>
 </segment>
 <segment>
 <pinref part="C32" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="160.02" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="160.02" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U$49" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="154.94" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="154.94" x2="210.82" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="154.94" x2="193.04" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="154.94" x2="215.9" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U$50" gate="G$1" pin="GND"/>
-<junction x="193.04" y="154.94"/>
+<junction x="215.9" y="154.94"/>
 </segment>
 <segment>
 <wire x1="393.7" y1="205.74" x2="383.54" y2="205.74" width="0.1524" layer="91"/>
@@ -16622,6 +16634,36 @@ all FPGA pins are tri-stated.</text>
 <junction x="162.56" y="12.7"/>
 <pinref part="U$68" gate="G$1" pin="GND"/>
 <junction x="149.86" y="12.7"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="P$1"/>
+<pinref part="U$43" gate="G$1" pin="GND"/>
+<wire x1="33.02" y1="187.96" x2="43.18" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="187.96" x2="43.18" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="CATHODE"/>
+<wire x1="43.18" y1="182.88" x2="43.18" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="185.42" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="182.88" x2="43.18" y2="182.88" width="0.1524" layer="91"/>
+<junction x="43.18" y="182.88"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="C20" gate="G$1" pin="POS"/>
+<pinref part="L5" gate="G$1" pin="P$1"/>
+<wire x1="48.26" y1="233.68" x2="45.72" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="L2" gate="G$1" pin="P$4"/>
+<wire x1="40.64" y1="231.14" x2="40.64" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="233.68" x2="45.72" y2="233.68" width="0.1524" layer="91"/>
+<junction x="45.72" y="233.68"/>
+</segment>
+</net>
+<net name="PWR_ENABLE" class="0">
+<segment>
+<pinref part="S1" gate="G$1" pin="P$2"/>
+<wire x1="33.02" y1="193.04" x2="53.34" y2="193.04" width="0.1524" layer="91"/>
+<label x="50.8" y="195.58" size="1.778" layer="95" rot="R180"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
