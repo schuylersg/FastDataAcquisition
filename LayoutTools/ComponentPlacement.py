@@ -72,201 +72,240 @@ def PlaceCaps():
     ADCEdge = 455
     minPartSpace = 10
     with open(fileDirN,'w') as fout:
-##        #write 1v9A bypass caps
-##        fout.write("GRID Mil;\n")
-##        partWidth = 40
-##
-##        e = ADCEdge + minPartSpace + partWidth/2
-##        fout.write(Place("C8", Offset(ADC, -e, RoundMIL(7.5*MM2MIL))))
-##        fout.write(Rotate("C8", 90))
-##        fout.write(Place("C9", Offset(ADC, -e, RoundMIL(5.5*MM2MIL))))
-##        fout.write(Rotate("C9", 90))
-##        fout.write(Place("C10", Offset(ADC, -e, RoundMIL(4*MM2MIL))))
-##        fout.write(Rotate("C10", 90))
-##        fout.write(Place("C11", Offset(ADC, -e, RoundMIL(2*MM2MIL))))
-##        fout.write(Rotate("C11", 90))
-##        fout.write(Place("C12", Offset(ADC, -e, RoundMIL(.25*MM2MIL))))
-##        fout.write(Rotate("C12", 90))
-##        fout.write(Place("C13", Offset(ADC, -e, RoundMIL(-2*MM2MIL))))
-##        fout.write(Rotate("C13", 90))
-##        fout.write(Place("C14", Offset(ADC, -e, RoundMIL(-4*MM2MIL))))
-##        fout.write(Rotate("C14", 90))
-##        fout.write(Place("C15", Offset(ADC, -e, RoundMIL(-5.5*MM2MIL))))
-##        fout.write(Rotate("C15", 90))
-##        fout.write(Place("C16", Offset(ADC, RoundMIL(-8*MM2MIL), -e)))
-##        fout.write(Rotate("C16", 0))
-##        fout.write(Place("C17", Offset(ADC, RoundMIL(-8*MM2MIL), e)))
-##        fout.write(Rotate("C17", 180))
-##
-##        #1V9D bypass caps
-##        fout.write(Place("C22", Offset(ADC, RoundMIL(-4*MM2MIL), -e)))
-##        fout.write(Rotate("C22", 0))
-##        fout.write(Place("C23", Offset(ADC, RoundMIL(1.5*MM2MIL), -e)))
-##        fout.write(Rotate("C23", 0))
-##        fout.write(Place("C24", Offset(ADC, RoundMIL(7*MM2MIL), -e)))
-##        fout.write(Rotate("C24", 0))
-##        fout.write(Place("C25", Offset(ADC, e, RoundMIL(-3.5*MM2MIL))))
-##        fout.write(Rotate("C25", 90))
-##        fout.write(Place("C26", Offset(ADC, e, RoundMIL(3.5*MM2MIL))))
-##        fout.write(Rotate("C26", 270))
-##        fout.write(Place("C27", Offset(ADC, RoundMIL(7*MM2MIL), e)))
-##        fout.write(Rotate("C27", 0))
-##        fout.write(Place("C28", Offset(ADC, RoundMIL(1.5*MM2MIL), e)))
-##        fout.write(Rotate("C28", 0))
-##        fout.write(Place("C29", Offset(ADC, RoundMIL(-4*MM2MIL), e)))
-##        fout.write(Rotate("C29", 0))
-##
-##        fout.write(Place("R9", Offset(ADC, -e, -e+130)))
-##        fout.write(Rotate("R9", 90))
-##
-##        #LMH6555
-##        LMH6555 = Offset(ADC, -730, 120)
-##        fout.write(Place("U$10", LMH6555))
-##        LMHWidth = 160
-##        Cwidth = 40
-##        e = (LMHWidth + Cwidth)/2 + minPartSpace + 20
-##        fout.write(Place("C89", Offset(LMH6555, e, 25)))
-##        fout.write(Rotate("C89", 90))
-##        fout.write(Place("C90", Offset(LMH6555, e, -40)))
-##        fout.write(Rotate("C90", 270))
-##        fout.write(Place("C91", Offset(LMH6555, e-25, -60)))
-##        fout.write(Rotate("C91", 0, 1))
-##
-##        e = (LMHWidth + 20)/2 + minPartSpace + 20
-##        fout.write(Place("R51", Offset(LMH6555, -20, -e)))
-##        fout.write(Rotate("R51", 180))
-##
-##        fout.write(Place("X2", Offset(LMH6555, -450, 75)))
-##        fout.write(Rotate("X2", 0))
-##
-##        #LMV321
-##        LMV321 = Offset(ADC, -630, 330)
-##        fout.write(Place("U$11", LMV321))
-##        fout.write(Rotate("U$11", 0, 1))
-##        fout.write(Place("C104", Offset(LMV321, 20, 90)))
-##        fout.write(Rotate("C104", 0, 1))
-##
-##        #SI530
-##        SI530 = Offset(ADC, -700, -250)
-##        fout.write(Place("Y1", SI530))
-##        fout.write(Rotate("Y1", 90))
-##        fout.write(Place("C76", Offset(SI530, -100, 140)))
-##        fout.write(Rotate("C76", 0))
-##        fout.write(Place("C77", Offset(SI530, -100, 180)))
-##        fout.write(Rotate("C77", 0))
-##        fout.write(Place("C78", Offset(SI530, -100, 180)))
-##        fout.write(Rotate("C78", 180, 1))
-##
-##
-##        fout.write(Place("C79", Offset(ADC, -ADCEdge - 85, -25)))
-##        fout.write(Rotate("C79", 0))
-##        fout.write(Place("C82", Offset(ADC, -ADCEdge - 85, -55)))
-##        fout.write(Rotate("C82", 0))
-##
-##        #TMP421
-##        TMP421 = Offset(ADC, -ADCEdge+100, -ADCEdge - 220)
-##        fout.write(Place("U$8", TMP421))
-##        fout.write(Rotate("U$8", 180))
-##        fout.write(Place("C88", Offset(TMP421, 25, 100)))
-##        fout.write(Rotate("C88", 180))
-##        fout.write(Place("C87", Offset(TMP421, 50, -110)))
-##        fout.write(Rotate("C87", 0))
-##
-##        #ADCMP553
-##        ADCMP553 = Offset(ADC, -700, -600)
-##        fout.write(Place("IC3", ADCMP553))
-##        fout.write(Rotate("IC3", 0))
-##        fout.write(Place("R59", Offset(ADCMP553, -140, -25)))
-##        fout.write(Rotate("R59", 90))
-##        fout.write(Place("C103", Offset(ADCMP553, 130, 25)))
-##        fout.write(Rotate("C103", 90))
-##        fout.write(Place("C102", Offset(ADCMP553, 175, 25)))
-##        fout.write(Rotate("C102", 90))
-##
-##
-##        #DAC101
-##        DAC101 = Offset(ADCMP553, 0, -180)
-##        fout.write(Place("U$9", DAC101))
-##        fout.write(Rotate("U$9", 0))
-##        fout.write(Place("C95", Offset(DAC101, 20, -100)))
-##        fout.write(Rotate("C95", 0))
-##        fout.write(Place("C94", Offset(DAC101, 20, -130)))
-##        fout.write(Rotate("C94", 0))
-##        fout.write(Place("C93", Offset(DAC101, 20, -110)))
-##        fout.write(Rotate("C93", 0, 1))
-##        fout.write(Place("C98", Offset(DAC101, 20, -180)))
-##        fout.write(Rotate("C98", 180, 1))
-##
-##        a =Offset(LMH6555, -450, 75)
-##        b = Offset(ADCMP553, -450, -20)
-##        fout.write(Place("X3", [a[0], b[1]]))
-##        fout.write(Rotate("X3", 0))
+        #write 1v9A bypass caps
+        fout.write("GRID Mil;\n")
+        partWidth = 40
+
+        e = ADCEdge + minPartSpace + partWidth/2
+        fout.write(Place("C8", Offset(ADC, -e, RoundMIL(7.5*MM2MIL))))
+        fout.write(Rotate("C8", 90))
+        fout.write(Place("C9", Offset(ADC, -e, RoundMIL(5.5*MM2MIL))))
+        fout.write(Rotate("C9", 90))
+        fout.write(Place("C10", Offset(ADC, -e, RoundMIL(4*MM2MIL))))
+        fout.write(Rotate("C10", 90))
+        fout.write(Place("C11", Offset(ADC, -e, RoundMIL(2*MM2MIL))))
+        fout.write(Rotate("C11", 90))
+        fout.write(Place("C12", Offset(ADC, -e, RoundMIL(.25*MM2MIL))))
+        fout.write(Rotate("C12", 90))
+        fout.write(Place("C13", Offset(ADC, -e, RoundMIL(-2*MM2MIL))))
+        fout.write(Rotate("C13", 90))
+        fout.write(Place("C14", Offset(ADC, -e, RoundMIL(-4*MM2MIL))))
+        fout.write(Rotate("C14", 90))
+        fout.write(Place("C15", Offset(ADC, -e, RoundMIL(-5.5*MM2MIL))))
+        fout.write(Rotate("C15", 90))
+        fout.write(Place("C16", Offset(ADC, RoundMIL(-8*MM2MIL), -e)))
+        fout.write(Rotate("C16", 0))
+        fout.write(Place("C17", Offset(ADC, RoundMIL(-8*MM2MIL), e)))
+        fout.write(Rotate("C17", 180))
+
+        #1V9D bypass caps
+        fout.write(Place("C22", Offset(ADC, RoundMIL(-4*MM2MIL), -e)))
+        fout.write(Rotate("C22", 0))
+        fout.write(Place("C23", Offset(ADC, RoundMIL(1.5*MM2MIL), -e)))
+        fout.write(Rotate("C23", 0))
+        fout.write(Place("C24", Offset(ADC, RoundMIL(7*MM2MIL), -e)))
+        fout.write(Rotate("C24", 0))
+        fout.write(Place("C25", Offset(ADC, e, RoundMIL(-3.5*MM2MIL))))
+        fout.write(Rotate("C25", 90))
+        fout.write(Place("C26", Offset(ADC, e, RoundMIL(3.5*MM2MIL))))
+        fout.write(Rotate("C26", 270))
+        fout.write(Place("C27", Offset(ADC, RoundMIL(7*MM2MIL), e)))
+        fout.write(Rotate("C27", 0))
+        fout.write(Place("C28", Offset(ADC, RoundMIL(1.5*MM2MIL), e)))
+        fout.write(Rotate("C28", 0))
+        fout.write(Place("C29", Offset(ADC, RoundMIL(-4*MM2MIL), e)))
+        fout.write(Rotate("C29", 0))
+
+        fout.write(Place("R9", Offset(ADC, -e, -e+130)))
+        fout.write(Rotate("R9", 90))
+
+        #LMH6555
+        LMH6555 = Offset(ADC, -730, 120)
+        fout.write(Place("U$10", LMH6555))
+        LMHWidth = 160
+        Cwidth = 40
+        e = (LMHWidth + Cwidth)/2 + minPartSpace + 20
+        fout.write(Place("C89", Offset(LMH6555, e, 25)))
+        fout.write(Rotate("C89", 90))
+        fout.write(Place("C90", Offset(LMH6555, e, -40)))
+        fout.write(Rotate("C90", 270))
+        fout.write(Place("C91", Offset(LMH6555, e-25, -60)))
+        fout.write(Rotate("C91", 0, 1))
+
+        e = (LMHWidth + 20)/2 + minPartSpace + 20
+        fout.write(Place("R51", Offset(LMH6555, -20, -e)))
+        fout.write(Rotate("R51", 180))
+
+        fout.write(Place("X2", Offset(LMH6555, -450, 75)))
+        fout.write(Rotate("X2", 0))
+
+        #LMV321
+        LMV321 = Offset(ADC, -630, 330)
+        fout.write(Place("U$11", LMV321))
+        fout.write(Rotate("U$11", 0, 1))
+        fout.write(Place("C104", Offset(LMV321, 20, 90)))
+        fout.write(Rotate("C104", 0, 1))
+
+        #SI530
+        SI530 = Offset(ADC, -700, -250)
+        fout.write(Place("Y1", SI530))
+        fout.write(Rotate("Y1", 90))
+        fout.write(Place("C76", Offset(SI530, -100, 140)))
+        fout.write(Rotate("C76", 0))
+        fout.write(Place("C77", Offset(SI530, -100, 180)))
+        fout.write(Rotate("C77", 0))
+        fout.write(Place("C78", Offset(SI530, -100, 180)))
+        fout.write(Rotate("C78", 180, 1))
 
 
-##        #VCCINT Bypass
-##        fout.write(Place("C35", Offset(FPGA, -16, -1.4)))
-##        fout.write(Rotate("C35", 90))
-##        fout.write(Place("C36", Offset(FPGA, 0.9, -15.9)))
-##        fout.write(Rotate("C36", 90))
-##        fout.write(Place("C37", Offset(FPGA, 14, -1.5)))
-##        fout.write(Rotate("C37", 180))
-##        fout.write(Place("C38", Offset(FPGA, 1, 12.75)))
-##        fout.write(Rotate("C38", 0))
-##
-##        #VCCAUX Bypass
-##        fout.write(Place("C39", Offset(FPGA, -13, -1.4)))
-##        fout.write(Rotate("C39", 90))
-##        fout.write(Place("C40", Offset(FPGA, 0.9, -12.9)))
-##        fout.write(Rotate("C40", 90))
-##        fout.write(Place("C41", Offset(FPGA, 8.75, -12.9)))
-##        fout.write(Rotate("C41", 90))
-##        fout.write(Place("C42", Offset(FPGA, 14.5, 0)))
-##        fout.write(Rotate("C42", 270))
-##        fout.write(Place("C43", Offset(FPGA, .5, 14.5)))
-##        fout.write(Rotate("C43", 0))
-##        fout.write(Place("C44", Offset(FPGA, .5, 16)))
-##        fout.write(Rotate("C44", 0))
-##        fout.write(Place("C45", Offset(FPGA, -14.5, -1.4)))
-##        fout.write(Rotate("C45", 90))
-##        fout.write(Place("C46", Offset(FPGA, 13, -0.5)))
-##        fout.write(Rotate("C46", 90))
-##
-##        #VCC_0 Bypass
-##        fout.write(Place("C47", Offset(FPGA, -13, -4.5)))
-##        fout.write(Rotate("C47", 90))
-##        fout.write(Place("C48", Offset(FPGA, -13, .8)))
-##        fout.write(Rotate("C48", 90))
-##        fout.write(Place("C49", Offset(FPGA, -13, 2.2)))
-##        fout.write(Rotate("C49", 90))
-##
-##        #VCC_1 Bypass
-##        fout.write(Place("C50", Offset(FPGA, 2.4, 14)))
-##        fout.write(Rotate("C50", 270))
-##        fout.write(Place("C51", Offset(FPGA, 7, 12.5)))
-##        fout.write(Rotate("C51", 180))
-##        fout.write(Place("C52", Offset(FPGA, -6, 13)))
-##        fout.write(Rotate("C52", 0))
-##
-##        #VCC_2 Bypass
-##        fout.write(Place("C59", Offset(FPGA, 14.5, -6.5)))
-##        fout.write(Rotate("C59", 90))
-##        fout.write(Place("C60", Offset(FPGA, 13, -6.5)))
-##        fout.write(Rotate("C60", 270))
-##        fout.write(Place("C61", Offset(FPGA, 13, 4.5)))
-##        fout.write(Rotate("C61", 90))
-##
-##
-##        #VCC_3 Bypass
-##        fout.write(Place("C62", Offset(FPGA, 0.9, -18.9)))
-##        fout.write(Rotate("C62", 90))
-##        fout.write(Place("C63", Offset(FPGA, -7.5, -12.9)))
-##        fout.write(Rotate("C63", 180))
-##        fout.write(Place("C64", Offset(FPGA, 6.5, -12.9)))
-##        fout.write(Rotate("C64", 0))
-##
-##        #LTC3374 layout
+        fout.write(Place("C79", Offset(ADC, -ADCEdge - 85, -25)))
+        fout.write(Rotate("C79", 0))
+        fout.write(Place("C82", Offset(ADC, -ADCEdge - 85, -55)))
+        fout.write(Rotate("C82", 0))
+
+        #TMP421
+        TMP421 = Offset(ADC, -ADCEdge+100, -ADCEdge - 220)
+        fout.write(Place("U$8", TMP421))
+        fout.write(Rotate("U$8", 180))
+        fout.write(Place("C88", Offset(TMP421, 25, 100)))
+        fout.write(Rotate("C88", 180))
+        fout.write(Place("C87", Offset(TMP421, 50, -110)))
+        fout.write(Rotate("C87", 0))
+
+        #ADCMP553
+        ADCMP553 = Offset(ADC, -700, -600)
+        fout.write(Place("IC3", ADCMP553))
+        fout.write(Rotate("IC3", 0))
+        fout.write(Place("R59", Offset(ADCMP553, -140, -25)))
+        fout.write(Rotate("R59", 90))
+        fout.write(Place("C103", Offset(ADCMP553, 130, 25)))
+        fout.write(Rotate("C103", 90))
+        fout.write(Place("C102", Offset(ADCMP553, 175, 25)))
+        fout.write(Rotate("C102", 90))
+
+
+        #DAC101
+        DAC101 = Offset(ADCMP553, 0, -180)
+        fout.write(Place("U$9", DAC101))
+        fout.write(Rotate("U$9", 0))
+        fout.write(Place("C95", Offset(DAC101, 20, -100)))
+        fout.write(Rotate("C95", 0))
+        fout.write(Place("C94", Offset(DAC101, 20, -130)))
+        fout.write(Rotate("C94", 0))
+        fout.write(Place("C93", Offset(DAC101, 20, -110)))
+        fout.write(Rotate("C93", 0, 1))
+        fout.write(Place("C98", Offset(DAC101, 20, -180)))
+        fout.write(Rotate("C98", 180, 1))
+
+        a =Offset(LMH6555, -450, 75)
+        b = Offset(ADCMP553, -450, -20)
+        fout.write(Place("X3", [a[0], b[1]]))
+        fout.write(Rotate("X3", 0))
+
+
+        #FPGA
+        FPGARef = [2520, 2010]
+        #VCCINT Bypass
+        fout.write(Place("C35", OffsetFromOrig(FPGA, FPGARef,[2030, 1960])))
+        fout.write(Rotate("C35", 90))
+        fout.write(Via(FPGA,FPGARef,"1V2", [[2010, 1975]]))
+        fout.write(Via(FPGA,FPGARef,"GND", [[2010, 1945]]))
+
+        fout.write(Place("C36", OffsetFromOrig(FPGA, FPGARef,[2565, 1635])))
+        fout.write(Rotate("C36", 0, 1))
+        fout.write(Via(FPGA,FPGARef,"1V2", [[2545, 1660]]))
+        fout.write(Via(FPGA,FPGARef,"GND", [[2585, 1660]]))
+
+        fout.write(Place("C37",OffsetFromOrig(FPGA, FPGARef,[3005, 1980])))
+        fout.write(Rotate("C37", 270))
+        fout.write(Via(FPGA,FPGARef,"1V2", [[3030, 1965]]))
+        fout.write(Via(FPGA,FPGARef,"GND", [[3030, 1995]]))
+
+        fout.write(Place("C38", OffsetFromOrig(FPGA, FPGARef,[2535, 2500])))
+        fout.write(Rotate("C38", 180))
+        fout.write(Via(FPGA,FPGARef,"1V2", [[2555, 2540]]))
+        fout.write(Via(FPGA,FPGARef,"GND", [[2515, 2540]]))
+
+        #VCCAUX Bypass
+        fout.write(Place("C39", OffsetFromOrig(FPGA, FPGARef,[2120, 1935])))
+        fout.write(Rotate("C39", 90, 1))
+        fout.write(Place("C45", OffsetFromOrig(FPGA, FPGARef,[2160, 1935])))
+        fout.write(Rotate("C45", 90, 1))
+        fout.write(Via(FPGA,FPGARef,"3V3", [[2160, 1975]]))
+        fout.write(Via(FPGA,FPGARef,"GND", [[2160, 1895]]))
+
+
+        fout.write(Place("C40", OffsetFromOrig(FPGA, FPGARef,[2535, 1520])))
+        fout.write(Rotate("C40", 0))
+        fout.write(Place("C41", OffsetFromOrig(FPGA, FPGARef,[2890, 1520])))
+        fout.write(Rotate("C41", 180))
+        fout.write(Via(FPGA,FPGARef,"3V3", [[2555, 1495],[2870, 1495]]))
+        fout.write(Via(FPGA,FPGARef,"GND", [[2515, 1495], [2910, 1495]]))
+
+
+
+        fout.write(Place("C42", OffsetFromOrig(FPGA, FPGARef,[2840, 1990])))
+        fout.write(Rotate("C42", 270, 1))
+        fout.write(Via(FPGA,FPGARef,"3V3", [[2880, 1960], [2850, 1950]]))
+        fout.write(Via(FPGA,FPGARef,"GND", [[2880, 2020], [2850, 2030]]))
+
+
+        fout.write(Place("C43", OffsetFromOrig(FPGA, FPGARef,[2510, 2370])))
+        fout.write(Rotate("C43", 180, 1))
+        fout.write(Place("C44", OffsetFromOrig(FPGA, FPGARef,[2510, 2410])))
+        fout.write(Rotate("C44", 180, 1))
+        fout.write(Via(FPGA,FPGARef,"3V3", [[2550, 2370]]))
+        fout.write(Via(FPGA,FPGARef,"GND", [[2470, 2370]]))
+
+        fout.write(Place("C46",OffsetFromOrig(FPGA, FPGARef,[2890, 1990])))
+        fout.write(Rotate("C46", 90, 1))
+
+        #VCC_0 Bypass
+        fout.write(Place("C47", OffsetFromOrig(FPGA, FPGARef,[2150, 2020])))
+        fout.write(Rotate("C47", 90, 1))
+        fout.write(Place("C48", OffsetFromOrig(FPGA, FPGARef,[2150, 1830])))
+        fout.write(Rotate("C48", 270, 1))
+        fout.write(Place("C49", OffsetFromOrig(FPGA, FPGARef,[2150, 2110])))
+        fout.write(Rotate("C49", 90, 1))
+
+        fout.write(Via(FPGA,FPGARef,"1V8", [[2160, 2085], [2175,2040], [2160, 1860]]))
+        fout.write(Via(FPGA,FPGARef,"GND", [[2160, 2140], [2175,2005], [2160, 1800]]))
+
+        #VCC_1 Bypass
+        fout.write(Place("C50", OffsetFromOrig(FPGA, FPGARef,[2650, 2370])))
+        fout.write(Rotate("C50", 0,1))
+        fout.write(Place("C51", OffsetFromOrig(FPGA, FPGARef,[2795, 2380])))
+        fout.write(Rotate("C51", 0,1))
+
+        fout.write(Place("C52", OffsetFromOrig(FPGA, FPGARef,[2280, 2380])))
+        fout.write(Rotate("C52", 180, 1))
+        fout.write(Via(FPGA,FPGARef,"1V8", [[2250, 2370], [2825,2370], [2610, 2370]]))
+        fout.write(Via(FPGA,FPGARef,"GND", [[2310, 2370], [2765,2370], [2690, 2370]]))
+
+        #VCC_2 Bypass
+        fout.write(Place("C59",  OffsetFromOrig(FPGA, FPGARef,[2840, 1755])))
+        fout.write(Rotate("C59", 90, 1))
+        fout.write(Place("C60",  OffsetFromOrig(FPGA, FPGARef,[2890, 1755])))
+        fout.write(Rotate("C60", 270, 1))
+        fout.write(Place("C61",  OffsetFromOrig(FPGA, FPGARef,[2890, 2215])))
+        fout.write(Rotate("C61", 90, 1))
+        fout.write(Via(FPGA,FPGARef,"3V3", [[2880, 1785], [2845,1795], [2880, 2185]]))
+        fout.write(Via(FPGA,FPGARef,"GND", [[2880, 1725], [2845,1715], [2880, 2245]]))
+
+
+        #VCC_3 Bypass
+        fout.write(Place("C62", OffsetFromOrig(FPGA, FPGARef,[2485, 1640])))
+        fout.write(Rotate("C62", 180, 1))
+        fout.write(Place("C63", OffsetFromOrig(FPGA, FPGARef,[2225, 1640])))
+        fout.write(Rotate("C63", 0, 1))
+        fout.write(Place("C64", OffsetFromOrig(FPGA, FPGARef,[2775, 1640])))
+        fout.write(Rotate("C64", 180, 1))
+        fout.write(Via(FPGA,FPGARef,"1V8", [[2255, 1650], [2505,1660], [2745, 1650]]))
+        fout.write(Via(FPGA,FPGARef,"GND", [[2195, 1650], [2465,1660], [2805, 1650]]))
+
+        #LTC3374 layout
         fout.write("GRID MIL;\n")
-        LTC3374 = [2000, 2200] #Offset(FPGA, 30, 0)
+        LTC3374 = Offset(FPGA, 2500, 0)
         LTCOrig = [2000, 2200]
         fout.write(Place("U$4", LTC3374))
         fout.write(Rotate("U$4", 0))
@@ -276,7 +315,7 @@ def PlaceCaps():
         fout.write(Place("C21", OffsetFromOrig(LTC3374, LTCOrig, [1970, 1855])))
         fout.write(Rotate("C21", 270))
         fout.write(Place("C6", OffsetFromOrig(LTC3374, LTCOrig, [1585, 1925])))
-        fout.write(Rotate("C6", 270))
+        fout.write(Rotate("C6", 90))
         fout.write(Place("L3", OffsetFromOrig(LTC3374, LTCOrig, [1770, 1870-20])))
         fout.write(Rotate("L3", 180))
 
