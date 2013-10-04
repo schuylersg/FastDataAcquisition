@@ -303,8 +303,20 @@ def PlaceCaps():
         fout.write(Via(FPGA,FPGARef,"1V8", [[2255, 1650], [2505,1660], [2745, 1650]]))
         fout.write(Via(FPGA,FPGARef,"GND", [[2195, 1650], [2465,1660], [2805, 1650]]))
 
+        #Y2 Clock Layout
+        Y22Orig = [3120, 2080]
+        Y2 = OffsetFromOrig(FPGA, FPGARef, [3120, 2080])
+        fout.write(Place("Y2", Y2))
+        fout.write(Rotate("Y2", 90))
+        fout.write(Place("C84", Offset(Y2, 25, -130)))
+        fout.write(Rotate("C84", 0))
+        fout.write(Place("C83", Offset(Y2, 25, -115)))
+        fout.write(Rotate("C83", 180, 1))
+        fout.write(Via(Y2,Y22Orig,"3V3", [[3115, 1950]]))
+        fout.write(Via(Y2,Y22Orig,"GND", [[3175, 1950]]))
+
+
         #LTC3374 layout
-        fout.write("GRID MIL;\n")
         LTC3374 = Offset(FPGA, 2500, 0)
         LTCOrig = [2000, 2200]
         fout.write(Place("U$4", LTC3374))
