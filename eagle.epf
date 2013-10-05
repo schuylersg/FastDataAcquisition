@@ -361,11 +361,11 @@ UsedLibrary="D:/System Folders/GitHub/SparkFun-Eagle-Libraries/SparkFun-Sensors.
 
 [Win_1]
 Type="Schematic Editor"
-Loc="-1374 161 -708 890"
-State=1
+Loc="-1366 169 -700 898"
+State=3
 Number=2
 File="FastDataAcq.sch"
-View="47.9815 185.61 198.656 283.204"
+View="135.318 111.568 354.194 252.105"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -404,12 +404,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 23.2889 -21.4282 473.201 269.988 2: 47.9815 185.61 198.656 283.204"
-Sheet=2
+Views=" 1: 23.2889 -21.4282 473.201 269.988 2: 72.9792 -11.9612 385.418 190.41 3: 135.318 111.568 354.194 252.105"
+Sheet=3
 
 [Win_2]
 Type="Control Panel"
-Loc="120 35 1610 914"
+Loc="120 36 1610 914"
 State=2
 Number=0
 

@@ -13178,18 +13178,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <attribute name="PARTNUMBER" value=""/>
 <attribute name="SUPPLIER" value=""/>
 </part>
-<part name="R28" library="rcl" deviceset="R-US_" device="R0603" value="NA">
-<attribute name="MANPARTNUMBER" value=""/>
-<attribute name="MANUFACTURER" value=""/>
-<attribute name="PARTNUMBER" value=""/>
-<attribute name="SUPPLIER" value=""/>
-</part>
-<part name="R23" library="rcl" deviceset="R-US_" device="R0603" value="NA">
-<attribute name="MANPARTNUMBER" value=""/>
-<attribute name="MANUFACTURER" value=""/>
-<attribute name="PARTNUMBER" value=""/>
-<attribute name="SUPPLIER" value=""/>
-</part>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="NA">
 <attribute name="PARTNUMBER" value=""/>
 <attribute name="SUPPLIER" value=""/>
@@ -13529,6 +13517,14 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <part name="U$30" library="Schuyler" deviceset="SUP_1V8" device=""/>
 <part name="S1" library="Schuyler" deviceset="SLIDER_SPDT" device="_AYZ0102AGRLC"/>
 <part name="SUPPLY1" library="Schuyler" deviceset="SUP_VIN" device="" value="Vin"/>
+<part name="R23" library="rcl" deviceset="R-US_" device="R0201" value="523K">
+<attribute name="PARTNUMBER" value="P523KABCT-ND"/>
+<attribute name="SUPPLIER" value="DIGIKEY"/>
+</part>
+<part name="R28" library="rcl" deviceset="R-US_" device="R0201" value="523K">
+<attribute name="PARTNUMBER" value="P523KABCT-ND"/>
+<attribute name="SUPPLIER" value="DIGIKEY"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -15387,18 +15383,6 @@ all FPGA pins are tri-stated.</text>
 <attribute name="PARTNUMBER" x="22.86" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="SUPPLIER" x="22.86" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R28" gate="G$1" x="33.02" y="50.8" rot="R90">
-<attribute name="MANPARTNUMBER" x="33.02" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="33.02" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PARTNUMBER" x="33.02" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SUPPLIER" x="33.02" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="R23" gate="G$1" x="43.18" y="101.6" rot="R90">
-<attribute name="MANPARTNUMBER" x="43.18" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="43.18" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PARTNUMBER" x="43.18" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SUPPLIER" x="43.18" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
 <instance part="C7" gate="G$1" x="157.48" y="210.82">
 <attribute name="PARTNUMBER" x="157.48" y="210.82" size="1.778" layer="96" display="off"/>
 <attribute name="SUPPLIER" x="157.48" y="210.82" size="1.778" layer="96" display="off"/>
@@ -15495,6 +15479,14 @@ all FPGA pins are tri-stated.</text>
 <instance part="U$30" gate="G$1" x="119.38" y="264.16"/>
 <instance part="S1" gate="G$1" x="25.4" y="193.04" rot="R90"/>
 <instance part="SUPPLY1" gate="G$1" x="43.18" y="203.2"/>
+<instance part="R23" gate="G$1" x="43.18" y="101.6" rot="R90">
+<attribute name="PARTNUMBER" x="43.18" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SUPPLIER" x="43.18" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R28" gate="G$1" x="33.02" y="50.8" rot="R90">
+<attribute name="PARTNUMBER" x="33.02" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SUPPLIER" x="33.02" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16110,7 +16102,7 @@ all FPGA pins are tri-stated.</text>
 <junction x="205.74" y="218.44"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="S_MODE" class="0">
 <segment>
 <pinref part="U$4" gate="G$9" pin="MODE"/>
 <pinref part="JP2" gate="A" pin="1"/>
@@ -16149,10 +16141,10 @@ all FPGA pins are tri-stated.</text>
 <pinref part="U$4" gate="G$5" pin="EN"/>
 <wire x1="50.8" y1="109.22" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
 <label x="27.94" y="109.22" size="1.778" layer="95"/>
-<pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="106.68" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
 <junction x="43.18" y="109.22"/>
+<pinref part="R23" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="S1EN" class="0">
@@ -16178,7 +16170,7 @@ all FPGA pins are tri-stated.</text>
 <junction x="33.02" y="55.88"/>
 </segment>
 </net>
-<net name="S4EN" class="0">
+<net name="S3EN" class="0">
 <segment>
 <pinref part="U$4" gate="G$3" pin="EN"/>
 <wire x1="33.02" y1="20.32" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
@@ -16527,10 +16519,10 @@ all FPGA pins are tri-stated.</text>
 <junction x="22.86" y="83.82"/>
 <pinref part="U$4" gate="G$6" pin="EN"/>
 <wire x1="53.34" y1="86.36" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="96.52" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
 <junction x="43.18" y="83.82"/>
 <pinref part="U$61" gate="G$1" pin="GND"/>
+<pinref part="R23" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C53" gate="G$1" pin="2"/>
@@ -16543,8 +16535,8 @@ all FPGA pins are tri-stated.</text>
 <wire x1="22.86" y1="45.72" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
 <junction x="22.86" y="45.72"/>
-<pinref part="R28" gate="G$1" pin="1"/>
 <pinref part="U$63" gate="G$1" pin="GND"/>
+<pinref part="R28" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R29" gate="G$1" pin="1"/>
