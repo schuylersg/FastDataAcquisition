@@ -2012,18 +2012,18 @@ http://datasheets.maximintegrated.com/en/ds/DS1088-DS1088L.pdf</description>
 <text x="0" y="3.81" size="1.27" layer="95" align="center">VIN</text>
 </symbol>
 <symbol name="10-PIN_CONNECTOR">
-<pin name="P$1" x="7.62" y="12.7" length="middle" rot="R180"/>
-<pin name="P$2" x="7.62" y="10.16" length="middle" rot="R180"/>
-<pin name="P$3" x="7.62" y="7.62" length="middle" rot="R180"/>
+<pin name="P$1" x="7.62" y="12.7" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P$2" x="7.62" y="10.16" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P$3" x="7.62" y="7.62" visible="pin" length="middle" swaplevel="1" rot="R180"/>
 <text x="0" y="17.78" size="1.27" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="15.24" size="1.27" layer="96" align="center">&gt;VALUE</text>
-<pin name="P$4" x="7.62" y="5.08" length="middle" rot="R180"/>
-<pin name="P$5" x="7.62" y="2.54" length="middle" rot="R180"/>
-<pin name="P$6" x="7.62" y="0" length="middle" rot="R180"/>
-<pin name="P$7" x="7.62" y="-2.54" length="middle" rot="R180"/>
-<pin name="P$8" x="7.62" y="-5.08" length="middle" rot="R180"/>
-<pin name="P$9" x="7.62" y="-7.62" length="middle" rot="R180"/>
-<pin name="P$10" x="7.62" y="-10.16" length="middle" rot="R180"/>
+<pin name="P$4" x="7.62" y="5.08" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P$5" x="7.62" y="2.54" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P$6" x="7.62" y="0" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P$7" x="7.62" y="-2.54" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P$8" x="7.62" y="-5.08" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P$9" x="7.62" y="-7.62" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P$10" x="7.62" y="-10.16" visible="pin" length="middle" swaplevel="1" rot="R180"/>
 <wire x1="5.08" y1="13.97" x2="-7.62" y2="13.97" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="13.97" x2="-7.62" y2="-11.938" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-11.938" x2="5.08" y2="-11.938" width="0.254" layer="94"/>
@@ -12908,8 +12908,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <attribute name="PARTNUMBER" value="311-0.0GRCT-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
-<part name="J3" library="Schuyler" deviceset="HEADER_0.1&quot;_" device="10P_2R_SMT"/>
 <part name="U$3" library="Schuyler" deviceset="SUP_GND" device=""/>
+<part name="J3" library="Schuyler" deviceset="HEADER_0.1&quot;_" device="10P_2R_SMT"/>
 </parts>
 <sheets>
 <sheet>
@@ -14428,49 +14428,49 @@ individual impedance).</text>
 <label x="378.46" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N3" class="0">
+<net name="FPGA_GPIO7" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IO_L12P_D1_MISO2_2"/>
 <wire x1="368.3" y1="167.64" x2="393.7" y2="167.64" width="0.1524" layer="91"/>
 <label x="378.46" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N4" class="0">
+<net name="FPGA_GPIO6" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IO_L12N_D2_MISO3_2"/>
 <wire x1="368.3" y1="165.1" x2="393.7" y2="165.1" width="0.1524" layer="91"/>
 <label x="378.46" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N5" class="0">
+<net name="FPGA_GPIO5" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IO_L13N_D10_2"/>
 <wire x1="368.3" y1="160.02" x2="393.7" y2="160.02" width="0.1524" layer="91"/>
 <label x="378.46" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N6" class="0">
+<net name="FPGA_GPIO4" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IO_L14P_D11_2"/>
 <wire x1="368.3" y1="157.48" x2="393.7" y2="157.48" width="0.1524" layer="91"/>
 <label x="378.46" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N7" class="0">
+<net name="FPGA_GPIO3" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IO_L14N_D12_2"/>
 <wire x1="368.3" y1="154.94" x2="393.7" y2="154.94" width="0.1524" layer="91"/>
 <label x="378.46" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N8" class="0">
+<net name="FPGA_GPIO2" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IO_L48P_D7_2"/>
 <wire x1="368.3" y1="132.08" x2="396.24" y2="132.08" width="0.1524" layer="91"/>
 <label x="378.46" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N9" class="0">
+<net name="FPGA_GPIO1" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IO_L48N_RDWR_B_VREF_2"/>
 <wire x1="368.3" y1="129.54" x2="398.78" y2="129.54" width="0.1524" layer="91"/>
@@ -16344,26 +16344,26 @@ cycle.</text>
 <attribute name="PARTNUMBER" x="411.48" y="119.38" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="SUPPLIER" x="411.48" y="119.38" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="D2" gate="G$1" x="218.44" y="152.4"/>
-<instance part="D3" gate="G$1" x="228.6" y="152.4"/>
-<instance part="D4" gate="G$1" x="238.76" y="152.4"/>
-<instance part="R42" gate="G$1" x="218.44" y="165.1" rot="R270">
-<attribute name="MANPARTNUMBER" x="218.44" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" x="218.44" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="PARTNUMBER" x="218.44" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="SUPPLIER" x="218.44" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
-<instance part="R43" gate="G$1" x="228.6" y="165.1" rot="R270">
+<instance part="D2" gate="G$1" x="228.6" y="152.4"/>
+<instance part="D3" gate="G$1" x="238.76" y="152.4"/>
+<instance part="D4" gate="G$1" x="248.92" y="152.4"/>
+<instance part="R42" gate="G$1" x="228.6" y="165.1" rot="R270">
 <attribute name="MANPARTNUMBER" x="228.6" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" x="228.6" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="PARTNUMBER" x="228.6" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="SUPPLIER" x="228.6" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="R44" gate="G$1" x="238.76" y="165.1" rot="R270">
+<instance part="R43" gate="G$1" x="238.76" y="165.1" rot="R270">
 <attribute name="MANPARTNUMBER" x="238.76" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" x="238.76" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="PARTNUMBER" x="238.76" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="SUPPLIER" x="238.76" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="R44" gate="G$1" x="248.92" y="165.1" rot="R270">
+<attribute name="MANPARTNUMBER" x="248.92" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="248.92" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="PARTNUMBER" x="248.92" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SUPPLIER" x="248.92" y="165.1" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="TP14" gate="G$1" x="78.74" y="111.76"/>
 <instance part="TP15" gate="G$1" x="177.8" y="101.6"/>
@@ -16376,7 +16376,7 @@ cycle.</text>
 <instance part="C93" gate="G$1" x="152.4" y="86.36"/>
 <instance part="U$19" gate="G$1" x="220.98" y="238.76"/>
 <instance part="U$20" gate="G$1" x="233.68" y="215.9"/>
-<instance part="U$21" gate="G$1" x="210.82" y="172.72"/>
+<instance part="U$21" gate="G$1" x="220.98" y="172.72"/>
 <instance part="U$69" gate="G$1" x="12.7" y="218.44"/>
 <instance part="U$70" gate="G$1" x="170.18" y="226.06"/>
 <instance part="U$71" gate="G$1" x="187.96" y="200.66"/>
@@ -16397,9 +16397,9 @@ cycle.</text>
 <instance part="U$86" gate="G$1" x="30.48" y="60.96"/>
 <instance part="U$87" gate="G$1" x="66.04" y="35.56"/>
 <instance part="U$88" gate="G$1" x="55.88" y="149.86"/>
-<instance part="U$89" gate="G$1" x="210.82" y="165.1"/>
-<instance part="J3" gate="G$1" x="175.26" y="154.94"/>
+<instance part="U$89" gate="G$1" x="220.98" y="165.1"/>
 <instance part="U$3" gate="G$1" x="355.6" y="83.82"/>
+<instance part="J3" gate="G$1" x="177.8" y="134.62" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -16681,22 +16681,27 @@ cycle.</text>
 <junction x="165.1" y="55.88"/>
 </segment>
 <segment>
-<wire x1="210.82" y1="172.72" x2="210.82" y2="170.18" width="0.1524" layer="91"/>
-<label x="210.82" y="170.18" size="1.778" layer="95"/>
-<wire x1="210.82" y1="170.18" x2="210.82" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="167.64" x2="182.88" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="172.72" x2="220.98" y2="170.18" width="0.1524" layer="91"/>
+<label x="220.98" y="170.18" size="1.778" layer="95"/>
+<wire x1="220.98" y1="170.18" x2="220.98" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="167.64" x2="185.42" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R42" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="170.18" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
-<junction x="210.82" y="170.18"/>
+<wire x1="220.98" y1="170.18" x2="228.6" y2="170.18" width="0.1524" layer="91"/>
+<junction x="220.98" y="170.18"/>
 <pinref part="R43" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="170.18" x2="228.6" y2="170.18" width="0.1524" layer="91"/>
-<junction x="218.44" y="170.18"/>
-<pinref part="R44" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="170.18" x2="238.76" y2="170.18" width="0.1524" layer="91"/>
 <junction x="228.6" y="170.18"/>
-<label x="182.88" y="167.64" size="1.778" layer="95"/>
+<pinref part="R44" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="170.18" x2="248.92" y2="170.18" width="0.1524" layer="91"/>
+<junction x="238.76" y="170.18"/>
+<label x="193.04" y="167.64" size="1.778" layer="95"/>
 <pinref part="U$21" gate="G$1" pin="3V3"/>
-<pinref part="J3" gate="G$1" pin="P$1"/>
+<pinref part="J3" gate="G$1" pin="P$9"/>
+<wire x1="185.42" y1="142.24" x2="185.42" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="236.22" y1="312.42" x2="190.5" y2="312.42" width="0.1524" layer="91"/>
+<label x="208.28" y="312.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC_VCMO" class="0">
@@ -17184,81 +17189,117 @@ cycle.</text>
 <segment>
 <pinref part="R44" gate="G$1" pin="2"/>
 <pinref part="D4" gate="G$1" pin="ANODE"/>
-<wire x1="238.76" y1="160.02" x2="238.76" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="160.02" x2="248.92" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="R43" gate="G$1" pin="2"/>
 <pinref part="D3" gate="G$1" pin="ANODE"/>
-<wire x1="228.6" y1="160.02" x2="228.6" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="160.02" x2="238.76" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="R42" gate="G$1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="ANODE"/>
-<wire x1="218.44" y1="160.02" x2="218.44" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="160.02" x2="228.6" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FPGA_GPIO7" class="0">
 <segment>
-<pinref part="D2" gate="G$1" pin="CATHODE"/>
-<wire x1="218.44" y1="149.86" x2="205.74" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="149.86" x2="205.74" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="162.56" x2="182.88" y2="162.56" width="0.1524" layer="91"/>
-<label x="182.88" y="162.56" size="1.778" layer="95"/>
+<label x="193.04" y="162.56" size="1.778" layer="95"/>
+<wire x1="215.9" y1="162.56" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="P$3"/>
+<wire x1="170.18" y1="142.24" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="231.14" y1="307.34" x2="190.5" y2="307.34" width="0.1524" layer="91"/>
+<label x="208.28" y="307.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FPGA_GPIO6" class="0">
 <segment>
-<wire x1="182.88" y1="160.02" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="160.02" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="CATHODE"/>
-<wire x1="203.2" y1="147.32" x2="228.6" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="147.32" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
-<label x="182.88" y="160.02" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="P$4"/>
+<label x="193.04" y="160.02" size="1.778" layer="95"/>
+<wire x1="215.9" y1="160.02" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="P$5"/>
+<wire x1="175.26" y1="142.24" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="160.02" x2="215.9" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="134.62" x2="228.6" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="CATHODE"/>
+<wire x1="228.6" y1="149.86" x2="228.6" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="190.5" y1="304.8" x2="228.6" y2="304.8" width="0.1524" layer="91"/>
+<label x="208.28" y="304.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FPGA_GPIO5" class="0">
 <segment>
+<wire x1="220.98" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
+<label x="193.04" y="157.48" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="P$6"/>
+<wire x1="177.8" y1="157.48" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="157.48" x2="220.98" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="CATHODE"/>
-<wire x1="238.76" y1="149.86" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="144.78" x2="200.66" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="144.78" x2="200.66" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="157.48" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
-<label x="182.88" y="157.48" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="P$5"/>
+<wire x1="220.98" y1="144.78" x2="248.92" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="144.78" x2="248.92" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="226.06" y1="302.26" x2="190.5" y2="302.26" width="0.1524" layer="91"/>
+<label x="208.28" y="302.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FPGA_GPIO4" class="0">
 <segment>
-<wire x1="182.88" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
-<label x="182.88" y="154.94" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="P$6"/>
+<label x="193.04" y="154.94" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="P$7"/>
+<wire x1="218.44" y1="154.94" x2="180.34" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="154.94" x2="180.34" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="154.94" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="CATHODE"/>
+<wire x1="218.44" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="137.16" x2="238.76" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="190.5" y1="299.72" x2="220.98" y2="299.72" width="0.1524" layer="91"/>
+<label x="208.28" y="299.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FPGA_GPIO3" class="0">
 <segment>
-<wire x1="182.88" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
-<label x="182.88" y="152.4" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="P$7"/>
+<label x="193.04" y="152.4" size="1.778" layer="95"/>
+<wire x1="205.74" y1="152.4" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="P$1"/>
+<wire x1="165.1" y1="152.4" x2="165.1" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="190.5" y1="297.18" x2="220.98" y2="297.18" width="0.1524" layer="91"/>
+<label x="208.28" y="297.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FPGA_GPIO2" class="0">
 <segment>
-<wire x1="182.88" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
-<label x="182.88" y="149.86" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="P$8"/>
+<label x="193.04" y="149.86" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="P$2"/>
+<wire x1="205.74" y1="149.86" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="149.86" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="190.5" y1="294.64" x2="220.98" y2="294.64" width="0.1524" layer="91"/>
+<label x="208.28" y="294.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FPGA_GPIO1" class="0">
 <segment>
-<wire x1="182.88" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
-<label x="182.88" y="147.32" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="P$9"/>
+<label x="193.04" y="147.32" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="P$4"/>
+<wire x1="205.74" y1="147.32" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="147.32" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="190.5" y1="292.1" x2="220.98" y2="292.1" width="0.1524" layer="91"/>
+<label x="208.28" y="292.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -17550,16 +17591,31 @@ cycle.</text>
 <junction x="55.88" y="149.86"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="165.1" x2="210.82" y2="165.1" width="0.1524" layer="91"/>
-<label x="182.88" y="165.1" size="1.778" layer="95"/>
+<wire x1="187.96" y1="165.1" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
+<label x="193.04" y="165.1" size="1.778" layer="95"/>
 <pinref part="U$89" gate="G$1" pin="GND"/>
-<pinref part="J3" gate="G$1" pin="P$2"/>
+<pinref part="J3" gate="G$1" pin="P$10"/>
+<wire x1="187.96" y1="142.24" x2="187.96" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PAD"/>
 <wire x1="363.22" y1="86.36" x2="355.6" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="86.36" x2="355.6" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="190.5" y1="309.88" x2="236.22" y2="309.88" width="0.1524" layer="91"/>
+<label x="208.28" y="309.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_GPIO0" class="0">
+<segment>
+<wire x1="193.04" y1="144.78" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
+<label x="193.04" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="190.5" y1="289.56" x2="223.52" y2="289.56" width="0.1524" layer="91"/>
+<label x="208.28" y="289.56" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
