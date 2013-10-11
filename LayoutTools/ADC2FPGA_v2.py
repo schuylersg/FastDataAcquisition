@@ -40,10 +40,10 @@ fpgaLoc = [60, RoundMIL(adcLoc[1]+1*MM2MIL)]
 adcPinLoc = []
 fpgaPinLoc = []
 
-tW = 4 #Track width
-tD = 6 #Differential track distance
+tW = 6 #Track width
+tD = 4 #Differential track distance
 tS = 16 #Track spacing between different differential pairs
-tB = 5*tW #Track spacing between the same differential pair in bends, etc.  !!!! 5 tW is the minimum that allows for a radius of curvature of Rin 3x tW
+tB = 16 #5*tW #Track spacing between the same differential pair in bends, etc.  !!!! 5 tW is the minimum that allows for a radius of curvature of Rin 3x tW
 
 padExit = 40 #the length out of the pad to extend before moving to tD with differential pair
 postPar = 10 #the length after the two tracks are brought together before bends/etc.
