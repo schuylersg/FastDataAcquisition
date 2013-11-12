@@ -1,6 +1,9 @@
 ToDo:
 
 1. Add test points
+2. Fix meander on LVDS lines so constant spacing maintained
+3. Check all impedance controlled lines for correct width 
+   given new 5/5 spacing.
 XXXXXXXXXXXXXXX2. Breakout power temperature
 XXXXXXXXXXXXXXX2. Add status LEDs
 XXXXXXXXXXXXXXX3. Breakout Excess fpga lines
