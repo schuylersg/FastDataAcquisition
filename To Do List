@@ -1,10 +1,11 @@
 ToDo:
 
 1. Add test points
+XXXXXXXXXXXXXXX2. Breakout power temperature
 XXXXXXXXXXXXXXX2. Add status LEDs
-XXXXXXXXXXXXXXX3. Breakout Exces fpga lines
+XXXXXXXXXXXXXXX3. Breakout Excess fpga lines
 XXXXXXXXXXXXXXX4. Add mounting holes
-5. Finalize trigger circuit (possibly done...)
+XXXXXXXXXXXXXXX5. Finalize trigger circuit (possibly done...)
 XXXXXXXXXXXXXXX31. Pick FPGA oscillator
 XXXXXXXXXXXXXXX3. Add temperature IC
 XXXXXXXXXXXXXXX4. Power system...
