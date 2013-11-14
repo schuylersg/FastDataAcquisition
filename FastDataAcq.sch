@@ -11530,8 +11530,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="LVDS" width="0.1524" drill="0">
-<clearance class="1" value="0.1016"/>
+<class number="1" name="50_Ohm" width="0.2794" drill="0">
+<clearance class="1" value="0.254"/>
 </class>
 <class number="2" name="Power" width="0" drill="0">
 <clearance class="2" value="0.1524"/>
@@ -12735,14 +12735,14 @@ individual impedance).</text>
 <label x="45.72" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ADC_VINI-" class="0">
+<net name="ADC_VINI-" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="VINI-"/>
 <wire x1="68.58" y1="162.56" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
 <label x="45.72" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ADC_VINI+" class="0">
+<net name="ADC_VINI+" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="VINI+"/>
 <wire x1="68.58" y1="160.02" x2="45.72" y2="160.02" width="0.1524" layer="91"/>
@@ -12769,14 +12769,14 @@ individual impedance).</text>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="ADC_CLK+" class="0">
+<net name="ADC_CLK_P" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="CLK+"/>
 <wire x1="68.58" y1="142.24" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
 <label x="45.72" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ADC_CLK-" class="0">
+<net name="ADC_CLK_N" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="CLK-"/>
 <wire x1="68.58" y1="139.7" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
@@ -16053,7 +16053,7 @@ cycle.</text>
 <pinref part="L11" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="CLK500-" class="0">
+<net name="CLK500_N" class="3">
 <segment>
 <pinref part="Y1" gate="G$1" pin="CLK-"/>
 <wire x1="45.72" y1="241.3" x2="63.5" y2="241.3" width="0.1524" layer="91"/>
@@ -16061,7 +16061,7 @@ cycle.</text>
 <pinref part="C79" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="CLK500+" class="0">
+<net name="CLK500_P" class="3">
 <segment>
 <pinref part="Y1" gate="G$1" pin="CLK+"/>
 <wire x1="45.72" y1="236.22" x2="63.5" y2="236.22" width="0.1524" layer="91"/>
@@ -16069,14 +16069,14 @@ cycle.</text>
 <pinref part="C82" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="ADC_CLK-" class="0">
+<net name="ADC_CLK_N" class="0">
 <segment>
 <pinref part="C82" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="236.22" x2="91.44" y2="236.22" width="0.1524" layer="91"/>
 <label x="78.74" y="236.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ADC_CLK+" class="0">
+<net name="ADC_CLK_P" class="0">
 <segment>
 <pinref part="C79" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="241.3" x2="91.44" y2="241.3" width="0.1524" layer="91"/>
@@ -16099,14 +16099,14 @@ cycle.</text>
 <label x="58.42" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ADC_VINI+" class="0">
+<net name="ADC_VINI+" class="1">
 <segment>
 <pinref part="U$10" gate="G$1" pin="VOUT+"/>
 <wire x1="73.66" y1="86.36" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
 <label x="78.74" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ADC_VINI-" class="0">
+<net name="ADC_VINI-" class="1">
 <segment>
 <pinref part="U$10" gate="G$1" pin="VOUT-"/>
 <wire x1="73.66" y1="76.2" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
@@ -16323,7 +16323,7 @@ cycle.</text>
 <label x="22.86" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SIGNAL_IN" class="0">
+<net name="SIGNAL_IN" class="1">
 <segment>
 <pinref part="U$10" gate="G$1" pin="VIN+"/>
 <wire x1="12.7" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
