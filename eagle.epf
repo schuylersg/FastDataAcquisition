@@ -361,8 +361,8 @@ UsedLibrary="D:/System Folders/GitHub/SparkFun-Eagle-Libraries/SparkFun-Sensors.
 
 [Win_1]
 Type="Control Panel"
-Loc="555 168 1221 897"
-State=1
+Loc="93 126 759 855"
+State=2
 Number=0
 
 [Desktop]
