@@ -1,8 +1,17 @@
 ToDo:
 
-1. Add test points
-2. Add case shielding holes
-3. Double check values with part numbers
+1. Add case shielding holes
+
+XXXXXXXX 1. Add test points
+XXXXXXXX	1. 1V9A
+XXXXXXXX	2. 1V9D
+XXXXXXXX	3. 1V9
+XXXXXXXX	4. 1V9_pre
+XXXXXXXX	5. 1V2
+XXXXXXXX	6. 1V8
+XXXXXXXX	8. 3V3
+XXXXXXXX	9. 3V3S
+XXXXXXXXXXXXXXX3. Double check values with part numbers
 XXXXXXXXXXXXXXX22. Fix meander on LVDS lines so constant spacing maintained
 XXXXXXXXXXXXXXX23. Check all impedance controlled lines for correct width given new 5/5 spacing.
 XXXXXXXXXXXXXXX2. Breakout power temperature

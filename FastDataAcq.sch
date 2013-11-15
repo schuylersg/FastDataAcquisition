@@ -259,9 +259,9 @@
 <wire x1="10" y1="10" x2="8.2" y2="10" width="0.204" layer="21"/>
 <wire x1="-10" y1="8.2" x2="-10" y2="10" width="0.204" layer="21"/>
 <wire x1="-10" y1="10" x2="-8.2" y2="10" width="0.204" layer="21"/>
-<circle x="-9.5" y="-11" radius="0.15" width="0.3" layer="21"/>
-<text x="-10" y="-14" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-10" y="-16" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<circle x="-9.5" y="-11" radius="0.2032" width="0.4064" layer="21"/>
+<text x="-10.033" y="-13.97" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="-9.906" y="-16.002" size="1.016" layer="27" font="vector">&gt;VALUE</text>
 <smd name="P$130" x="1.8" y="0.6" dx="1" dy="1" layer="1"/>
 <smd name="P$131" x="-0.6" y="0.6" dx="1" dy="1" layer="1"/>
 <smd name="P$132" x="-1.8" y="0.6" dx="1" dy="1" layer="1"/>
@@ -440,9 +440,9 @@
 <wire x1="9.2" y1="-10" x2="9.6" y2="-10" width="0.204" layer="21"/>
 <wire x1="9.6" y1="-10" x2="10" y2="-9.6" width="0.204" layer="21"/>
 <wire x1="10" y1="-9.6" x2="10" y2="-9.2" width="0.204" layer="21"/>
-<circle x="-9.5" y="-12" radius="0.15" width="0.3" layer="21"/>
-<text x="-10" y="-14" size="0.609" layer="25" font="vector">&gt;NAME</text>
-<text x="-10" y="-16" size="0.609" layer="27" font="vector">&gt;VALUE</text>
+<circle x="-10.16" y="-12.573" radius="0.2032" width="0.4064" layer="21"/>
+<text x="0" y="-13.335" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-14.732" size="1.016" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 <package name="2220_FERRITE_BEAD">
 <description>PCB land pattern for 2220 ferrite bead. Dimensions from http://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/ACC_Series_Rev20010531.pdf
@@ -468,9 +468,9 @@ for HF50ACC575032. Verified=false.</description>
 <wire x1="2.5" y1="3.5" x2="-2.5" y2="3.5" width="0.127" layer="51"/>
 <wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.2032" layer="21"/>
 <wire x1="-2.54" y1="-3.81" x2="2.54" y2="-3.81" width="0.2032" layer="21"/>
-<circle x="-3.9" y="2.7" radius="0.2" width="0.4" layer="21"/>
-<text x="0" y="5" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-5" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<circle x="-3.81" y="2.667" radius="0.2032" width="0.4064" layer="21"/>
+<text x="0" y="4.572" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-4.572" size="1.016" layer="27" align="center">&gt;VALUE</text>
 </package>
 <package name="0204REVERSE">
 <description>Reverse geometry of standard 0204 package. From  http://product.tdk.com/capacitor/mlcc/en/documents/mlcc_commercial_lwreverse_en.pdf</description>
@@ -486,8 +486,8 @@ for HF50ACC575032. Verified=false.</description>
 <wire x1="-0.26" y1="-0.5" x2="-0.26" y2="0.5" width="0.0254" layer="51"/>
 <wire x1="0.16" y1="0.5" x2="0.16" y2="-0.5" width="0.0254" layer="51"/>
 <wire x1="-0.16" y1="0.5" x2="-0.16" y2="-0.5" width="0.0254" layer="51"/>
-<text x="0" y="-0.8128" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-1.0668" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="-0.889" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 <wire x1="-0.387" y1="0.627" x2="0.387" y2="0.627" width="0.0508" layer="39"/>
 <wire x1="0.387" y1="0.627" x2="0.387" y2="-0.626" width="0.0508" layer="39"/>
 <wire x1="0.387" y1="-0.626" x2="-0.387" y2="-0.627" width="0.0508" layer="39"/>
@@ -519,9 +519,9 @@ for HF50ACC575032. Verified=false.</description>
 <wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.3" layer="21"/>
 <wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.3" layer="21"/>
 <wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.3" layer="21"/>
-<circle x="1.5" y="3" radius="0.15" width="0.3" layer="21"/>
-<text x="-2.5" y="6" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.5" y="4" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<circle x="1.524" y="3.302" radius="0.2032" width="0.4064" layer="21"/>
+<text x="-3.302" y="0" size="1.016" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
+<text x="3.302" y="0" size="1.016" layer="27" font="vector" rot="R90" align="center">&gt;VALUE</text>
 </package>
 <package name="SC-70">
 <description>SC-70 Package. Take from TI LMV321 datasheet. Verified=false.</description>
@@ -544,12 +544,12 @@ for HF50ACC575032. Verified=false.</description>
 <wire x1="0.65" y1="-0.625" x2="0.65" y2="-1.1" width="0.225" layer="51"/>
 <wire x1="0.65" y1="0.625" x2="0.65" y2="1.1" width="0.225" layer="51"/>
 <wire x1="-0.65" y1="0.625" x2="-0.65" y2="1.1" width="0.225" layer="51"/>
-<circle x="-0.65" y="-1.9" radius="0.1" width="0.225" layer="21"/>
+<circle x="-1.524" y="-1.27" radius="0.2032" width="0.4064" layer="21"/>
 <wire x1="-1" y1="0.4" x2="-1" y2="-0.4" width="0.225" layer="21"/>
 <wire x1="-0.2" y1="0.625" x2="0.2" y2="0.625" width="0.225" layer="21"/>
 <wire x1="1" y1="0.4" x2="1" y2="-0.4" width="0.225" layer="21"/>
-<text x="-1" y="-3" size="0.5" layer="25" font="vector">&gt;NAME</text>
-<text x="-1" y="-4" size="0.5" layer="27" font="vector">&gt;VALUE</text>
+<text x="0" y="-2.54" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-3.81" size="1.016" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 <package name="0306REVERSE">
 <description>Land pattern for 0306 (0816 metric) reverse geometry capacitor. http://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/C_Series_LowESL_ReverseGeometry_B11.pdf</description>
@@ -634,11 +634,11 @@ for HF50ACC575032. Verified=false.</description>
 <wire x1="3.2" y1="1.625" x2="2.2" y2="1.625" width="0.24" layer="51"/>
 <wire x1="3.2" y1="2.275" x2="2.2" y2="2.275" width="0.24" layer="51"/>
 <wire x1="3.2" y1="2.925" x2="2.2" y2="2.925" width="0.24" layer="51"/>
-<wire x1="-1.95" y1="3.25" x2="1.95" y2="3.25" width="0.2032" layer="21"/>
-<wire x1="-1.95" y1="-3.25" x2="1.95" y2="-3.25" width="0.2032" layer="21"/>
-<circle x="-4.565" y="3.25" radius="0.1016" width="0.254" layer="21"/>
-<text x="0" y="4.55" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-4.55" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.823" y1="3.25" x2="1.823" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="-1.823" y1="-3.25" x2="1.823" y2="-3.25" width="0.2032" layer="21"/>
+<circle x="-4.572" y="3.302" radius="0.2032" width="0.4064" layer="21"/>
+<text x="0" y="4.191" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-4.191" size="1.016" layer="27" align="center">&gt;VALUE</text>
 </package>
 <package name="USB_MICROAB_SMT_1">
 <description>Land pattern for USB Micro AB from http://portal.fciconnect.com/Comergent//fci/drawing/10104111.pdf 
@@ -678,7 +678,7 @@ Digikey Part Number 609-4053-1-ND</description>
 <wire x1="-3.75" y1="4.3" x2="-2" y2="4.3" width="0.2032" layer="21" style="shortdash"/>
 <wire x1="2" y1="4.3" x2="3.75" y2="4.3" width="0.2032" layer="21" style="shortdash"/>
 <wire x1="3.75" y1="4.3" x2="3.75" y2="3" width="0.2032" layer="21" style="shortdash"/>
-<text x="-2" y="5" size="1.27" layer="25" font="vector" align="bottom-right">&gt;NAME</text>
+<text x="0" y="5.842" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
 <dimension x1="1" y1="0" x2="3" y2="-4" x3="6" y3="-4" textsize="1.27" layer="51" dtype="leader"/>
 <text x="6.5" y="-4" size="1.27" layer="51" font="vector" align="center-left">PCB Edge</text>
 </package>
@@ -696,8 +696,8 @@ Digikey Part Number 609-4053-1-ND</description>
 <rectangle x1="-1.87" y1="0.55" x2="-0.67" y2="1.55" layer="51"/>
 <rectangle x1="-1.87" y1="-1.55" x2="-0.67" y2="-0.55" layer="51"/>
 <rectangle x1="0.67" y1="-1.55" x2="1.87" y2="-0.55" layer="51"/>
-<text x="0" y="5" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="3" size="1.27" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="2.794" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-3.302" size="1.016" layer="27" font="vector" align="center">&gt;VALUE</text>
 <circle x="-1.6" y="-2.5" radius="0.1524" width="0.3048" layer="21"/>
 </package>
 <package name="UMAX8">
@@ -725,9 +725,9 @@ Digikey Part Number 609-4053-1-ND</description>
 <circle x="-0.9" y="0.9" radius="0.25" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.2032" layer="21"/>
 <wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.2286" layer="21"/>
-<circle x="-2" y="1.75" radius="0.1016" width="0.2032" layer="21"/>
-<text x="0" y="2" size="0.635" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-2" size="0.635" layer="27" font="vector" align="center">&gt;VALUE</text>
+<circle x="-2.635" y="1.75" radius="0.2032" width="0.4064" layer="21"/>
+<text x="0" y="2.286" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-2.286" size="1.016" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 <package name="SOT23-8">
 <description>SOT23-8 package from TI described here: 
@@ -755,9 +755,9 @@ http://www.ti.com/lit/ds/symlink/tmp421.pdf</description>
 <circle x="-1" y="-0.5" radius="0.1016" width="0.05" layer="51"/>
 <wire x1="-1.5" y1="0.8" x2="-1.5" y2="-0.8" width="0.2032" layer="21"/>
 <wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.2032" layer="21"/>
-<circle x="-1.7" y="-1.3" radius="0.1016" width="0.2032" layer="21"/>
-<text x="-2.5" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
-<text x="2.5" y="0" size="0.8128" layer="27" font="vector" rot="R90" align="center">&gt;VALUE</text>
+<circle x="-2.032" y="-1.905" radius="0.2032" width="0.4064" layer="21"/>
+<text x="-2.54" y="0" size="1.016" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
+<text x="2.5" y="0" size="1.016" layer="27" font="vector" rot="R90" align="center">&gt;VALUE</text>
 </package>
 <package name="SOT23-6">
 <description>SOT23-6 land pattern described by TI here: http://www.ti.com/lit/ds/symlink/dac101c081.pdf</description>
@@ -778,10 +778,11 @@ http://www.ti.com/lit/ds/symlink/tmp421.pdf</description>
 <rectangle x1="-0.2" y1="0.8" x2="0.2" y2="1.4" layer="51"/>
 <rectangle x1="-1.15" y1="0.8" x2="-0.75" y2="1.4" layer="51"/>
 <circle x="-0.95" y="-0.4" radius="0.2032" width="0.1" layer="51"/>
-<text x="-3" y="0" size="1.27" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
-<text x="3" y="0" size="1.27" layer="27" font="vector" rot="R90" align="center">&gt;VALUE</text>
+<text x="-2.286" y="0" size="1.016" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
+<text x="2.286" y="0" size="1.016" layer="27" font="vector" rot="R90" align="center">&gt;VALUE</text>
 <wire x1="-1.5" y1="0.8" x2="-1.5" y2="-0.8" width="0.2032" layer="21"/>
 <wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.2032" layer="21"/>
+<circle x="-1.27" y="-2.54" radius="0.2032" width="0.4064" layer="21"/>
 </package>
 <package name="38-QFN_(5X7)">
 <description>38 pin with ground pad QFN package. 5x7mm. Layout from http://cds.linear.com/docs/en/datasheet/3374f.pdf</description>
@@ -828,7 +829,7 @@ http://www.ti.com/lit/ds/symlink/tmp421.pdf</description>
 <wire x1="3.5" y1="2.5" x2="3.5" y2="-2.5" width="0.0508" layer="51"/>
 <wire x1="3.5" y1="-2.5" x2="-3.5" y2="-2.5" width="0.0508" layer="51"/>
 <wire x1="-3.5" y1="-2.5" x2="-3.5" y2="2.5" width="0.0508" layer="51"/>
-<circle x="-3.45" y="-3.2" radius="0.1524" width="0.3048" layer="21"/>
+<circle x="-3.45" y="-3.2" radius="0.2032" width="0.4064" layer="21"/>
 <wire x1="-3.2" y1="2.5" x2="-3.5" y2="2.5" width="0.2032" layer="21"/>
 <wire x1="-3.5" y1="2.5" x2="-3.5" y2="2" width="0.2032" layer="21"/>
 <wire x1="3.2" y1="2.5" x2="3.5" y2="2.5" width="0.2032" layer="21"/>
@@ -837,8 +838,8 @@ http://www.ti.com/lit/ds/symlink/tmp421.pdf</description>
 <wire x1="3.5" y1="-2.5" x2="3.5" y2="-2" width="0.2032" layer="21"/>
 <wire x1="-3.2" y1="-2.5" x2="-3.5" y2="-2.5" width="0.2032" layer="21"/>
 <wire x1="-3.5" y1="-2.5" x2="-3.5" y2="-2" width="0.2032" layer="21"/>
-<text x="-5" y="0" size="1.27" layer="25" rot="R90" align="center">&gt;NAME</text>
-<text x="5" y="0" size="1.27" layer="27" rot="R90" align="center">&gt;VALUE</text>
+<text x="-5.08" y="0" size="1.016" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
+<text x="5.08" y="0" size="1.016" layer="27" font="vector" rot="R90" align="center">&gt;VALUE</text>
 </package>
 <package name="TSSOP38_LT">
 <description>38 pin TSSOP with ground pad from Linear Technologies.  http://cds.linear.com/docs/en/datasheet/3374f.pdf</description>
@@ -945,8 +946,8 @@ http://www.ti.com/lit/ds/symlink/tmp421.pdf</description>
 <wire x1="-1.8" y1="-1" x2="-1.8" y2="-1.5" width="0.2032" layer="21"/>
 <wire x1="-1.8" y1="-1.5" x2="1.8" y2="-1.5" width="0.2032" layer="21"/>
 <wire x1="1.8" y1="-1.5" x2="1.8" y2="-1" width="0.2032" layer="21"/>
-<text x="0" y="2.2" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-2.3" size="1.016" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="2.159" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-2.159" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 <package name="5.18X5.49_VISHAY">
 <description>Land pattern for 5.18 x 5.49 mm Vishay Inductor.</description>
@@ -964,8 +965,8 @@ http://www.ti.com/lit/ds/symlink/tmp421.pdf</description>
 <wire x1="-2.745" y1="-1.75" x2="-2.745" y2="-2.59" width="0.2032" layer="21"/>
 <wire x1="-2.745" y1="-2.59" x2="2.745" y2="-2.59" width="0.2032" layer="21"/>
 <wire x1="2.745" y1="-2.59" x2="2.745" y2="-1.75" width="0.2032" layer="21"/>
-<text x="0" y="3.4" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-3.5" size="1.016" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="3.302" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-3.302" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 <package name="SOT223">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;
@@ -976,8 +977,8 @@ SOT-223 defined in http://cds.linear.com/docs/en/datasheet/1963aff.pdf</descript
 <wire x1="-3.2512" y1="1.7526" x2="3.2512" y2="1.7526" width="0.2032" layer="21"/>
 <smd name="1" x="-2.2987" y="-3.1496" dx="0.9906" dy="1.4986" layer="1"/>
 <smd name="4" x="0" y="3.1496" dx="3.2766" dy="1.4986" layer="1"/>
-<text x="-4.8768" y="0" size="1.27" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
-<text x="4.8768" y="0" size="1.27" layer="27" rot="R90" align="center">&gt;VALUE</text>
+<text x="-4.826" y="0" size="1.016" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
+<text x="4.826" y="0" size="1.016" layer="27" rot="R90" align="center">&gt;VALUE</text>
 <rectangle x1="-1.5113" y1="1.8034" x2="1.5113" y2="3.49885" layer="51"/>
 <rectangle x1="-0.36195" y1="-3.49885" x2="0.36195" y2="-1.8034" layer="51"/>
 <rectangle x1="-2.66065" y1="-3.49885" x2="-1.93675" y2="-1.8034" layer="51"/>
@@ -1033,15 +1034,14 @@ SOT-223 defined in http://cds.linear.com/docs/en/datasheet/1963aff.pdf</descript
 <wire x1="-0.3048" y1="1.4986" x2="-1.4986" y2="1.4986" width="0" layer="51"/>
 <wire x1="-1.4986" y1="1.4986" x2="-1.4986" y2="-1.4986" width="0" layer="51"/>
 <wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0" layer="51" curve="-180"/>
-<text x="-2.8702" y="1.27" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <wire x1="-1.1684" y1="-1.4986" x2="1.1684" y2="-1.4986" width="0.1524" layer="21"/>
 <wire x1="1.1684" y1="1.4986" x2="0.3048" y2="1.4986" width="0.1524" layer="21"/>
 <wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0.1524" layer="21"/>
 <wire x1="-0.3048" y1="1.4986" x2="-1.1684" y2="1.4986" width="0.1524" layer="21"/>
 <wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0.1524" layer="21" curve="-180"/>
-<text x="-2.8702" y="1.27" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="0" y="2" size="0.3048" layer="25" font="vector" ratio="10" rot="SR0" align="center">&gt;NAME</text>
-<text x="0" y="-2" size="0.3048" layer="27" font="vector" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
+<text x="0" y="2.286" size="1.016" layer="25" font="vector" ratio="10" rot="SR0" align="center">&gt;NAME</text>
+<text x="0" y="-2.286" size="1.016" layer="27" font="vector" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
+<circle x="-3.175" y="1.905" radius="0.2032" width="0.4064" layer="21"/>
 </package>
 <package name="C_AND_K_1101M2S3AQE2">
 <description>Slider SPDT switch 1101M2S3AQE2 from X&amp;K Corp. http://www.ck-components.com/index.php?module=media&amp;action=Display&amp;cmpref=14394&amp;lang=en&amp;width=&amp;height=&amp;format=&amp;alt=</description>
@@ -1085,8 +1085,8 @@ SOT-223 defined in http://cds.linear.com/docs/en/datasheet/1963aff.pdf</descript
 <wire x1="-3.5" y1="-3" x2="3.5" y2="-3" width="0.2032" layer="21"/>
 <wire x1="3.5" y1="-0.5" x2="3.5" y2="0.5" width="0.2032" layer="21"/>
 <wire x1="-3.5" y1="-0.5" x2="-3.5" y2="0.5" width="0.2032" layer="21"/>
-<text x="0" y="4" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-4" size="1.27" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="3.556" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-3.556" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 <package name="MICRO-FIT_3.0_2POS_VERT_THROUGH">
 <description>http://www.molex.com/pdm_docs/sd/436500215_sd.pdf</description>
@@ -1135,7 +1135,7 @@ Distance</text>
 <wire x1="-4.8" y1="-2.3" x2="-4.8" y2="-5.8" width="0.2032" layer="21"/>
 <wire x1="-4.8" y1="-5.8" x2="4.8" y2="-5.8" width="0.2032" layer="21"/>
 <wire x1="4.8" y1="-5.8" x2="4.8" y2="-2.4" width="0.2032" layer="21"/>
-<text x="-9" y="7" size="1.27" layer="21" font="vector">&gt;NAME</text>
+<text x="0" y="6.858" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
 </package>
 <package name="MURATA_BLM18">
 <description>Land pattern for Murata 0603. http://www.murata.com/products/catalog/pdf/c50e.pdf  p.69</description>
@@ -1147,8 +1147,8 @@ Distance</text>
 <wire x1="0.8" y1="0.4" x2="-0.8" y2="0.4" width="0.0508" layer="51"/>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.4" y2="0.4" layer="51"/>
 <rectangle x1="0.4" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
-<text x="0" y="0.8255" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="0.889" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 <wire x1="-0.9398" y1="0.5334" x2="0.9398" y2="0.5334" width="0.0508" layer="39"/>
 <wire x1="0.9398" y1="0.5334" x2="0.9398" y2="-0.5334" width="0.0508" layer="39"/>
 <wire x1="0.9398" y1="-0.5334" x2="-0.9398" y2="-0.5334" width="0.0508" layer="39"/>
@@ -1172,8 +1172,8 @@ Distance</text>
 <wire x1="-4" y1="-2.15" x2="-4" y2="-2" width="0.2032" layer="21"/>
 <circle x="3.1" y="2.9" radius="0.2032" width="0.4064" layer="21"/>
 <wire x1="1" y1="2" x2="1" y2="-2" width="0.2032" layer="21"/>
-<text x="0" y="3" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-3" size="1.27" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="2.794" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-2.794" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 <package name="0603_LED">
 <description>Land pattern for 0603 LED from Lite On. http://optoelectronics.liteon.com/en-us/api/DwonloadFileHandler.ashx?txtSpecNo=DS22-2007-0094&amp;txtPartNo=LTST-C193KGKT-5A</description>
@@ -1183,9 +1183,9 @@ Distance</text>
 <wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.0508" layer="51"/>
 <wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.0508" layer="51"/>
 <wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.0508" layer="51"/>
-<text x="0.6" y="0.6" size="0.3048" layer="21">+</text>
-<text x="0" y="1" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-1" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="1.016" y="-0.762" size="0.6096" layer="21" align="center">+</text>
+<text x="0" y="1" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 <package name="0402_C">
 <description>Footprint for 0402 from Vishay. http://www.vishay.com/docs/45017/vjsoldfo.pdf</description>
@@ -1199,8 +1199,8 @@ Distance</text>
 <wire x1="0.635" y1="0.381" x2="0.635" y2="-0.381" width="0.0508" layer="39" style="shortdash"/>
 <wire x1="0.635" y1="-0.381" x2="-0.635" y2="-0.381" width="0.0508" layer="39"/>
 <wire x1="-0.635" y1="-0.381" x2="-0.635" y2="0.381" width="0.0508" layer="39"/>
-<text x="0" y="0.508" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-0.508" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 <package name="AYZ0102AGRLC">
 <description>Layout for Slider Switch by C&amp;K AYZ0102AGRLC.</description>
@@ -1218,18 +1218,14 @@ Distance</text>
 <rectangle x1="-0.254" y1="1.4986" x2="0.254" y2="2.794" layer="51"/>
 <rectangle x1="-2.7432" y1="1.4986" x2="-2.2352" y2="2.794" layer="51"/>
 <rectangle x1="2.2352" y1="1.4986" x2="2.7432" y2="2.794" layer="51"/>
+<wire x1="-3.6068" y1="1.4986" x2="-3.6068" y2="-1.4986" width="0.127" layer="21"/>
+<wire x1="-3.6068" y1="-1.4986" x2="3.6068" y2="-1.4986" width="0.127" layer="21"/>
+<wire x1="3.6068" y1="-1.4986" x2="3.6068" y2="1.4986" width="0.127" layer="21"/>
+<wire x1="3.6068" y1="1.4986" x2="-3.6068" y2="1.4986" width="0.127" layer="21"/>
 <wire x1="-1.4986" y1="-1.4986" x2="-1.4986" y2="-2.4892" width="0.127" layer="51"/>
 <wire x1="-1.4986" y1="-2.4892" x2="0" y2="-2.4892" width="0.127" layer="51"/>
 <wire x1="0" y1="-2.4892" x2="0" y2="-1.4986" width="0.127" layer="51"/>
-<wire x1="-3.6068" y1="1.4986" x2="-3.6068" y2="-1.4986" width="0.127" layer="21"/>
-<wire x1="-3.6068" y1="-1.4986" x2="-1.4986" y2="-1.4986" width="0.127" layer="21"/>
-<wire x1="-1.4986" y1="-1.4986" x2="0" y2="-1.4986" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.4986" x2="3.6068" y2="-1.4986" width="0.127" layer="21"/>
-<wire x1="3.6068" y1="-1.4986" x2="3.6068" y2="1.4986" width="0.127" layer="21"/>
-<wire x1="3.6068" y1="1.4986" x2="-3.6068" y2="1.4986" width="0.127" layer="21"/>
-<wire x1="-1.4986" y1="-1.4986" x2="-1.4986" y2="-2.4892" width="0.127" layer="21"/>
-<wire x1="-1.4986" y1="-2.4892" x2="0" y2="-2.4892" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.4892" x2="0" y2="-1.4986" width="0.127" layer="21"/>
+<text x="0" y="4.445" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
 </package>
 <package name="10-DFN">
 <description>10-DFN Exposed Pad package from LTC. http://cds.linear.com/docs/en/datasheet/2955f.pdf</description>
@@ -1261,9 +1257,9 @@ Distance</text>
 <rectangle x1="-1.195" y1="-0.32" x2="1.195" y2="0.32" layer="51"/>
 <wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.2032" layer="21"/>
 <wire x1="1.5" y1="1" x2="1.5" y2="-1" width="0.2032" layer="21"/>
-<circle x="-1" y="-1.75" radius="0.1016" width="0.2032" layer="21"/>
-<text x="-2" y="0" size="0.4064" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
-<text x="2" y="0" size="0.4064" layer="21" font="vector" rot="R90" align="center">&gt;VALUE</text>
+<circle x="-1.016" y="-2.032" radius="0.2032" width="0.4064" layer="21"/>
+<text x="-2.286" y="0" size="1.016" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
+<text x="2.286" y="0" size="1.016" layer="27" font="vector" rot="R90" align="center">&gt;VALUE</text>
 </package>
 <package name="HEADER_8P_2R_SMT">
 <description>8 pin smt dual row header. http://www.molex.com/pdm_docs/sd/015910100_sd.pdf</description>
@@ -1289,11 +1285,11 @@ Distance</text>
 <rectangle x1="3.6068" y1="2.54" x2="4.0132" y2="3.4925" layer="51" rot="R180"/>
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.2032" layer="21"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.2032" layer="21"/>
-<text x="5.715" y="0" size="0.635" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
-<text x="-3.81" y="-5.08" size="0.635" layer="21" font="vector" rot="R270" align="center">1</text>
-<text x="3.81" y="-5.08" size="0.635" layer="21" font="vector" rot="R270" align="center">7</text>
-<text x="3.81" y="5.08" size="0.635" layer="21" font="vector" rot="R270" align="center">8</text>
-<text x="-3.81" y="5.08" size="0.635" layer="21" font="vector" rot="R270" align="center">2</text>
+<text x="5.842" y="0" size="1.016" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
+<text x="-3.81" y="-4.445" size="0.635" layer="21" font="vector" rot="R270" align="center">1</text>
+<text x="3.81" y="-4.445" size="0.635" layer="21" font="vector" rot="R270" align="center">7</text>
+<text x="3.81" y="4.572" size="0.635" layer="21" font="vector" rot="R270" align="center">8</text>
+<text x="-3.81" y="4.572" size="0.635" layer="21" font="vector" rot="R270" align="center">2</text>
 </package>
 </packages>
 <symbols>
@@ -3546,8 +3542,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-0.3" y1="-0.6" x2="0.3" y2="-0.6" width="0.1524" layer="21"/>
 <smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
 <smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="0" y="0.8255" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-0.8255" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="1.016" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 <wire x1="-1.143" y1="0.762" x2="1.143" y2="0.762" width="0.0508" layer="39"/>
 <wire x1="1.143" y1="0.762" x2="1.143" y2="-0.762" width="0.0508" layer="39"/>
 <wire x1="1.143" y1="-0.762" x2="-1.143" y2="-0.762" width="0.0508" layer="39"/>
@@ -3742,6 +3738,15 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <circle x="0" y="0" radius="0.40160625" width="0" layer="29"/>
 <circle x="2.54" y="0" radius="0.40160625" width="0" layer="29"/>
 </package>
+<package name="PAD.02X.02">
+<smd name="P$1" x="0" y="0" dx="0.508" dy="0.508" layer="1"/>
+</package>
+<package name="PAD.03X.03">
+<smd name="P$1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.05">
+<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -3753,6 +3758,13 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="TEST-POINT">
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;Value</text>
+<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3887,6 +3899,38 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT" prefix="TP">
+<description>Bare copper test points for troubleshooting or ICT</description>
+<gates>
+<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2" package="PAD.02X.02">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3" package="PAD.03X.03">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X5" package="PAD.03X.05">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4987,8 +5031,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="1.016" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -6473,8 +6517,8 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
 <smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1" roundness="12"/>
 <smd name="2" x="0.25" y="0" dx="0.25" dy="0.35" layer="1" roundness="12"/>
-<text x="0" y="0.635" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="0.635" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
 <rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
 <rectangle x1="-0.15" y1="0.1" x2="0.15" y2="0.15" layer="51"/>
@@ -6518,8 +6562,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-0.635" y1="-0.381" x2="-0.635" y2="0.381" width="0.0508" layer="39"/>
 <smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
 <smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="0" y="0.635" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="0.889" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
@@ -6534,8 +6578,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-0.889" y1="-0.508" x2="-0.889" y2="0.508" width="0.0508" layer="39"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="0" y="1.016" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-1.016" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="1.016" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
@@ -7804,11 +7848,11 @@ type 0309, grid 2.5 mm</description>
 Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <smd name="1" x="-0.255" y="0" dx="0.28" dy="0.43" layer="1"/>
 <smd name="2" x="0.255" y="0" dx="0.28" dy="0.43" layer="1"/>
-<text x="0" y="0.635" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="0.635" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
 <rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
-<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="0.15" layer="21"/>
+<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="0.15" layer="51"/>
 <wire x1="-0.381" y1="0.254" x2="0.381" y2="0.254" width="0.0508" layer="39"/>
 <wire x1="0.381" y1="0.254" x2="0.381" y2="-0.254" width="0.0508" layer="39"/>
 <wire x1="0.381" y1="-0.254" x2="-0.381" y2="-0.254" width="0.0508" layer="39"/>
@@ -8075,8 +8119,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="0" y="1.27" size="0.3048" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-1.27" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="1.27" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
@@ -10416,8 +10460,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <smd name="12" x="4" y="2.15" dx="1" dy="2.75" layer="1"/>
 <smd name="13" x="6" y="-2.15" dx="1" dy="2.75" layer="1"/>
 <smd name="14" x="6" y="2.15" dx="1" dy="2.75" layer="1"/>
-<text x="-9.0325" y="-3.4925" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="9.985" y="-3.4925" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-9.398" y="0" size="1.016" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="9.398" y="0" size="1.016" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
 <text x="-7.25" y="-2.75" size="0.6096" layer="51" ratio="10">1</text>
 <rectangle x1="-6.5" y1="0.5" x2="-5.5" y2="1.5" layer="51"/>
 <rectangle x1="-4.5" y1="0.5" x2="-3.5" y2="1.5" layer="51"/>
@@ -10750,8 +10794,8 @@ http://www.linear-tech.com&lt;p&gt;
 <smd name="2" x="-1.7" y="-7.875" dx="1" dy="3.4" layer="1"/>
 <smd name="4" x="1.7" y="-7.875" dx="1" dy="3.4" layer="1"/>
 <smd name="5" x="3.4" y="-7.875" dx="1" dy="3.4" layer="1"/>
-<text x="-5.334" y="-8.509" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="6.604" y="-8.509" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="0" y="6.096" size="1.016" layer="25" font="vector" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-10.414" size="1.016" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.381" y1="-8.768" x2="0.381" y2="-5.974" layer="51"/>
 <rectangle x1="-0.508" y1="-6.477" x2="0.508" y2="-5.461" layer="21"/>
 <rectangle x1="-3.781" y1="-8.768" x2="-3.019" y2="-5.974" layer="51"/>
@@ -10884,35 +10928,33 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 Johnson Components&lt;br&gt;
 Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="0" y1="5.588" x2="0" y2="-5.588" width="0" layer="20"/>
-<wire x1="-1.55" y1="-4.65" x2="-1.55" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-1.55" y1="-2" x2="-3.7" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-3.7" y1="-2" x2="-4.45" y2="-2.75" width="0.2032" layer="21"/>
-<wire x1="-4.45" y1="-2.75" x2="-8.25" y2="-2.75" width="0.2032" layer="21"/>
-<wire x1="-8.25" y1="-2.75" x2="-8.25" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-8.25" y1="-1.9" x2="-9.425" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-9.425" y1="-1.9" x2="-9.425" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-9.425" y1="1.9" x2="-8.25" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-8.25" y1="1.9" x2="-8.25" y2="2.75" width="0.2032" layer="21"/>
-<wire x1="-8.25" y1="2.75" x2="-4.45" y2="2.75" width="0.2032" layer="21"/>
-<wire x1="-4.45" y1="2.75" x2="-3.7" y2="2" width="0.2032" layer="21"/>
-<wire x1="-3.7" y1="2" x2="-1.55" y2="2" width="0.2032" layer="21"/>
-<wire x1="-1.55" y1="2" x2="-1.55" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="-4.65" x2="-1.55" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-1.55" y1="-2" x2="-3.7" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-3.7" y1="-2" x2="-4.45" y2="-2.75" width="0.2032" layer="51"/>
+<wire x1="-4.45" y1="-2.75" x2="-8.25" y2="-2.75" width="0.2032" layer="51"/>
+<wire x1="-8.25" y1="-2.75" x2="-8.25" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-8.25" y1="-1.9" x2="-9.425" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-9.425" y1="-1.9" x2="-9.425" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-9.425" y1="1.9" x2="-8.25" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-8.25" y1="1.9" x2="-8.25" y2="2.75" width="0.2032" layer="51"/>
+<wire x1="-8.25" y1="2.75" x2="-4.45" y2="2.75" width="0.2032" layer="51"/>
+<wire x1="-4.45" y1="2.75" x2="-3.7" y2="2" width="0.2032" layer="51"/>
+<wire x1="-3.7" y1="2" x2="-1.55" y2="2" width="0.2032" layer="51"/>
+<wire x1="-1.55" y1="2" x2="-1.55" y2="4.65" width="0.2032" layer="51"/>
 <wire x1="-1.55" y1="4.65" x2="4.65" y2="4.65" width="0.2032" layer="51"/>
 <wire x1="4.65" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="51"/>
 <wire x1="4.65" y1="-4.65" x2="4.65" y2="-3.85" width="0.2032" layer="51"/>
 <wire x1="4.65" y1="-3.85" x2="-0.1" y2="-3.85" width="0.2032" layer="51"/>
-<wire x1="-0.1" y1="-3.85" x2="-0.1" y2="3.85" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="-3.85" x2="-0.1" y2="3.85" width="0.2032" layer="51"/>
 <wire x1="-0.1" y1="3.85" x2="4.65" y2="3.85" width="0.2032" layer="51"/>
 <wire x1="4.65" y1="3.85" x2="4.65" y2="4.65" width="0.2032" layer="51"/>
-<wire x1="-1.55" y1="4.65" x2="-0.1" y2="4.65" width="0.2032" layer="21"/>
-<wire x1="-0.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="21"/>
 <smd name="1" x="2.6924" y="0" dx="4.826" dy="2.286" layer="1"/>
 <smd name="G@1" x="2.6924" y="4.4196" dx="4.826" dy="2.286" layer="1"/>
 <smd name="G@2" x="2.6924" y="-4.4196" dx="4.826" dy="2.286" layer="1"/>
 <smd name="G@4" x="2.6924" y="-4.4196" dx="4.826" dy="2.286" layer="16"/>
 <smd name="G@3" x="2.6924" y="4.4196" dx="4.826" dy="2.286" layer="16"/>
-<text x="0.635" y="6.35" size="1.778" layer="25">&gt;NAME</text>
-<text x="1.27" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
+<text x="0.635" y="5.715" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="0.635" y="-6.985" size="1.016" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.025" y1="-0.5" x2="4.05" y2="0.5" layer="51"/>
 </package>
 <package name="J502-ND-142-0701-851/861">
@@ -11329,7 +11371,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <circle x="0" y="0" radius="2.54" width="2.032" layer="41"/>
 <circle x="0" y="0" radius="2.54" width="2.032" layer="42"/>
 <circle x="0" y="0" radius="2.54" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
 <hole x="0" y="0" drill="2.8"/>
 </package>
 <package name="3,0">
@@ -12493,6 +12534,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </part>
 <part name="U$94" library="Schuyler" deviceset="SUP_1V9A" device=""/>
 <part name="X3" library="Schuyler" deviceset="HEADER_0.1&quot;_8P_" device="2R_SMT"/>
+<part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3"/>
+<part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="3"/>
 </parts>
 <sheets>
 <sheet>
@@ -14599,6 +14642,9 @@ all FPGA pins are tri-stated.</text>
 <attribute name="PARTNUMBER" x="251.46" y="205.74" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="SUPPLIER" x="251.46" y="205.74" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
+<instance part="TP2" gate="G$1" x="96.52" y="205.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="101.6" y="208.28" size="1.778" layer="95" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15773,8 +15819,12 @@ all FPGA pins are tri-stated.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="EN"/>
 <wire x1="91.44" y1="198.12" x2="91.44" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="200.66" x2="106.68" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="200.66" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
 <label x="91.44" y="200.66" size="1.778" layer="95"/>
+<pinref part="TP2" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="200.66" x2="106.68" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="205.74" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
+<junction x="96.52" y="200.66"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -16222,6 +16272,7 @@ cycle.</text>
 <instance part="U$89" gate="G$1" x="220.98" y="165.1"/>
 <instance part="U$3" gate="G$1" x="355.6" y="83.82"/>
 <instance part="X3" gate="G$1" x="182.88" y="134.62" rot="R90"/>
+<instance part="TP1" gate="G$1" x="177.8" y="101.6" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -16879,8 +16930,9 @@ cycle.</text>
 <wire x1="182.88" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 <label x="162.56" y="96.52" size="1.778" layer="95"/>
 <wire x1="177.8" y1="96.52" x2="160.02" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="99.06" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 <junction x="177.8" y="96.52"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="96.52" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U12" gate="A" pin="-IN_A"/>
