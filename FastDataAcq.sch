@@ -10562,10 +10562,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANPARTNUMBER" value="0878321420"/>
+<attribute name="MANUFACTURER" value="Molex Inc"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="7434698" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="PARTNUMBER" value="WM18641-ND" constant="no"/>
+<attribute name="SUPPLIER" value="DIGIKEY" constant="no"/>
 </technology>
 </technologies>
 </device>

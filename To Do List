@@ -1,8 +1,8 @@
 ToDo:
 
 1. Final check of all pinouts
-	-ADC08D500
-	-FPGA
+DONE!	-ADC08D500
+DONE!	-FPGA
 	-LTC3374 (DC-DC)
 	-LTC2955 (Controller)
 	-LT1963AEQ (1.9 LDO)
