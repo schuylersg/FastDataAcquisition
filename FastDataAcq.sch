@@ -1695,7 +1695,8 @@ Distance</text>
 <wire x1="-3.81" y1="7.62" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<text x="-14.986" y="13.716" size="2.54" layer="95" font="vector">&gt;NAME</text>
+<text x="-14.986" y="18.796" size="2.54" layer="95" font="vector">&gt;NAME</text>
+<text x="-14.986" y="13.716" size="2.54" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 <symbol name="OP-AMP">
 <description>Generic op-amp.</description>
@@ -1797,7 +1798,8 @@ http://datasheets.maximintegrated.com/en/ds/DS1088-DS1088L.pdf</description>
 <wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<text x="0" y="12.7" size="2.54" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="15.24" size="2.54" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="11.43" size="2.54" layer="96" font="vector" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="DAC101C081">
 <description>DAC101C081 10-bit DAC from TI: http://www.ti.com/lit/ds/symlink/dac101c081.pdf</description>
@@ -11514,6 +11516,19 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <circle x="0" y="0" radius="2.85" width="0.1524" layer="21"/>
 <hole x="0" y="0" drill="5.5"/>
 </package>
+<package name="2.0">
+<description>Mount hole for M2 screw with 4mm cap. Hole size is 2.5mm.</description>
+<wire x1="-1.25" y1="0" x2="0" y2="-1.25" width="1.5" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.25" x2="1.25" y2="0" width="1.5" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="40"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="39"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="41"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="42"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="43"/>
+<hole x="0" y="0" drill="2.5"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MOUNT-HOLE">
@@ -11580,6 +11595,48 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </technologies>
 </device>
 <device name="5.5" package="5,5">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2.0" package="2.0">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="wirepad">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SMD1,27-2,54">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<smd name="1" x="0" y="0" dx="3.175" dy="3.175" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PAD">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMD2" prefix="PAD" uservalue="yes">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMD1,27-2,54">
+<connects>
+<connect gate="1" pin="P" pad="1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12303,10 +12360,10 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <attribute name="PARTNUMBER" value="1276-3817-1-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
-<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
-<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
-<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
-<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
+<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="2.0" value="MOUNT-HOLE2.0"/>
+<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="2.0" value="MOUNT-HOLE2.0"/>
+<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="2.0" value="MOUNT-HOLE2.0"/>
+<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="2.0" value="MOUNT-HOLE2.0"/>
 <part name="D1" library="Schuyler" deviceset="LED_" device="0603_RED">
 <attribute name="MANPARTNUMBER" value=""/>
 <attribute name="MANUFACTURER" value=""/>
@@ -12536,6 +12593,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="X3" library="Schuyler" deviceset="HEADER_0.1&quot;_8P_" device="2R_SMT"/>
 <part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3"/>
 <part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="3"/>
+<part name="PAD2" library="wirepad" deviceset="SMD2" device=""/>
+<part name="PAD1" library="wirepad" deviceset="SMD2" device=""/>
+<part name="PAD3" library="wirepad" deviceset="SMD2" device=""/>
+<part name="PAD4" library="wirepad" deviceset="SMD2" device=""/>
+<part name="U$1" library="Schuyler" deviceset="SUP_GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15978,7 +16040,7 @@ cycle.</text>
 <wire x1="124.46" y1="132.08" x2="5.08" y2="132.08" width="0.3048" layer="94"/>
 <text x="327.66" y="27.94" size="3.81" layer="94">Additional Support ICs</text>
 <wire x1="124.46" y1="182.88" x2="259.08" y2="182.88" width="0.3048" layer="94"/>
-<text x="129.54" y="175.26" size="2.54" layer="97" font="vector">Mounting Holes and GPIO Header</text>
+<text x="129.54" y="177.8" size="2.54" layer="97" font="vector">Mounting Holes and GPIO Header</text>
 <text x="229.362" y="157.226" size="1.778" layer="96">Blue</text>
 <text x="239.522" y="157.48" size="1.778" layer="96">Green</text>
 <text x="249.682" y="157.48" size="1.778" layer="96">Red</text>
@@ -16072,8 +16134,8 @@ cycle.</text>
 </instance>
 <instance part="C97" gate="G$1" x="238.76" y="208.28"/>
 <instance part="U10" gate="G$1" x="55.88" y="162.56"/>
-<instance part="C84" gate="G$1" x="93.98" y="172.72"/>
-<instance part="SUPPLY44" gate="G$1" x="86.36" y="180.34"/>
+<instance part="C84" gate="G$1" x="93.98" y="165.1"/>
+<instance part="SUPPLY44" gate="G$1" x="86.36" y="172.72"/>
 <instance part="C77" gate="G$1" x="27.94" y="170.18">
 <attribute name="PARTNUMBER" x="27.94" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="SUPPLIER" x="27.94" y="170.18" size="1.778" layer="96" display="off"/>
@@ -16190,10 +16252,10 @@ cycle.</text>
 <attribute name="SUPPLIER" x="317.5" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="L13" gate="G$1" x="332.74" y="81.28" rot="R90"/>
-<instance part="H1" gate="G$1" x="134.62" y="167.64"/>
-<instance part="H2" gate="G$1" x="134.62" y="160.02"/>
-<instance part="H3" gate="G$1" x="134.62" y="152.4"/>
-<instance part="H4" gate="G$1" x="134.62" y="144.78"/>
+<instance part="H1" gate="G$1" x="134.62" y="172.72"/>
+<instance part="H2" gate="G$1" x="134.62" y="165.1"/>
+<instance part="H3" gate="G$1" x="134.62" y="157.48"/>
+<instance part="H4" gate="G$1" x="134.62" y="149.86"/>
 <instance part="D5" gate="G$1" x="396.24" y="106.68"/>
 <instance part="D6" gate="G$1" x="411.48" y="106.68"/>
 <instance part="R62" gate="G$1" x="396.24" y="119.38" rot="R270">
@@ -16273,6 +16335,11 @@ cycle.</text>
 <instance part="U$3" gate="G$1" x="355.6" y="83.82"/>
 <instance part="X3" gate="G$1" x="182.88" y="134.62" rot="R90"/>
 <instance part="TP1" gate="G$1" x="177.8" y="101.6" rot="R90"/>
+<instance part="PAD2" gate="1" x="134.62" y="134.62"/>
+<instance part="PAD1" gate="1" x="134.62" y="139.7"/>
+<instance part="PAD3" gate="1" x="134.62" y="129.54"/>
+<instance part="PAD4" gate="1" x="134.62" y="124.46"/>
+<instance part="U$1" gate="G$1" x="149.86" y="129.54"/>
 </instances>
 <busses>
 </busses>
@@ -16500,16 +16567,14 @@ cycle.</text>
 </segment>
 <segment>
 <pinref part="SUPPLY44" gate="G$1" pin="3V3"/>
-<wire x1="86.36" y1="180.34" x2="86.36" y2="177.8" width="0.1524" layer="91"/>
-<label x="86.36" y="177.8" size="1.778" layer="95"/>
+<wire x1="86.36" y1="172.72" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
+<label x="86.36" y="170.18" size="1.778" layer="95"/>
 <pinref part="U10" gate="G$1" pin="V+"/>
-<wire x1="71.12" y1="170.18" x2="73.66" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="170.18" x2="73.66" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="177.8" x2="86.36" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="177.8" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
-<junction x="86.36" y="177.8"/>
+<wire x1="71.12" y1="170.18" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="170.18" x2="93.98" y2="170.18" width="0.1524" layer="91"/>
+<junction x="86.36" y="170.18"/>
 <pinref part="C84" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="175.26" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="167.64" x2="93.98" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY46" gate="G$1" pin="3V3"/>
@@ -16836,10 +16901,8 @@ cycle.</text>
 <net name="FPGA_SCL" class="0">
 <segment>
 <pinref part="U10" gate="G$1" pin="SCL"/>
-<wire x1="71.12" y1="165.1" x2="81.28" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="165.1" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="162.56" x2="111.76" y2="162.56" width="0.1524" layer="91"/>
-<label x="96.52" y="162.56" size="1.778" layer="95"/>
+<wire x1="71.12" y1="165.1" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
+<label x="73.66" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="SCL"/>
@@ -16853,8 +16916,8 @@ cycle.</text>
 <net name="FPGA_SDA" class="0">
 <segment>
 <pinref part="U10" gate="G$1" pin="SDA"/>
-<wire x1="71.12" y1="160.02" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
-<label x="96.52" y="160.02" size="1.778" layer="95"/>
+<wire x1="71.12" y1="160.02" x2="88.9" y2="160.02" width="0.1524" layer="91"/>
+<label x="73.66" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="SDA"/>
@@ -17393,7 +17456,7 @@ cycle.</text>
 <pinref part="C84" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="149.86" x2="38.1" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="154.94" x2="93.98" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="154.94" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="154.94" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
 <junction x="73.66" y="154.94"/>
 <label x="38.1" y="149.86" size="1.778" layer="95"/>
 <pinref part="U$88" gate="G$1" pin="GND"/>
@@ -17411,6 +17474,23 @@ cycle.</text>
 <wire x1="363.22" y1="86.36" x2="355.6" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="86.36" x2="355.6" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="PAD4" gate="1" pin="P"/>
+<wire x1="137.16" y1="124.46" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="124.46" x2="142.24" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="PAD3" gate="1" pin="P"/>
+<wire x1="137.16" y1="129.54" x2="142.24" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="142.24" y1="129.54" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
+<junction x="142.24" y="129.54"/>
+<pinref part="PAD2" gate="1" pin="P"/>
+<wire x1="137.16" y1="134.62" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="134.62" x2="142.24" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="PAD1" gate="1" pin="P"/>
+<wire x1="137.16" y1="139.7" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="139.7" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
+<junction x="142.24" y="134.62"/>
 </segment>
 </net>
 <net name="FPGA_CTS" class="0">

@@ -10,20 +10,20 @@
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="1" fill="3" visible="no" active="yes"/>
-<layer number="3" name="Power" color="3" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Power" color="3" fill="3" visible="yes" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="14" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -115,9 +115,6 @@
 <wire x1="114.3" y1="0" x2="114.3" y2="63.5" width="0" layer="20"/>
 <wire x1="114.3" y1="63.5" x2="0" y2="63.5" width="0" layer="20"/>
 <wire x1="0" y1="63.5" x2="0" y2="0" width="0" layer="20"/>
-<text x="0.127" y="68.834" size="0.6096" layer="51">Manufacturer Notes:
-1. All copper thickness is 1oz
-2. LVDS lines are 5mil width with 5mil spacing and should have a  100 Ohms+/- 10% differential impedance.</text>
 <text x="13.462" y="55.118" size="1.27" layer="21" font="vector" align="center">GND</text>
 <text x="8.382" y="55.118" size="1.27" layer="21" font="vector" align="center">1.9</text>
 <text x="13.716" y="47.752" size="1.27" layer="21" font="vector" align="center">1.9A</text>
@@ -126,7 +123,7 @@
 <text x="105.156" y="4.064" size="1.27" layer="21" font="vector" align="center">1.2</text>
 <text x="84.328" y="3.81" size="1.27" layer="21" font="vector" align="center">3V3</text>
 <text x="72.39" y="17.018" size="1.27" layer="21" font="vector" align="center">1.8</text>
-<text x="112.268" y="10.16" size="1.27" layer="21" font="vector" align="center">GND</text>
+<text x="108.966" y="6.604" size="1.27" layer="21" font="vector" align="center">GND</text>
 <text x="93.218" y="44.196" size="1.27" layer="21" font="vector" align="center">1.9P</text>
 <circle x="5.08" y="49.53" radius="1.1176" width="0.3048" layer="21"/>
 <circle x="8.89" y="49.53" radius="1.1176" width="0.3048" layer="21"/>
@@ -148,6 +145,9 @@
 <text x="8.89" y="1.27" size="1.27" layer="21" font="vector">S. Senft-Grupp / MIT Hemond Lab</text>
 <text x="8.89" y="5.08" size="1.27" layer="21" font="vector">FDA v1.0</text>
 <text x="8.89" y="3.175" size="1.27" layer="21" font="vector">11/15/2013</text>
+<text x="113.284" y="21.59" size="1.27" layer="21" font="vector" rot="R90">ON</text>
+<text x="113.284" y="13.843" size="1.27" layer="21" font="vector" rot="R90" align="bottom-right">OFF</text>
+<circle x="3.81" y="59.69" radius="2" width="0.4064" layer="21"/>
 </plain>
 <libraries>
 <library name="Schuyler">
@@ -2610,18 +2610,28 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="2,8">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.8 mm with drill center</description>
-<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<package name="2.0">
+<description>Mount hole for M2 screw with 4mm cap. Hole size is 2.5mm.</description>
+<wire x1="-1.25" y1="0" x2="0" y2="-1.25" width="1.5" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.25" x2="1.25" y2="0" width="1.5" layer="51" curve="-90" cap="flat"/>
 <circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="2.54" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="2.54" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="2.54" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="2.54" width="2.032" layer="42"/>
-<circle x="0" y="0" radius="2.54" width="2.032" layer="43"/>
-<hole x="0" y="0" drill="2.8"/>
+<circle x="0" y="0" radius="2" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="40"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="39"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="41"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="42"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="43"/>
+<hole x="0" y="0" drill="2.5"/>
+</package>
+</packages>
+</library>
+<library name="wirepad">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SMD1,27-2,54">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<smd name="1" x="0" y="0" dx="3.175" dy="3.175" layer="1"/>
 </package>
 </packages>
 </library>
@@ -4002,10 +4012,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="77.2296" y="23.4018" size="0.6096" layer="25" font="vector" align="center"/>
 <attribute name="VALUE" x="77.7578" y="22.5924" size="0.6096" layer="27" font="vector" rot="R270" align="center"/>
 </element>
-<element name="H1" library="holes" package="2,8" value="MOUNT-HOLE2.8" x="110.49" y="3.81" smashed="yes"/>
-<element name="H2" library="holes" package="2,8" value="MOUNT-HOLE2.8" x="110.49" y="59.69" smashed="yes" rot="R90"/>
-<element name="H3" library="holes" package="2,8" value="MOUNT-HOLE2.8" x="3.81" y="3.81" smashed="yes" rot="R90"/>
-<element name="H4" library="holes" package="2,8" value="MOUNT-HOLE2.8" x="3.81" y="59.69" smashed="yes"/>
+<element name="H1" library="holes" package="2.0" value="MOUNT-HOLE2.0" x="110.49" y="3.81" smashed="yes"/>
+<element name="H2" library="holes" package="2.0" value="MOUNT-HOLE2.0" x="110.49" y="59.69" smashed="yes" rot="R90"/>
+<element name="H3" library="holes" package="2.0" value="MOUNT-HOLE2.0" x="3.81" y="3.81" smashed="yes" rot="R90"/>
+<element name="H4" library="holes" package="2.0" value="MOUNT-HOLE2.0" x="3.81" y="59.69" smashed="yes"/>
 <element name="D1" library="Schuyler" package="0603_LED" value="LED_0603_RED" x="109.982" y="22.606" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="" x="109.982" y="22.606" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER" value="DIGIKEY" x="109.982" y="22.606" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4177,7 +4187,7 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER" value="DIGIKEY" x="112.776" y="17.526" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNUMBER" value="401-2012-1-ND" x="112.776" y="17.526" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANPARTNUMBER" value="AYZ0102AGRLC" x="112.776" y="17.526" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="113.03" y="22.098" size="1.016" layer="25" font="vector" rot="R180" align="center"/>
+<attribute name="NAME" x="108.966" y="14.224" size="1.016" layer="25" font="vector" rot="R180" align="center"/>
 </element>
 <element name="R14" library="rcl" package="R0201" value="523K" x="96.647" y="25.4" smashed="yes" rot="R270">
 <attribute name="SUPPLIER" value="DIGIKEY" x="96.647" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4254,10 +4264,14 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER" value="DIGIKEY" x="97.282" y="56.134" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNUMBER" value="WM17450-ND" x="97.282" y="56.134" size="1.778" layer="27" display="off"/>
 <attribute name="MANPARTNUMBER" value="0015912080" x="97.282" y="56.134" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="104.648" y="59.563" size="1.016" layer="21" font="vector" rot="R180" align="center"/>
+<attribute name="NAME" x="104.14" y="56.134" size="1.016" layer="21" font="vector" rot="R180" align="center"/>
 </element>
 <element name="TP1" library="SparkFun-Passives" package="PAD.03X.03" value="TEST-POINT3" x="8.636" y="11.43"/>
 <element name="TP2" library="SparkFun-Passives" package="PAD.03X.03" value="TEST-POINT3" x="99.568" y="18.034"/>
+<element name="PAD2" library="wirepad" package="SMD1,27-2,54" value="" x="112.014" y="8.636"/>
+<element name="PAD1" library="wirepad" package="SMD1,27-2,54" value="" x="3.81" y="8.636" rot="R90"/>
+<element name="PAD3" library="wirepad" package="SMD1,27-2,54" value="" x="3.81" y="54.864"/>
+<element name="PAD4" library="wirepad" package="SMD1,27-2,54" value="" x="105.664" y="60.706"/>
 </elements>
 <signals>
 <signal name="DI1_N" class="3">
@@ -11103,6 +11117,17 @@ design rules under a new name.</description>
 <wire x1="110" y1="48.036" x2="110.393" y2="48.036" width="0.2032" layer="1"/>
 <wire x1="110.393" y1="48.036" x2="110.49" y2="48.133" width="0.2032" layer="1"/>
 <wire x1="110.49" y1="48.133" x2="110.49" y2="48.641" width="0.2032" layer="1"/>
+<contactref element="PAD4" pad="1"/>
+<contactref element="PAD3" pad="1"/>
+<contactref element="PAD2" pad="1"/>
+<contactref element="PAD1" pad="1"/>
+<via x="6.858" y="8.636" extent="1-16" drill="0.3048"/>
+<wire x1="6.858" y1="8.636" x2="3.81" y2="8.636" width="0.6096" layer="1"/>
+<via x="5.842" y="54.864" extent="1-16" drill="0.3048"/>
+<wire x1="3.81" y1="54.864" x2="5.842" y2="54.864" width="0.6096" layer="1"/>
+<wire x1="109.474" y1="8.636" x2="112.014" y2="8.636" width="0.6096" layer="1"/>
+<via x="105.664" y="58.674" extent="1-16" drill="0.3048"/>
+<wire x1="105.664" y1="58.674" x2="105.664" y2="60.706" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$8">
 </signal>

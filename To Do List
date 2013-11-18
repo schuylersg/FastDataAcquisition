@@ -1,11 +1,29 @@
 ToDo:
 
-1. Add case shielding holes
-2. Double check size of mounting holes - maybe decrease
-3. Final check of all pinouts
-4. Add On/Off switch label
+1. Final check of all pinouts
+	-ADC08D500
+	-FPGA
+	-LTC3374 (DC-DC)
+	-LTC2955 (Controller)
+	-LT1963AEQ (1.9 LDO)
+	-LT1963AEST-2.5
+	-LT1963AEST-3.3
+	-SI530
+	-TMP421 (temp sensor)
+	-DS1088 (clk)
+	-SI500 (clk)
+	-XCF04 (PROM)
+	-LMH6555
+	-LMV321
+	-ADCMP553
+	-DAC101
+	-FT230XQ
+	
 
-XXXXXXXXXXXXXXX1. Add test points
+XXXXXXXXXXXXXXX1. Add case shielding holes
+XXXXXXXXXXXXXXX2. Double check size of mounting holes - maybe decrease
+XXXXXXXXXXXXXXX3. Add On/Off switch label
+XXXXXXXXXXXXXXX4. Add test points
 XXXXXXXX	1. 1V9A
 XXXXXXXX	2. 1V9D
 XXXXXXXX	3. 1V9
@@ -14,14 +32,14 @@ XXXXXXXX	5. 1V2
 XXXXXXXX	6. 1V8
 XXXXXXXX	8. 3V3
 XXXXXXXX	9. 3V3S
-XXXXXXXXXXXXXXX3. Double check values with part numbers
-XXXXXXXXXXXXXXX2. Fix meander on LVDS lines so constant spacing maintained
-XXXXXXXXXXXXXXX2. Check all impedance controlled lines for correct width given new 5/5 spacing.
-XXXXXXXXXXXXXXX2. Breakout power temperature
-XXXXXXXXXXXXXXX2. Add status LEDs
-XXXXXXXXXXXXXXX3. Breakout Excess fpga lines
-XXXXXXXXXXXXXXX4. Add mounting holes
-XXXXXXXXXXXXXXX5. Finalize trigger circuit (possibly done...)
-XXXXXXXXXXXXXXX3. Pick FPGA oscillator
-XXXXXXXXXXXXXXX3. Add temperature IC
-XXXXXXXXXXXXXXX4. Power system...
+XXXXXXXXXXXXXXX5. Double check values with part numbers
+XXXXXXXXXXXXXXX6. Fix meander on LVDS lines so constant spacing maintained
+XXXXXXXXXXXXXXX7. Check all impedance controlled lines for correct width given new 5/5 spacing.
+XXXXXXXXXXXXXXX8. Breakout power temperature
+XXXXXXXXXXXXXXX9. Add status LEDs
+XXXXXXXXXXXXXXX10. Breakout Excess fpga lines
+XXXXXXXXXXXXXXX11. Add mounting holes
+XXXXXXXXXXXXXXX12. Finalize trigger circuit (possibly done...)
+XXXXXXXXXXXXXXX13. Pick FPGA oscillator
+XXXXXXXXXXXXXXX14. Add temperature IC
+XXXXXXXXXXXXXXX15. Power system...
