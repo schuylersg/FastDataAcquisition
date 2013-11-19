@@ -3,22 +3,22 @@ ToDo:
 1. Final check of all pinouts
 DONE!	-ADC08D500
 DONE!	-FPGA
-	-LTC3374 (DC-DC)
-	-LTC2955 (Controller)
-	-LT1963AEQ (1.9 LDO)
-	-LT1963AEST-2.5
-	-LT1963AEST-3.3
-	-SI530
-	-TMP421 (temp sensor)
-	-DS1088 (clk)
-	-SI500 (clk)
-	-XCF04 (PROM)
-	-LMH6555
-	-LMV321
-	-ADCMP553
-	-DAC101
-	-FT230XQ
-	
+DONE!	-LTC3374 (DC-DC)
+DONE!	-LTC2955 (Controller)
+DONE!	-LT1963AEQ (1.9 LDO)
+DONE!	-LT1963AEST-2.5
+DONE!	-LT1963AEST-3.3
+DONE!	-SI530
+DONE!	-TMP421 (temp sensor)
+DONE!	-DS1088 (clk)
+DONE!	-SI500 (clk)
+DONE!	-XCF04 (PROM)
+DONE!	-LMH6555
+DONE!	-LMV321
+DONE!	-ADCMP553
+DONE!	-DAC101
+DONE!	-FT230XQ
+
 
 XXXXXXXXXXXXXXX1. Add case shielding holes
 XXXXXXXXXXXXXXX2. Double check size of mounting holes - maybe decrease
