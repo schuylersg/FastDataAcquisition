@@ -10628,10 +10628,6 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <package name="QFN16">
 <description>&lt;b&gt;QFN-16 4 x 4 mm&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf"&gt; Data sheet &lt;/a&gt;</description>
-<wire x1="-1.9" y1="1.9" x2="-1.9" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-1.9" y1="-1.9" x2="1.9" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="1.9" y1="-1.9" x2="1.9" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="1.9" y1="1.9" x2="-1.9" y2="1.9" width="0.2032" layer="21"/>
 <smd name="TAB" x="0" y="0" dx="1" dy="1" layer="1" stop="no"/>
 <smd name="1" x="-1.725" y="0.975" dx="0.7" dy="0.35" layer="1" stop="no"/>
 <smd name="2" x="-1.725" y="0.325" dx="0.7" dy="0.35" layer="1" stop="no"/>
@@ -10686,8 +10682,20 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <rectangle x1="-0.1" y1="1.525" x2="0.75" y2="1.925" layer="29" rot="R270"/>
 <rectangle x1="-0.75" y1="1.525" x2="0.1" y2="1.925" layer="29" rot="R270"/>
 <rectangle x1="-1.4" y1="1.525" x2="-0.55" y2="1.925" layer="29" rot="R270"/>
-<text x="-2.15" y="2.277" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.15" y="-4.055" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="3.048" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-3.048" size="1.27" layer="27" font="vector" align="center">&gt;VALUE</text>
+<wire x1="-1.905" y1="1.905" x2="1.905" y2="1.905" width="0.1016" layer="51"/>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="-1.905" width="0.1016" layer="51"/>
+<wire x1="1.905" y1="-1.905" x2="-1.905" y2="-1.905" width="0.1016" layer="51"/>
+<wire x1="-1.905" y1="-1.905" x2="-1.905" y2="1.905" width="0.1016" layer="51"/>
+<wire x1="-1.905" y1="1.397" x2="-1.905" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="1.905" x2="-1.397" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="1.397" y1="1.905" x2="1.905" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="1.397" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.397" x2="1.905" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.905" x2="1.397" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-1.397" y1="-1.905" x2="-1.905" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="-1.905" x2="-1.905" y2="-1.397" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -10803,15 +10811,15 @@ http://www.linear-tech.com&lt;p&gt;
 <text x="0" y="6.096" size="1.016" layer="25" font="vector" rot="R180" align="center">&gt;NAME</text>
 <text x="0" y="-10.414" size="1.016" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.381" y1="-8.768" x2="0.381" y2="-5.974" layer="51"/>
-<rectangle x1="-0.508" y1="-6.477" x2="0.508" y2="-5.461" layer="21"/>
+<rectangle x1="-0.508" y1="-5.969" x2="0.508" y2="-5.461" layer="21"/>
 <rectangle x1="-3.781" y1="-8.768" x2="-3.019" y2="-5.974" layer="51"/>
 <rectangle x1="-2.081" y1="-8.768" x2="-1.319" y2="-5.974" layer="51"/>
 <rectangle x1="1.319" y1="-8.768" x2="2.081" y2="-5.974" layer="51"/>
 <rectangle x1="3.019" y1="-8.768" x2="3.781" y2="-5.974" layer="51"/>
-<rectangle x1="-3.908" y1="-6.477" x2="-2.892" y2="-5.461" layer="21"/>
-<rectangle x1="-2.208" y1="-6.477" x2="-1.192" y2="-5.461" layer="21"/>
-<rectangle x1="1.192" y1="-6.477" x2="2.208" y2="-5.461" layer="21"/>
-<rectangle x1="2.892" y1="-6.477" x2="3.908" y2="-5.461" layer="21"/>
+<rectangle x1="-3.908" y1="-5.969" x2="-2.892" y2="-5.461" layer="21"/>
+<rectangle x1="-2.208" y1="-5.969" x2="-1.192" y2="-5.461" layer="21"/>
+<rectangle x1="1.192" y1="-5.969" x2="2.208" y2="-5.461" layer="21"/>
+<rectangle x1="2.892" y1="-5.969" x2="3.908" y2="-5.461" layer="21"/>
 <rectangle x1="-3.8" y1="-5.5" x2="-3" y2="-5.1" layer="21"/>
 <rectangle x1="-2.1" y1="-5.5" x2="-1.3" y2="-5.1" layer="21"/>
 <rectangle x1="-0.4" y1="-5.5" x2="0.4" y2="-5.1" layer="21"/>
@@ -11823,10 +11831,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <attribute name="PARTNUMBER" value="445-9091-1-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
-<part name="X4" library="con-molex" deviceset="87832-14" device="">
-<attribute name="PARTNUMBER" value="57J0374"/>
-<attribute name="SUPPLIER" value="Newark"/>
-</part>
+<part name="X4" library="con-molex" deviceset="87832-14" device=""/>
 <part name="SUPPLY29" library="Schuyler" deviceset="SUP_3V3" device="" value="3V3"/>
 <part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="3.3k 0.1%">
 <attribute name="PARTNUMBER" value="P3.3KDBCT-ND"/>
