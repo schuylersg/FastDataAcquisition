@@ -13,7 +13,7 @@
 <layer number="3" name="Power" color="3" fill="3" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -25,7 +25,7 @@
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -7666,8 +7666,6 @@ design rules under a new name.</description>
 <wire x1="61.9506" y1="21.971" x2="61.9506" y2="8.763" width="0.1524" layer="1"/>
 <wire x1="61.9506" y1="8.763" x2="60.452" y2="7.2644" width="0.1524" layer="1" curve="-90"/>
 <wire x1="30.5054" y1="18.796" x2="30.988" y2="18.3134" width="0.1524" layer="1" curve="90"/>
-<wire x1="30.988" y1="18.3134" x2="31.115" y2="18.3134" width="0.1524" layer="1"/>
-<wire x1="31.115" y1="18.3134" x2="32.0294" y2="17.526" width="0.1524" layer="1" curve="-90"/>
 <wire x1="31.9024" y1="7.747" x2="31.1404" y2="8.509" width="0.1524" layer="1" curve="90"/>
 <wire x1="31.1404" y1="8.509" x2="30.07340625" y2="8.509" width="0.1524" layer="1"/>
 <wire x1="30.07340625" y1="8.509" x2="29.61620625" y2="8.9662" width="0.1524" layer="1" curve="-90"/>
@@ -7693,6 +7691,8 @@ design rules under a new name.</description>
 <wire x1="31.2674" y1="16.129" x2="32.0294" y2="16.891" width="0.1524" layer="1" curve="90"/>
 <wire x1="32.0294" y1="16.891" x2="32.0294" y2="17.526" width="0.1524" layer="1"/>
 <wire x1="32.385" y1="7.2644" x2="60.452" y2="7.2644" width="0.1524" layer="1"/>
+<wire x1="30.988" y1="18.3134" x2="31.242" y2="18.3134" width="0.1524" layer="1"/>
+<wire x1="31.242" y1="18.3134" x2="32.0294" y2="17.526" width="0.1524" layer="1" curve="-90"/>
 </signal>
 <signal name="DQD5_P" class="3">
 <contactref element="U2" pad="P$15"/>
@@ -7706,8 +7706,6 @@ design rules under a new name.</description>
 <wire x1="62.2554" y1="21.971" x2="62.2554" y2="8.763" width="0.1524" layer="1"/>
 <wire x1="62.2554" y1="8.763" x2="60.452" y2="6.9596" width="0.1524" layer="1" curve="-90"/>
 <wire x1="30.2006" y1="18.796" x2="30.988" y2="18.0086" width="0.1524" layer="1" curve="90"/>
-<wire x1="30.988" y1="18.0086" x2="31.115" y2="18.0086" width="0.1524" layer="1"/>
-<wire x1="31.115" y1="18.0086" x2="31.7246" y2="17.526" width="0.1524" layer="1" curve="-90"/>
 <wire x1="31.5976" y1="7.747" x2="31.1404" y2="8.2042" width="0.1524" layer="1" curve="90"/>
 <wire x1="31.1404" y1="8.2042" x2="30.07340625" y2="8.2042" width="0.1524" layer="1"/>
 <wire x1="30.07340625" y1="8.2042" x2="29.31140625" y2="8.9662" width="0.1524" layer="1" curve="-90"/>
@@ -7733,6 +7731,8 @@ design rules under a new name.</description>
 <wire x1="60.452" y1="6.9596" x2="32.385" y2="6.9596" width="0.1524" layer="1"/>
 <wire x1="31.2674" y1="11.37411875" x2="31.7246" y2="10.91691875" width="0.1524" layer="1" curve="-90"/>
 <wire x1="31.2674" y1="10.093959375" x2="31.7246" y2="10.551159375" width="0.1524" layer="1" curve="90"/>
+<wire x1="30.988" y1="18.0086" x2="31.242" y2="18.0086" width="0.1524" layer="1"/>
+<wire x1="31.242" y1="18.0086" x2="31.7246" y2="17.526" width="0.1524" layer="1" curve="-90"/>
 </signal>
 <signal name="DQD4_N" class="3">
 <contactref element="U2" pad="P$16"/>
@@ -10988,10 +10988,14 @@ design rules under a new name.</description>
 <approved hash="18,30,78fb50208d2c9e4c"/>
 <approved hash="3,1,547bfe05e1654b1b"/>
 <approved hash="3,1,d87c7e0e726e5c13"/>
-<approved hash="3,1,697811401102693a"/>
-<approved hash="3,1,e4b3a4c892749db2"/>
 <approved hash="3,1,1e1770f761ec6ff7"/>
 <approved hash="3,1,a908c376c3baa9c4"/>
+<approved hash="3,1,88b87ee261f497ae"/>
+<approved hash="3,1,083c7e667e72042a"/>
+<approved hash="3,1,697811401102693a"/>
+<approved hash="3,1,e4b3a4c892749db2"/>
+<approved hash="3,1,781fdb47d8a77af8"/>
+<approved hash="3,1,16bc9a6698d31409"/>
 <approved hash="3,1,c61dc463c524c75a"/>
 <approved hash="3,1,8aa41b6b09349cdb"/>
 </errors>
