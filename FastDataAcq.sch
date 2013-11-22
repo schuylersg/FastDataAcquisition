@@ -16077,6 +16077,7 @@ cycle.</text>
 <text x="229.362" y="157.226" size="1.778" layer="96">Blue</text>
 <text x="239.522" y="157.48" size="1.778" layer="96">Green</text>
 <text x="249.682" y="157.48" size="1.778" layer="96">Red</text>
+<text x="419.1" y="7.62" size="1.778" layer="91">1</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
