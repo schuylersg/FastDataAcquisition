@@ -10382,9 +10382,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 2.00mm (.079") Pitch Milli-Grid Header, Vertical, Shrouded</description>
 <wire x1="8.4" y1="3.75" x2="8.4" y2="-3.75" width="0.2032" layer="21"/>
 <wire x1="8.4" y1="-3.75" x2="1.27" y2="-3.75" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-3.75" x2="1.27" y2="0" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-3.75" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-3.75" x2="1.27" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.254" x2="-1.27" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-3.75" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="-3.75" x2="-8.4" y2="-3.75" width="0.2032" layer="21"/>
 <wire x1="-8.4" y1="-3.75" x2="-8.4" y2="3.75" width="0.2032" layer="21"/>
 <wire x1="-8.4" y1="3.75" x2="8.4" y2="3.75" width="0.2032" layer="21"/>
@@ -13507,7 +13507,7 @@ individual impedance).</text>
 <label x="195.58" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DQ7_P" class="3">
+<net name="DQ7_N" class="3">
 <segment>
 <pinref part="U1" gate="G$1" pin="DQ7-"/>
 <wire x1="185.42" y1="139.7" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
@@ -13517,17 +13517,7 @@ individual impedance).</text>
 <label x="195.58" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DQ7_N" class="3">
-<segment>
-<pinref part="U1" gate="G$1" pin="DQ7+"/>
-<wire x1="185.42" y1="137.16" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="137.16" x2="208.28" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="IO_L35P_GCLK17_0"/>
-<wire x1="208.28" y1="134.62" x2="226.06" y2="134.62" width="0.1524" layer="91"/>
-<label x="195.58" y="137.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DQ6_P" class="3">
+<net name="DQ6_N" class="3">
 <segment>
 <pinref part="U1" gate="G$1" pin="DQ6-"/>
 <wire x1="185.42" y1="134.62" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
@@ -13537,17 +13527,7 @@ individual impedance).</text>
 <label x="195.58" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DQ6_N" class="3">
-<segment>
-<pinref part="U1" gate="G$1" pin="DQ6+"/>
-<wire x1="185.42" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="132.08" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="IO_L34P_GCLK19_0"/>
-<wire x1="203.2" y1="129.54" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
-<label x="195.58" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DQ5_P" class="3">
+<net name="DQ5_N" class="3">
 <segment>
 <pinref part="U1" gate="G$1" pin="DQ5-"/>
 <wire x1="185.42" y1="124.46" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
@@ -13557,17 +13537,7 @@ individual impedance).</text>
 <label x="195.58" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DQ5_N" class="3">
-<segment>
-<pinref part="U2" gate="G$1" pin="IO_L4P_0"/>
-<wire x1="226.06" y1="119.38" x2="213.36" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="119.38" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="DQ5+"/>
-<wire x1="213.36" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
-<label x="195.58" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DQ4_P" class="3">
+<net name="DQ4_N" class="3">
 <segment>
 <pinref part="U1" gate="G$1" pin="DQ4-"/>
 <wire x1="185.42" y1="119.38" x2="210.82" y2="119.38" width="0.1524" layer="91"/>
@@ -13577,17 +13547,7 @@ individual impedance).</text>
 <label x="195.58" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DQ4_N" class="3">
-<segment>
-<pinref part="U2" gate="G$1" pin="IO_L3P_0"/>
-<wire x1="226.06" y1="114.3" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="114.3" x2="208.28" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="DQ4+"/>
-<wire x1="208.28" y1="116.84" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
-<label x="195.58" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DQ3_P" class="3">
+<net name="DQ3_N" class="3">
 <segment>
 <pinref part="U1" gate="G$1" pin="DQ3-"/>
 <wire x1="185.42" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
@@ -13595,16 +13555,6 @@ individual impedance).</text>
 <pinref part="U2" gate="G$1" pin="IO_L2N_0"/>
 <wire x1="205.74" y1="111.76" x2="226.06" y2="111.76" width="0.1524" layer="91"/>
 <label x="195.58" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DQ3_N" class="3">
-<segment>
-<pinref part="U1" gate="G$1" pin="DQ3+"/>
-<wire x1="185.42" y1="111.76" x2="203.2" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="111.76" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="IO_L2P_0"/>
-<wire x1="203.2" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
-<label x="195.58" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DQ2_N" class="3">
@@ -14252,6 +14202,56 @@ individual impedance).</text>
 <pinref part="U2" gate="G$1" pin="IO_L12N_D2_MISO3_2"/>
 <wire x1="368.3" y1="165.1" x2="393.7" y2="165.1" width="0.1524" layer="91"/>
 <label x="378.46" y="165.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DQ7_P" class="3">
+<segment>
+<pinref part="U1" gate="G$1" pin="DQ7+"/>
+<wire x1="185.42" y1="137.16" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="137.16" x2="208.28" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="IO_L35P_GCLK17_0"/>
+<wire x1="208.28" y1="134.62" x2="226.06" y2="134.62" width="0.1524" layer="91"/>
+<label x="195.58" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DQ6_P" class="3">
+<segment>
+<pinref part="U1" gate="G$1" pin="DQ6+"/>
+<wire x1="185.42" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="132.08" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="IO_L34P_GCLK19_0"/>
+<wire x1="203.2" y1="129.54" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
+<label x="195.58" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DQ5_P" class="3">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L4P_0"/>
+<wire x1="226.06" y1="119.38" x2="213.36" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="119.38" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="DQ5+"/>
+<wire x1="213.36" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
+<label x="195.58" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DQ4_P" class="3">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L3P_0"/>
+<wire x1="226.06" y1="114.3" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="114.3" x2="208.28" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="DQ4+"/>
+<wire x1="208.28" y1="116.84" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
+<label x="195.58" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DQ3_P" class="3">
+<segment>
+<pinref part="U1" gate="G$1" pin="DQ3+"/>
+<wire x1="185.42" y1="111.76" x2="203.2" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="111.76" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="IO_L2P_0"/>
+<wire x1="203.2" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
+<label x="195.58" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

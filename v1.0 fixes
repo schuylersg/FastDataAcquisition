@@ -6,7 +6,28 @@ M/N: ERA-3AEB101V
 3: Fix X4 orientation on silk screen.
 4: Fix R36 part value - should be 422k but ordered 442K
 5: Fast Trigger Fixes - These resistor values work. 
-	- R43 and R47 should be ~880
-	- R42 should be 2.5k
-	- R46 should be 1.7k
+	- DONE R43 and R47 should be ~880
+	- DONE R42 should be 2.5k
+	- DONE R46 should be 1.7k
 	(Basically, the 10k resistor at R43/47 created too large a voltage drop since the LE pins sink/source up to 150uA)
+6. Check C63 on board/populate list - looks good
+7. Change feedback resistors for power sources if necessary
+	- 1V2: R33 & R36; Voltage = 1.165 low load
+		        Voltage =  high load
+	- 1V8: R32 & R34; Voltage = 1.777 low load
+			Voltage =  high load
+	- 3V3: R35 & R37; Voltage = 3.25 low load
+			Voltage =  high load
+	
+	- 2V3_1V9_Pre: R20 & R22; Voltage = 2.268
+	- 1V9: R29 & R30; Voltage = 1.881 
+	
+	- 2V8_2V5Pre: R16 & R18 (maybe don't change); voltage 2.768
+	- 2V5: None. Voltage = 2.445V
+
+	- 3V6_Pre3V3: R17 & R19 (maybe don't change): voltage = 3.566
+	- 3V3: None Voltage = 3.269
+
+*** After measuring all voltages, decided to leave all resistors the same
+    EXCEPT I fixed the R36 part number to be the actually correct resistance.
+	

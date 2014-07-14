@@ -10381,7 +10381,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <description>&lt;b&gt;PCB Headers&lt;/b&gt;&lt;p&gt; 
 2.00mm (.079") Pitch Milli-Grid Header, Vertical, Shrouded</description>
 <wire x1="8.4" y1="3.75" x2="8.4" y2="-3.75" width="0.2032" layer="21"/>
-<wire x1="8.4" y1="-3.75" x2="-8.4" y2="-3.75" width="0.2032" layer="21"/>
+<wire x1="8.4" y1="-3.75" x2="1.27" y2="-3.75" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-3.75" x2="1.27" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-3.75" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-3.75" x2="-8.4" y2="-3.75" width="0.2032" layer="21"/>
 <wire x1="-8.4" y1="-3.75" x2="-8.4" y2="3.75" width="0.2032" layer="21"/>
 <wire x1="-8.4" y1="3.75" x2="8.4" y2="3.75" width="0.2032" layer="21"/>
 <wire x1="1" y1="-3.75" x2="1" y2="-3.25" width="0.0508" layer="51"/>
@@ -10462,8 +10466,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <smd name="12" x="4" y="2.15" dx="1" dy="2.75" layer="1"/>
 <smd name="13" x="6" y="-2.15" dx="1" dy="2.75" layer="1"/>
 <smd name="14" x="6" y="2.15" dx="1" dy="2.75" layer="1"/>
-<text x="-9.398" y="0" size="1.016" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
-<text x="9.398" y="0" size="1.016" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<text x="-9.0325" y="-3.4925" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="9.985" y="-3.4925" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <text x="-7.25" y="-2.75" size="0.6096" layer="51" ratio="10">1</text>
 <rectangle x1="-6.5" y1="0.5" x2="-5.5" y2="1.5" layer="51"/>
 <rectangle x1="-4.5" y1="0.5" x2="-3.5" y2="1.5" layer="51"/>
@@ -10562,14 +10566,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANPARTNUMBER" value="0878321420"/>
-<attribute name="MANUFACTURER" value="Molex Inc"/>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="7434698" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="PARTNUMBER" value="WM18641-ND" constant="no"/>
-<attribute name="SUPPLIER" value="DIGIKEY" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -12129,7 +12129,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <attribute name="PARTNUMBER" value="445-4112-1-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
-<part name="R39" library="rcl" deviceset="R-US_" device="R0201" value="50">
+<part name="R39" library="rcl" deviceset="R-US_" device="R0201" value="49.9">
 <attribute name="MANPARTNUMBER" value="RC0603F49R9C"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
 <attribute name="PARTNUMBER" value="1276-3590-1-ND"/>

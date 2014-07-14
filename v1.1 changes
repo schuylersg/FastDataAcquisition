@@ -1,0 +1,13 @@
+In v1.1, there are only changes to some part values.
+There are no changes to the board.
+
+Changes:
+1. R43 changed to 887 ohms
+2. R47 changed to 887 ohms
+3. R42 changed to 2.49k ohms
+4. R46 changed to 1.69k ohms
+1-4. Updated BOM to reflect changes
+
+5. Changed R53 to 0603 part number. Should change actual footprint on future boards
+6. Changed R54 to 0603 part number. Should change actual footprint on future boards
+7. Changed R36 part number to correct 422k part.

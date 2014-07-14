@@ -13,17 +13,17 @@
 <layer number="3" name="Power" color="3" fill="3" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -151,6 +151,8 @@
 <wire x1="109.4994" y1="7.5184" x2="110.0836" y2="7.6962" width="0.3048" layer="21" curve="31.55851"/>
 <text x="7.62" y="5.588" size="1.27" layer="21" font="vector">S. Senft-Grupp</text>
 <text x="7.62" y="3.81" size="1.27" layer="21" font="vector">MIT Hemond Lab</text>
+<text x="98.552" y="1.905" size="1.524" layer="21" font="vector" align="center">+</text>
+<text x="90.043" y="43.18" size="1.524" layer="21" font="vector" align="center">+</text>
 </plain>
 <libraries>
 <library name="Schuyler">
@@ -3614,7 +3616,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="77.597" y="16.383" size="0.6096" layer="26" font="vector" rot="MR180" align="center"/>
 <attribute name="VALUE" x="80.264" y="17.272" size="0.6096" layer="28" font="vector" rot="MR180" align="center"/>
 </element>
-<element name="R39" library="rcl" package="R0201" value="50" x="9.906" y="32.766" smashed="yes" rot="R180">
+<element name="R39" library="rcl" package="R0201" value="49.9" x="9.906" y="32.766" smashed="yes" rot="R180">
 <attribute name="MANPARTNUMBER" value="RC0603F49R9C" x="9.906" y="32.766" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc" x="9.906" y="32.766" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNUMBER" value="1276-3590-1-ND" x="9.906" y="32.766" size="1.778" layer="27" rot="R180" display="off"/>

@@ -11815,9 +11815,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </part>
 <part name="SUPPLY21" library="Schuyler" deviceset="SUP_3V3" device="" value="3V3"/>
 <part name="R53" library="rcl" deviceset="R-US_" device="R0402" value="100 0.1%">
-<attribute name="MANPARTNUMBER" value="ERA-2AEB101X"/>
+<attribute name="MANPARTNUMBER" value="ERA-3AEB101V"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="PARTNUMBER" value="P100DCCT-ND"/>
+<attribute name="PARTNUMBER" value="P100DBDKR-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
 <part name="SUPPLY22" library="Schuyler" deviceset="SUP_3V3" device="" value="3V3"/>
@@ -12020,7 +12020,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
 <part name="R36" library="rcl" deviceset="R-US_" device="R0201" value="422K">
-<attribute name="PARTNUMBER" value="P442KABCT-ND"/>
+<attribute name="PARTNUMBER" value="P422KABCT-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
 <part name="R16" library="rcl" deviceset="R-US_" device="R0201" value="523K">
@@ -12160,9 +12160,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
 <part name="R54" library="rcl" deviceset="R-US_" device="R0402" value="100 0.1%">
-<attribute name="MANPARTNUMBER" value="ERA-2AEB101X"/>
+<attribute name="MANPARTNUMBER" value="ERA-3AEB101V"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="PARTNUMBER" value="P100DCCT-ND"/>
+<attribute name="PARTNUMBER" value="P100DBDKR-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
 <part name="R56" library="rcl" deviceset="R-US_" device="R0201" value="330">
@@ -12218,24 +12218,24 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
 <part name="U12" library="Schuyler" deviceset="ADCMP553BRMZ" device=""/>
-<part name="R43" library="rcl" deviceset="R-US_" device="R0201" value="10k">
-<attribute name="MANPARTNUMBER" value="RC0603J103CS"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="PARTNUMBER" value="1276-3817-1-ND"/>
+<part name="R43" library="rcl" deviceset="R-US_" device="R0201" value="887">
+<attribute name="MANPARTNUMBER" value="ERJ-1GEF8870C"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="PARTNUMBER" value="P887ABCT-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
-<part name="R42" library="rcl" deviceset="R-US_" device="R0603" value="26.1k">
-<attribute name="PARTNUMBER" value="1276-4779-1-ND"/>
+<part name="R42" library="rcl" deviceset="R-US_" device="R0603" value="2.49k">
+<attribute name="PARTNUMBER" value="1276-4681-1-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
-<part name="R47" library="rcl" deviceset="R-US_" device="R0201" value="10k">
-<attribute name="MANPARTNUMBER" value="RC0603J103CS"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="PARTNUMBER" value="1276-3817-1-ND"/>
+<part name="R47" library="rcl" deviceset="R-US_" device="R0201" value="887">
+<attribute name="MANPARTNUMBER" value="ERJ-1GEF8870C"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="PARTNUMBER" value="P887ABCT-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
-<part name="R46" library="rcl" deviceset="R-US_" device="R0603" value="16k">
-<attribute name="PARTNUMBER" value="1276-5091-1-ND"/>
+<part name="R46" library="rcl" deviceset="R-US_" device="R0603" value="1.69k">
+<attribute name="PARTNUMBER" value="1276-3491-1-ND"/>
 <attribute name="SUPPLIER" value="DIGIKEY"/>
 </part>
 <part name="R50" library="rcl" deviceset="R-US_" device="R0201" value="50">

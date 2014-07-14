@@ -153,6 +153,8 @@
 <text x="7.62" y="3.81" size="1.27" layer="21" font="vector">MIT Hemond Lab</text>
 <text x="98.552" y="1.905" size="1.524" layer="21" font="vector" align="center">+</text>
 <text x="90.043" y="43.18" size="1.524" layer="21" font="vector" align="center">+</text>
+<text x="77.47" y="10.033" size="1.524" layer="21" font="vector" align="center">+</text>
+<text x="101.219" y="28.448" size="1.524" layer="21" font="vector" align="center">+</text>
 </plain>
 <libraries>
 <library name="Schuyler">
