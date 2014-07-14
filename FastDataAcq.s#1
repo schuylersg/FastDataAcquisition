@@ -16193,7 +16193,7 @@ cycle.</text>
 <attribute name="SUPPLIER" x="314.96" y="190.5" size="1.778" layer="96" rot="R180" align="bottom-right" display="off"/>
 </instance>
 <instance part="C95" gate="G$1" x="172.72" y="88.9"/>
-<instance part="C88" gate="G$1" x="144.78" y="86.36" rot="MR0"/>
+<instance part="C88" gate="G$1" x="147.32" y="86.36" rot="MR0"/>
 <instance part="R39" gate="G$1" x="25.4" y="86.36" rot="MR180">
 <attribute name="MANPARTNUMBER" x="25.4" y="86.36" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" x="25.4" y="86.36" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -16657,7 +16657,7 @@ cycle.</text>
 <pinref part="C95" gate="G$1" pin="1"/>
 <junction x="172.72" y="91.44"/>
 <pinref part="C88" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C89" gate="G$1" pin="1"/>
 <junction x="152.4" y="91.44"/>
 </segment>
@@ -17390,6 +17390,7 @@ cycle.</text>
 <wire x1="172.72" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="81.28" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="81.28" x2="152.4" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="81.28" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
 <junction x="162.56" y="81.28"/>
 <wire x1="152.4" y1="83.82" x2="152.4" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
@@ -17398,8 +17399,7 @@ cycle.</text>
 <wire x1="172.72" y1="83.82" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
 <junction x="172.72" y="81.28"/>
 <pinref part="C88" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="83.82" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="81.28" x2="147.32" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="83.82" x2="147.32" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C89" gate="G$1" pin="2"/>
 <junction x="152.4" y="83.82"/>
 <pinref part="U$78" gate="G$1" pin="GND"/>

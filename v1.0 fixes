@@ -1,0 +1,12 @@
+A list of errors/changes to v1.0: 
+1. R53, R54: 0402 footprint incorrect (too large). Using 0603 part instead for v1.0 assembly. In the future, correct footprint.
+P/N: P100DBCT-ND
+M/N: ERA-3AEB101V
+2. C24, C25, C26 need to add orientation to capacitors on board. Also check for any other polarized caps.
+3: Fix X4 orientation on silk screen.
+4: Fix R36 part value - should be 422k but ordered 442K
+5: Fast Trigger Fixes - These resistor values work. 
+	- R43 and R47 should be ~880
+	- R42 should be 2.5k
+	- R46 should be 1.7k
+	(Basically, the 10k resistor at R43/47 created too large a voltage drop since the LE pins sink/source up to 150uA)

@@ -1,0 +1,14 @@
+File Legend:
+.cmp: Component Side (top layer)
+.ly2: Inner Layer 2
+.ly3: Inner Layer 3
+.SOL: Solder Side (bottom layer)
+.plc: Silk Screen CMP
+.pls: Silk Screen SOL
+.stc: Solder Stop Mask CMP
+.sts: Solder Stop Mask SOL
+.crc: Cream CMP
+.crs: Cream SOL
+.drd: NC Drill File
+.dri: Drill info file
+.mnt: XYRS file generated with Eagle-SMT-TH3.ulp

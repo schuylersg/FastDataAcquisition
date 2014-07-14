@@ -16036,7 +16036,7 @@ it can be changed</text>
 <text x="17.78" y="142.24" size="1.778" layer="97">NOTE: Device address
 is: 1001 100</text>
 <text x="185.42" y="73.66" size="1.778" layer="97">NOTE: Device address
-is: 0001 101 or 1001 000.</text>
+is: 1001 100</text>
 <text x="142.24" y="66.04" size="1.778" layer="97">NOTE: Extra caps because 
 Va is reference as well
 as power.</text>
@@ -16078,14 +16078,6 @@ cycle.</text>
 <text x="239.522" y="157.48" size="1.778" layer="96">Green</text>
 <text x="249.682" y="157.48" size="1.778" layer="96">Red</text>
 <text x="419.1" y="7.62" size="1.778" layer="91">1</text>
-<text x="160.02" y="149.86" size="1.778" layer="95">G</text>
-<text x="160.02" y="147.32" size="1.778" layer="95">n</text>
-<text x="160.02" y="144.78" size="1.778" layer="95">B</text>
-<text x="160.02" y="142.24" size="1.778" layer="95">R</text>
-<text x="160.02" y="139.7" size="1.778" layer="95">PB</text>
-<text x="160.02" y="137.16" size="1.778" layer="95">S_T</text>
-<text x="160.02" y="134.62" size="1.778" layer="95">3V3</text>
-<text x="160.02" y="132.08" size="1.778" layer="95">GND</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -16193,7 +16185,7 @@ cycle.</text>
 <attribute name="SUPPLIER" x="314.96" y="190.5" size="1.778" layer="96" rot="R180" align="bottom-right" display="off"/>
 </instance>
 <instance part="C95" gate="G$1" x="172.72" y="88.9"/>
-<instance part="C88" gate="G$1" x="144.78" y="86.36" rot="MR0"/>
+<instance part="C88" gate="G$1" x="147.32" y="86.36" rot="MR0"/>
 <instance part="R39" gate="G$1" x="25.4" y="86.36" rot="MR180">
 <attribute name="MANPARTNUMBER" x="25.4" y="86.36" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" x="25.4" y="86.36" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -16347,11 +16339,11 @@ cycle.</text>
 <attribute name="PARTNUMBER" x="175.26" y="27.94" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="SUPPLIER" x="175.26" y="27.94" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
-<instance part="C89" gate="G$1" x="152.4" y="88.9">
-<attribute name="SUPPLIER" x="152.4" y="88.9" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNUMBER" x="152.4" y="88.9" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="152.4" y="88.9" size="1.778" layer="96" display="off"/>
-<attribute name="MANPARTNUMBER" x="152.4" y="88.9" size="1.778" layer="96" display="off"/>
+<instance part="C89" gate="G$1" x="152.4" y="86.36">
+<attribute name="SUPPLIER" x="152.4" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNUMBER" x="152.4" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="152.4" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MANPARTNUMBER" x="152.4" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$19" gate="G$1" x="220.98" y="238.76"/>
 <instance part="U$20" gate="G$1" x="233.68" y="215.9"/>
@@ -16657,8 +16649,9 @@ cycle.</text>
 <pinref part="C95" gate="G$1" pin="1"/>
 <junction x="172.72" y="91.44"/>
 <pinref part="C88" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C89" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="88.9" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
 <junction x="152.4" y="91.44"/>
 </segment>
 <segment>
@@ -17391,17 +17384,15 @@ cycle.</text>
 <wire x1="162.56" y1="81.28" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="81.28" x2="152.4" y2="81.28" width="0.1524" layer="91"/>
 <junction x="162.56" y="81.28"/>
-<wire x1="152.4" y1="83.82" x2="152.4" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="81.28" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C95" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="83.82" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
 <junction x="172.72" y="81.28"/>
 <pinref part="C88" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="83.82" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="81.28" x2="147.32" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="83.82" x2="147.32" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C89" gate="G$1" pin="2"/>
-<junction x="152.4" y="83.82"/>
+<junction x="152.4" y="81.28"/>
 <pinref part="U$78" gate="G$1" pin="GND"/>
 </segment>
 <segment>
